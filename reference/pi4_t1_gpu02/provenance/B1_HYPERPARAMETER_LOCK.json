@@ -1,0 +1,136 @@
+{
+  "status": "LOCKED",
+  "scope": "DEV validation only; new families may tune LR, originals unchanged",
+  "learning_rates": {
+    "fixed_behavior": 0.003,
+    "free_behavior": 0.003,
+    "gru4_behavior": 0.003,
+    "gru32_behavior": 0.003,
+    "graph32_behavior": 0.003,
+    "node32_behavior": 0.003
+  },
+  "selected": {
+    "gru4_behavior": {
+      "dataset": "dev",
+      "trial_id": "gru4_behavior_r1",
+      "method": "gru4_behavior",
+      "seed": 937,
+      "learning_rate": 0.003,
+      "phase": "development",
+      "validation_score": 0.22253374445045293,
+      "result_sha256": "f02194d5e50d345866177552a40f5f9e92a71b32f87b424303ab80d454e50006"
+    },
+    "gru32_behavior": {
+      "dataset": "dev",
+      "trial_id": "gru32_behavior_r1",
+      "method": "gru32_behavior",
+      "seed": 937,
+      "learning_rate": 0.003,
+      "phase": "development",
+      "validation_score": 0.027533417407204518,
+      "result_sha256": "108c5ce23cdffbd93b640e1685e181dd0a9ab23e80ab61666508d802261da7bc"
+    },
+    "graph32_behavior": {
+      "dataset": "dev",
+      "trial_id": "graph32_behavior_r1",
+      "method": "graph32_behavior",
+      "seed": 937,
+      "learning_rate": 0.003,
+      "phase": "development",
+      "validation_score": 0.025932079064341862,
+      "result_sha256": "228330ff5552b6824cf4840d8bbbdf8e81d1beed7efbbe340e8c086c6b15d502"
+    },
+    "node32_behavior": {
+      "dataset": "dev",
+      "trial_id": "node32_behavior_r1",
+      "method": "node32_behavior",
+      "seed": 937,
+      "learning_rate": 0.003,
+      "phase": "development",
+      "validation_score": 0.03249476193731872,
+      "result_sha256": "e52cd3847aec8d4868e7f6448a86b169d2ec2d0b7f826d035b83d4ee42081cbf"
+    }
+  },
+  "all_development_results": [
+    {
+      "dataset": "dev",
+      "trial_id": "node32_behavior_r1",
+      "method": "node32_behavior",
+      "seed": 937,
+      "learning_rate": 0.003,
+      "phase": "development",
+      "validation_score": 0.03249476193731872,
+      "result_sha256": "e52cd3847aec8d4868e7f6448a86b169d2ec2d0b7f826d035b83d4ee42081cbf"
+    },
+    {
+      "dataset": "dev",
+      "trial_id": "node32_behavior_r0",
+      "method": "node32_behavior",
+      "seed": 937,
+      "learning_rate": 0.001,
+      "phase": "development",
+      "validation_score": 0.03793800480234759,
+      "result_sha256": "c9894360b55a4ca767d782f5927a2247d47550f29d480f0be3abe2e0ca5738a7"
+    },
+    {
+      "dataset": "dev",
+      "trial_id": "gru4_behavior_r0",
+      "method": "gru4_behavior",
+      "seed": 937,
+      "learning_rate": 0.001,
+      "phase": "development",
+      "validation_score": 0.25762787438733636,
+      "result_sha256": "9114701e7a08f149264f2b7a72480789d9c42035b162db59e860f09b47dbd1aa"
+    },
+    {
+      "dataset": "dev",
+      "trial_id": "gru32_behavior_r1",
+      "method": "gru32_behavior",
+      "seed": 937,
+      "learning_rate": 0.003,
+      "phase": "development",
+      "validation_score": 0.027533417407204518,
+      "result_sha256": "108c5ce23cdffbd93b640e1685e181dd0a9ab23e80ab61666508d802261da7bc"
+    },
+    {
+      "dataset": "dev",
+      "trial_id": "gru32_behavior_r0",
+      "method": "gru32_behavior",
+      "seed": 937,
+      "learning_rate": 0.001,
+      "phase": "development",
+      "validation_score": 0.03568038734853235,
+      "result_sha256": "79e99b3aa7492ae456d26d09255365b7237206c8beba9bbf30242942d4e95514"
+    },
+    {
+      "dataset": "dev",
+      "trial_id": "graph32_behavior_r1",
+      "method": "graph32_behavior",
+      "seed": 937,
+      "learning_rate": 0.003,
+      "phase": "development",
+      "validation_score": 0.025932079064341862,
+      "result_sha256": "228330ff5552b6824cf4840d8bbbdf8e81d1beed7efbbe340e8c086c6b15d502"
+    },
+    {
+      "dataset": "dev",
+      "trial_id": "graph32_behavior_r0",
+      "method": "graph32_behavior",
+      "seed": 937,
+      "learning_rate": 0.001,
+      "phase": "development",
+      "validation_score": 0.03594110365405764,
+      "result_sha256": "736b3a7cd20f7bf4ff62cfbd90ae44e1b09947a3d543fcf47d8ec9a592ea6d66"
+    },
+    {
+      "dataset": "dev",
+      "trial_id": "gru4_behavior_r1",
+      "method": "gru4_behavior",
+      "seed": 937,
+      "learning_rate": 0.003,
+      "phase": "development",
+      "validation_score": 0.22253374445045293,
+      "result_sha256": "f02194d5e50d345866177552a40f5f9e92a71b32f87b424303ab80d454e50006"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "kind": "DERIVED_PUBLIC_SNAPSHOT",
+  "study": "b1",
+  "executed_source_archive": "baseline_gpu_01_lite.zip",
+  "executed_source_archive_sha256": "d0f483702811f0a3c9e438fa4959c2b822b22b4d54073653e275eaca26920397",
+  "original_local_delivery_manifest_sha256": "0f1b17ca41f5c3dce1da37e353d778435d2be8bdfa8f9bd7450e49c6ac2c18ef",
+  "compatibility_manifest": "MANIFEST_SHA256.json",
+  "manifest_semantics": "NEW public subset manifest, not the original delivery manifest. Originals remain in source archives/local vault.",
+  "code_changes_during_public_curation": [],
+  "historical_execution_repair": null,
+  "weights_included": false,
+  "private_material_excluded": true
+}

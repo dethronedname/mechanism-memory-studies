@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "kind": "DERIVED_PUBLIC_SNAPSHOT",
+  "study": "pi4",
+  "executed_source_archive": "pi4_gpu_01_lite.zip",
+  "executed_source_archive_sha256": "70a9d2cb2375bf65e3375968263e9f17a2157b6b47959d8ff62748d8eb84f660",
+  "original_local_delivery_manifest_sha256": "973d1fce107fee08f0fd8254ec48fc4e0eec84795d0a11f3328a0e83eb4bf7c6",
+  "compatibility_manifest": "MANIFEST_SHA256.json",
+  "manifest_semantics": "NEW public subset manifest, not the original delivery manifest. Originals remain in source archives/local vault.",
+  "code_changes_during_public_curation": [],
+  "historical_execution_repair": null,
+  "weights_included": false,
+  "private_material_excluded": true
+}

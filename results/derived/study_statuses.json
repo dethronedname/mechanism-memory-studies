@@ -1,0 +1,26 @@
+[
+  {
+    "study": "pi4",
+    "scientific_numeric_status": "LIMITED_ARCHITECTURE_SIGNAL",
+    "original_validity_status": "INCONCLUSIVE",
+    "note": "Legacy replay stopped at elementwise tolerance; later supplied independent review supports task-level result, without changing this original validity field."
+  },
+  {
+    "study": "c1",
+    "scientific_numeric_status": "PARTIAL_REPLICATION",
+    "original_validity_status": "see per-dataset audit fields in original DECISION.json",
+    "note": "Replication within the same known simulator and parameter law. No cross-simulator, measured-data, significance, or architecture-originality claim."
+  },
+  {
+    "study": "b1",
+    "scientific_numeric_status": "MIXED_TRADEOFF_NO_DOMINANCE",
+    "original_validity_status": "see per-dataset audit fields in original DECISION.json",
+    "note": "Same simulator, task-adapted baseline implementations, not claims against official GNS/GRU/NODE methods as a whole"
+  },
+  {
+    "study": "t1",
+    "scientific_numeric_status": "MIXED_TIME_BUDGET_TRADEOFF",
+    "original_validity_status": "see per-dataset audit fields in original DECISION.json",
+    "note": "Same simulator, task-adapted baseline implementations, not claims against official GNS/GRU/NODE methods as a whole"
+  }
+]

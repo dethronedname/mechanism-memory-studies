@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "kind": "DERIVED_PUBLIC_SNAPSHOT",
+  "study": "t1",
+  "executed_source_archive": "time_gpu_02_lite.zip",
+  "executed_source_archive_sha256": "71ee665134396d920842e5164f3d50bd7064d7517cdec81e9abdc9ce4e3bbb3a",
+  "original_local_delivery_manifest_sha256": "9a06e333c19d35cd4bf9865c179caa06dc323e85c464d945240451c079352c3c",
+  "compatibility_manifest": "MANIFEST_SHA256.json",
+  "manifest_semantics": "NEW public subset manifest, not the original delivery manifest. Originals remain in source archives/local vault.",
+  "code_changes_during_public_curation": [],
+  "historical_execution_repair": "CUDA initialization order, disclosed separately",
+  "weights_included": false,
+  "private_material_excluded": true
+}

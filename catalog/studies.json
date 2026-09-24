@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "curated_on": "2026-09-24",
+  "scope": "PI-family main; predecessor studies indexed in docs/historical_context.md",
+  "studies": [
+    {
+      "id": "pi1",
+      "title": "Predictive state coordinates",
+      "type": "architecture exploration",
+      "recorded_or_source_derived_scope": "No demonstrated advantage of prescribed response coordinates over matched-supervision free latent comparator",
+      "availability": "exact source/run archives verified locally; optional external asset"
+    },
+    {
+      "id": "pi2",
+      "title": "Static context and dynamic state",
+      "type": "architecture exploration",
+      "recorded_or_source_derived_scope": "Long/short-horizon trade-off, calibration-use signal",
+      "availability": "exact source/run archives verified locally; optional external asset"
+    },
+    {
+      "id": "pi3",
+      "title": "Writing, retaining and reading mechanisms",
+      "type": "frozen-weight analysis",
+      "recorded_or_source_derived_scope": "Conditional memory limitation and interventions, not new learning",
+      "availability": "source archive missing; private review notes available, not source-equivalent"
+    },
+    {
+      "id": "pi4",
+      "title": "Behavioral objectives",
+      "type": "learning/structure experiment",
+      "recorded_or_source_derived_scope": "LIMITED_ARCHITECTURE_SIGNAL; original replay validity INCONCLUSIVE",
+      "availability": "public source snapshot and scalar evidence included; full original assets external"
+    },
+    {
+      "id": "c1",
+      "title": "Independent data confirmation",
+      "type": "same-simulator confirmation",
+      "recorded_or_source_derived_scope": "PARTIAL_REPLICATION",
+      "availability": "public source snapshot and scalar evidence included; full original assets external"
+    },
+    {
+      "id": "b1",
+      "title": "Continuous calibration baselines",
+      "type": "equal-update challenge",
+      "recorded_or_source_derived_scope": "MIXED_TRADEOFF_NO_DOMINANCE",
+      "availability": "public source snapshot and scalar evidence included; full original assets external"
+    },
+    {
+      "id": "t1",
+      "title": "Complete-fit budget comparison",
+      "type": "equal-time-upper-bound challenge",
+      "recorded_or_source_derived_scope": "MIXED_TIME_BUDGET_TRADEOFF",
+      "availability": "public source snapshot and scalar evidence included; full original assets external"
+    }
+  ]
+}

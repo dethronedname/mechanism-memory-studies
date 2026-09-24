@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "kind": "DERIVED_PUBLIC_SNAPSHOT",
+  "study": "c1",
+  "executed_source_archive": "confirm_gpu_01_lite.zip",
+  "executed_source_archive_sha256": "1aa980c61512a64c1e49a2aa4db5b7917bc4d475c484ff5fca35ad2c31eb647f",
+  "original_local_delivery_manifest_sha256": "87a4f44b5774c6610d0085b15bd1c8aa1aa6116e67dd00041056c6b13bb9044a",
+  "compatibility_manifest": "MANIFEST_SHA256.json",
+  "manifest_semantics": "NEW public subset manifest, not the original delivery manifest. Originals remain in source archives/local vault.",
+  "code_changes_during_public_curation": [],
+  "historical_execution_repair": null,
+  "weights_included": false,
+  "private_material_excluded": true
+}

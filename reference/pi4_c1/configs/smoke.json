@@ -1,0 +1,99 @@
+{
+  "protocol": "PI4-C1-CPU-engineering-smoke-only",
+  "version": "0.1",
+  "stage": "cpu_smoke",
+  "datasets": [
+    {
+      "id": "smoke",
+      "data_seed": 1921101
+    }
+  ],
+  "initialization_seeds": [
+    1811
+  ],
+  "schedule_seed": 921901,
+  "methods": [
+    "fixed_mse",
+    "fixed_behavior",
+    "free_mse",
+    "free_behavior",
+    "ode_behavior"
+  ],
+  "fit": {
+    "protocol": "PI4-behavioral-mechanisms-GPU-screen-v0.1-20260920",
+    "methods": [
+      "fixed_mse",
+      "fixed_behavior",
+      "free_mse",
+      "free_behavior",
+      "ode_behavior"
+    ],
+    "seeds": [
+      727,
+      733,
+      739
+    ],
+    "data_seed": 920509,
+    "history": 4,
+    "horizon": 4,
+    "reset_horizon": 6,
+    "support_count": 2,
+    "support_length": 8,
+    "train_count": 8,
+    "val_count": 2,
+    "test_count": 2,
+    "updates": 2,
+    "validate_every": 1,
+    "general_batch": 2,
+    "pair_batch": 2,
+    "learning_rate": 0.003,
+    "weight_decay": 1e-06,
+    "width": 24,
+    "history_width": 16,
+    "difference_weight": 0.25,
+    "consistency_weight": 0.25,
+    "train_waits": [
+      0,
+      1
+    ],
+    "test_waits": [
+      0,
+      2
+    ],
+    "process_limit_seconds": 120,
+    "cleanup_reserve_seconds": 20,
+    "total_limit_seconds": 14400,
+    "precision": "fp32",
+    "selection": "raw validation NMSE equally weighted between general and reset; mean over both support views",
+    "new_architecture_claim": false,
+    "purpose": "bounded new-data GPU task screen; no BF16/compile/width search and no automatic further training"
+  },
+  "resource": {
+    "total_limit_seconds": 1200,
+    "prepare_seconds": 120,
+    "preflight_seconds": 120,
+    "evaluate_seconds_per_dataset": 180,
+    "audit_seconds_per_dataset": 240,
+    "finalize_seconds": 120,
+    "postprocess_reserve_seconds": 480
+  },
+  "numerics": {
+    "legacy_rtol": 2e-05,
+    "legacy_atol": 2e-05,
+    "normalized_rms_limit": 0.0001,
+    "normalized_max_limit": 0.001,
+    "metric_normalized_abs_limit": 0.0001,
+    "saved_metric_recompute_limit": 1e-12,
+    "validation_score_limit": 0.0001,
+    "fp64_probe_rows": 2
+  },
+  "decision": {
+    "mechanism_geomean_max": 0.9,
+    "each_general_median_max": 1.05,
+    "seed_wins_min": 2,
+    "required_pass_datasets": 3,
+    "numeric_boundary_guard": 0.001
+  },
+  "scope": "New generated training/validation/test datasets; same simulator and parameter distribution. Not external validation or novelty proof. No auto-extension.",
+  "historical_status": "PI4 GPU01 had elementwise replay FAIL; never changed by C1."
+}

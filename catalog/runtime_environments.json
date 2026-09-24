@@ -1,0 +1,65 @@
+{
+  "scope": "Actual run fields; not a complete dependency lockfile.",
+  "environments": [
+    {
+      "study": "pi4",
+      "source_archive": "pi4_gpu_01_lite.zip",
+      "source_member": "run/environment.json",
+      "source_member_sha256": "22d9f8e2ca5b74de748947c160bd5fe41ab168e7b28435198bb5ff6b887f30fa",
+      "transformation": "allowlist software versions and device name; exclude platform and assignment details",
+      "values": {
+        "python": "3.12.12 | packaged by conda-forge | (main, Oct 22 2025, 23:25:55) [GCC 14.3.0]",
+        "numpy": "2.2.6",
+        "scipy": "1.16.2",
+        "torch": "2.8.0+cu128",
+        "requested_device": "cuda:0",
+        "gpu_name": null
+      }
+    },
+    {
+      "study": "c1",
+      "source_archive": "confirm_gpu_01_lite.zip",
+      "source_member": "run/environment.json",
+      "source_member_sha256": "2eff2548916868e526e84ca5c9d8a142dfb17747bd93a12955fe8c57f5b3e5a7",
+      "transformation": "allowlist software versions and device name; exclude platform and assignment details",
+      "values": {
+        "python": "3.12.12 | packaged by conda-forge | (main, Oct 22 2025, 23:25:55) [GCC 14.3.0]",
+        "numpy": "2.2.6",
+        "scipy": "1.16.2",
+        "torch": "2.8.0+cu128",
+        "requested_device": "cuda:0",
+        "gpu_name": "NVIDIA A100 80GB PCIe"
+      }
+    },
+    {
+      "study": "b1",
+      "source_archive": "baseline_gpu_01_lite.zip",
+      "source_member": "run/environment.json",
+      "source_member_sha256": "943de74347768a8245c8900bd41a5211f16c620acc89069308eea85f3bad600d",
+      "transformation": "allowlist software versions and device name; exclude platform and assignment details",
+      "values": {
+        "python": "3.12.12 | packaged by conda-forge | (main, Oct 22 2025, 23:25:55) [GCC 14.3.0]",
+        "numpy": "2.2.6",
+        "scipy": "1.16.2",
+        "torch": "2.8.0+cu128",
+        "requested_device": "cuda:0",
+        "gpu_name": "NVIDIA A100 80GB PCIe"
+      }
+    },
+    {
+      "study": "t1",
+      "source_archive": "time_gpu_02_lite.zip",
+      "source_member": "run/environment.json",
+      "source_member_sha256": "d2034a811c2782f74139ca3e56928903f6b7bebbe61ce0859b8e79e024a5338f",
+      "transformation": "allowlist software versions and device name; exclude platform and assignment details",
+      "values": {
+        "python": "3.12.12 | packaged by conda-forge | (main, Oct 22 2025, 23:25:55) [GCC 14.3.0]",
+        "numpy": "2.2.6",
+        "scipy": "1.16.2",
+        "torch": "2.8.0+cu128",
+        "requested_device": "cuda:0",
+        "gpu_name": "NVIDIA A100 80GB PCIe"
+      }
+    }
+  ]
+}

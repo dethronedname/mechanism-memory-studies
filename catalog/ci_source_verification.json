@@ -1,0 +1,10 @@
+{
+  "checked_on": "2026-09-24",
+  "action": "actions/checkout",
+  "version": "v4.2.2",
+  "commit": "11bd71901bbe5b1630ceea73d27597364c9af683",
+  "release_url": "https://github.com/actions/checkout/releases/tag/v4.2.2",
+  "commit_url": "https://github.com/actions/checkout/commit/11bd71901bbe5b1630ceea73d27597364c9af683",
+  "hosted_execution": false,
+  "claim_of_latest_version": false
+}

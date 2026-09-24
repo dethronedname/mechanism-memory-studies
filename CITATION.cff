@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software, protocols, data, or results in research, please cite Mechanism Memory Studies and identify the study and revision used. See CITATION.md."
+title: "Mechanism Memory Studies"
+type: software
+license:
+  - MIT
+  - CC-BY-4.0
+authors:
+  # Public pseudonym, represented as a single name; not a claim about a legal surname.
+  - family-names: "chumingyzx"
+    alias: "chumingyzx"
+    website: "https://github.com/chumingyzx"
+abstract: "Controlled studies of calibration, persistent context, compositional dynamics, and training-budget trade-offs."
+keywords:
+  - dynamical systems
+  - persistent context
+  - reproducibility
+  - controlled experiments
+repository-code: "https://github.com/chumingyzx/mechanism-memory-studies"
+url: "https://github.com/chumingyzx/mechanism-memory-studies"
+# Private review repository. DOI, version, and release date are omitted until they exist.

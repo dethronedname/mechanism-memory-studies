@@ -1,0 +1,15 @@
+{
+ "protocol":"PI4-behavioral-mechanisms-CPU-pilot-v0.1-20260920",
+ "methods":["fixed_mse","fixed_behavior","free_mse","free_behavior","ode_behavior"],
+ "seeds":[701,709,719], "data_seed":920407,
+ "history":16,"horizon":16,"reset_horizon":32,"support_count":2,"support_length":48,
+ "train_count":96,"val_count":16,"test_count":24,
+ "updates":240,"validate_every":40,"general_batch":6,"pair_batch":4,
+ "learning_rate":0.003,"weight_decay":0.000001,
+ "width":24,"history_width":16,
+ "difference_weight":0.25,"consistency_weight":0.25,
+ "train_waits":[0,16],"test_waits":[0,256],
+ "process_limit_seconds":420,"cleanup_reserve_seconds":20,"total_limit_seconds":8000,
+ "precision":"fp32","selection":"raw validation NMSE equally weighted between general and reset; mean over both support views",
+ "new_architecture_claim":false,"purpose":"complete CPU learning pilot; not GPU cost or independent confirmation"
+}

@@ -1,0 +1,8 @@
+{
+  "source_files_checked": 128,
+  "source_rows": 1512,
+  "comparison_rows": 34,
+  "t1_fit_rows": 54,
+  "recorded_decision_comparisons_consistent": true,
+  "scope": "Small JSON integrity, all-record aggregation and matching against recorded decisions only. No model replay, no scientific replication, no numerical tolerance reclassification."
+}

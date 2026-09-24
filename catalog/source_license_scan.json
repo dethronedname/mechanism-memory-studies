@@ -1,0 +1,34 @@
+{
+  "status": "ORIGINAL_NOTICES_ABSENT_OWNER_AUTHORIZATION_RECORDED",
+  "archives": [
+    {
+      "study": "pi4",
+      "source_archive": "BehavioralMechanisms_PI4_Codex_TestPack_v0.1_20260920.zip",
+      "source_archive_sha256": "fa5dcceceee9dd8fc77c0fa8f5995c46db67a1d5e418ae7c684543b91221be0a",
+      "license_notice_members": []
+    },
+    {
+      "study": "c1",
+      "source_archive": "BehavioralMechanisms_PI4C1_Codex_TestPack_v0.1_20260921.zip",
+      "source_archive_sha256": "bdf27f3f8e43a36c1a3325d7211c199e249152caa5487fd507ac4061abbea2bb",
+      "license_notice_members": []
+    },
+    {
+      "study": "b1",
+      "source_archive": "BehavioralMechanisms_PI4B1_Codex_TestPack_v0.1_20260921.zip",
+      "source_archive_sha256": "fa5ba220140f00dd68fd7c162e5f2faccde145921d5c926e84a0079fd1f8a5a3",
+      "license_notice_members": []
+    },
+    {
+      "study": "t1",
+      "source_archive": "BehavioralMechanisms_PI4T1_Codex_TestPack_v0.1_20260922.zip",
+      "source_archive_sha256": "c6c841f5e6220205ad6328153f45b162e3b2a388f6d397d331f68283e96e8712",
+      "license_notice_members": []
+    }
+  ],
+  "limitations": "Historical filename/imported-source review is retained. Original-material ownership was confirmed by the owner; external works retain their own terms.",
+  "original_project_ownership_confirmed": true,
+  "public_code_license": "MIT",
+  "public_documentation_data_license": "CC-BY-4.0",
+  "authorization_scope": "Original material included in this repository; see LICENSING.md."
+}

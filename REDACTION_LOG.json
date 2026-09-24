@@ -1,0 +1,352 @@
+{
+  "schema_version": 1,
+  "transformed_files": [
+    {
+      "study": "pi4",
+      "path": "reference/pi4/docs/SOURCES.md",
+      "source_archive": "pi4_gpu_01_lite.zip",
+      "source_archive_sha256": "70a9d2cb2375bf65e3375968263e9f17a2157b6b47959d8ff62748d8eb84f660",
+      "source_member": "source/docs/SOURCES.md",
+      "source_size": 2140,
+      "source_sha256": "d46afee4418318a4d89004a8587f3496ec36798ced7d805ab0b44f5b648289af",
+      "size": 379,
+      "sha256": "416a9c81cb10dbd4e272d2a7be626e3f7a5bd89040af826daf28775f3cbf5094",
+      "transformation": "public source attribution replaces internal bibliography; checked related-work link retained",
+      "reason": "public source attribution replaces internal bibliography; checked related-work link retained"
+    },
+    {
+      "study": "c1",
+      "path": "reference/pi4_c1/docs/SOURCES.md",
+      "source_archive": "confirm_gpu_01_lite.zip",
+      "source_archive_sha256": "1aa980c61512a64c1e49a2aa4db5b7917bc4d475c484ff5fca35ad2c31eb647f",
+      "source_member": "source/docs/SOURCES.md",
+      "source_size": 1149,
+      "source_sha256": "b8b25ed541a91f984fb1767b0021cd12d1943ba80bcc21183ee40e938bbe0afb",
+      "size": 382,
+      "sha256": "f8fdb157504e9b6d10c76ff933188b78d39da46088be736dde6863c80e43fee1",
+      "transformation": "public source attribution replaces internal bibliography; checked related-work link retained",
+      "reason": "public source attribution replaces internal bibliography; checked related-work link retained"
+    },
+    {
+      "study": "b1",
+      "path": "reference/pi4_b1/docs/SOURCES.md",
+      "source_archive": "baseline_gpu_01_lite.zip",
+      "source_archive_sha256": "d0f483702811f0a3c9e438fa4959c2b822b22b4d54073653e275eaca26920397",
+      "source_member": "source/docs/SOURCES.md",
+      "source_size": 2786,
+      "source_sha256": "fd791723ef377929862c3ae97122f83b8c8a5de29240f62ba0b2697808222aa5",
+      "size": 383,
+      "sha256": "73a92a1beadb08a81f3d0273aee9f9b403c6d00fcd47093153449be5c35f7f38",
+      "transformation": "public source attribution replaces internal bibliography; checked related-work link retained",
+      "reason": "public source attribution replaces internal bibliography; checked related-work link retained"
+    },
+    {
+      "study": "t1",
+      "path": "reference/pi4_t1_gpu02/docs/REPAIR_DECLARATION_CN_20260923.md",
+      "source_archive": "time_gpu_02_lite.zip",
+      "source_archive_sha256": "71ee665134396d920842e5164f3d50bd7064d7517cdec81e9abdc9ce4e3bbb3a",
+      "source_member": "source/docs/REPAIR_DECLARATION_CN_20260923.md",
+      "source_size": 2913,
+      "source_sha256": "8b44d1ac6f6b9a5df4dcb88f4367de558644c0ec3658fa76b94761ac73fd7fb1",
+      "size": 807,
+      "sha256": "3c1631c6d0600775ce54e05567ec0f8311931f02e5041982241619e96bccdef7",
+      "transformation": "technical public derivation; personal paths and conversational authorization removed; repair semantics retained",
+      "reason": "technical public derivation; personal paths and conversational authorization removed; repair semantics retained"
+    },
+    {
+      "study": "t1",
+      "path": "reference/pi4_t1_gpu02/docs/SOURCES.md",
+      "source_archive": "time_gpu_02_lite.zip",
+      "source_archive_sha256": "71ee665134396d920842e5164f3d50bd7064d7517cdec81e9abdc9ce4e3bbb3a",
+      "source_member": "source/docs/SOURCES.md",
+      "source_size": 1327,
+      "source_sha256": "ecc3cdd4df7aed1e7dc57899ffe91b669c7746d84830edf941afac064cc22a53",
+      "size": 379,
+      "sha256": "ccffd3bd97a912490f8b36af0af19261c5bacf7c84580e0dd929d4cf6d1a355f",
+      "transformation": "public source attribution replaces internal bibliography; checked related-work link retained",
+      "reason": "public source attribution replaces internal bibliography; checked related-work link retained"
+    },
+    {
+      "path": "results/source_records/pi4/run/execution_status_public.json",
+      "source_archive": "pi4_gpu_01_lite.zip",
+      "source_archive_sha256": "70a9d2cb2375bf65e3375968263e9f17a2157b6b47959d8ff62748d8eb84f660",
+      "source_member": "run/execution_receipt_before_collection.json",
+      "source_sha256": "3387d144f31e19bfcce15e650bbc8cdb41745f12b921a1a6292ab8ef1281690f",
+      "sha256": "4c4101779d8547cc11ea9e6a8c5a0499e00c5889db5b0e766daa8e4980beb7f3",
+      "transformation": "Allowlisted status fields only; removed usernames, paths, commands, PIDs. Values unchanged.",
+      "retained_fields": [
+        "audit_returncode",
+        "audit_status",
+        "decision_validity",
+        "greybox_returncode",
+        "greybox_status",
+        "raw_numeric_decision",
+        "raw_protocol_status",
+        "run_returncode",
+        "run_wall_seconds",
+        "status",
+        "summarize_returncode"
+      ],
+      "omitted_fields": [
+        "archive",
+        "command",
+        "cuda_visible_devices",
+        "delivery_after",
+        "delivery_before",
+        "python",
+        "run",
+        "run_pid",
+        "started_utc",
+        "supervisor_pid"
+      ],
+      "reason": "PI4 supervisor allowlist removes private paths/process identifiers, preserving decision"
+    },
+    {
+      "path": "catalog/runtime_environments.json",
+      "output_json_pointer": "/environments/0/values",
+      "source_archive": "pi4_gpu_01_lite.zip",
+      "source_archive_sha256": "70a9d2cb2375bf65e3375968263e9f17a2157b6b47959d8ff62748d8eb84f660",
+      "source_member": "run/environment.json",
+      "source_sha256": "22d9f8e2ca5b74de748947c160bd5fe41ab168e7b28435198bb5ff6b887f30fa",
+      "sha256": "147ae061b6e530e4475dc2e7a7ddfdad3cfb8f9cba5a3af15cae01920f8c269b",
+      "public_values_sha256": "7c7d4c2dd1c97dd32ba1b50b4eece20752d733d1977aae08d9a60898188d3f94",
+      "retained_fields": [
+        "numpy",
+        "python",
+        "requested_device",
+        "scipy",
+        "torch"
+      ],
+      "omitted_fields": [
+        "CUDA_VISIBLE_DEVICES",
+        "cuda_available",
+        "platform"
+      ],
+      "null_for_unrecorded_fields": [
+        "gpu_name"
+      ],
+      "transformation": "allowlist software versions and device name; exclude platform and assignment details",
+      "reason": "Keep actual software/device reference values without host or process-assignment details."
+    },
+    {
+      "path": "catalog/runtime_environments.json",
+      "output_json_pointer": "/environments/1/values",
+      "source_archive": "confirm_gpu_01_lite.zip",
+      "source_archive_sha256": "1aa980c61512a64c1e49a2aa4db5b7917bc4d475c484ff5fca35ad2c31eb647f",
+      "source_member": "run/environment.json",
+      "source_sha256": "2eff2548916868e526e84ca5c9d8a142dfb17747bd93a12955fe8c57f5b3e5a7",
+      "sha256": "147ae061b6e530e4475dc2e7a7ddfdad3cfb8f9cba5a3af15cae01920f8c269b",
+      "public_values_sha256": "bda272b5f0f6f547b42d033cf6022d4f3a10c7d625b141e5f0220ce044afd708",
+      "retained_fields": [
+        "gpu_name",
+        "numpy",
+        "python",
+        "requested_device",
+        "scipy",
+        "torch"
+      ],
+      "omitted_fields": [
+        "CUDA_VISIBLE_DEVICES",
+        "cuda_available",
+        "platform",
+        "purpose"
+      ],
+      "null_for_unrecorded_fields": [],
+      "transformation": "allowlist software versions and device name; exclude platform and assignment details",
+      "reason": "Keep actual software/device reference values without host or process-assignment details."
+    },
+    {
+      "path": "catalog/runtime_environments.json",
+      "output_json_pointer": "/environments/2/values",
+      "source_archive": "baseline_gpu_01_lite.zip",
+      "source_archive_sha256": "d0f483702811f0a3c9e438fa4959c2b822b22b4d54073653e275eaca26920397",
+      "source_member": "run/environment.json",
+      "source_sha256": "943de74347768a8245c8900bd41a5211f16c620acc89069308eea85f3bad600d",
+      "sha256": "147ae061b6e530e4475dc2e7a7ddfdad3cfb8f9cba5a3af15cae01920f8c269b",
+      "public_values_sha256": "bda272b5f0f6f547b42d033cf6022d4f3a10c7d625b141e5f0220ce044afd708",
+      "retained_fields": [
+        "gpu_name",
+        "numpy",
+        "python",
+        "requested_device",
+        "scipy",
+        "torch"
+      ],
+      "omitted_fields": [
+        "CUDA_VISIBLE_DEVICES",
+        "cuda_available",
+        "platform"
+      ],
+      "null_for_unrecorded_fields": [],
+      "transformation": "allowlist software versions and device name; exclude platform and assignment details",
+      "reason": "Keep actual software/device reference values without host or process-assignment details."
+    },
+    {
+      "path": "catalog/runtime_environments.json",
+      "output_json_pointer": "/environments/3/values",
+      "source_archive": "time_gpu_02_lite.zip",
+      "source_archive_sha256": "71ee665134396d920842e5164f3d50bd7064d7517cdec81e9abdc9ce4e3bbb3a",
+      "source_member": "run/environment.json",
+      "source_sha256": "d2034a811c2782f74139ca3e56928903f6b7bebbe61ce0859b8e79e024a5338f",
+      "sha256": "147ae061b6e530e4475dc2e7a7ddfdad3cfb8f9cba5a3af15cae01920f8c269b",
+      "public_values_sha256": "bda272b5f0f6f547b42d033cf6022d4f3a10c7d625b141e5f0220ce044afd708",
+      "retained_fields": [
+        "gpu_name",
+        "numpy",
+        "python",
+        "requested_device",
+        "scipy",
+        "torch"
+      ],
+      "omitted_fields": [
+        "CUDA_VISIBLE_DEVICES",
+        "clock",
+        "cuda_available",
+        "platform"
+      ],
+      "null_for_unrecorded_fields": [],
+      "transformation": "allowlist software versions and device name; exclude platform and assignment details",
+      "reason": "Keep actual software/device reference values without host or process-assignment details."
+    }
+  ],
+  "omitted_source_members": [
+    {
+      "study": "c1",
+      "source_archive": "confirm_gpu_01_lite.zip",
+      "source_archive_sha256": "1aa980c61512a64c1e49a2aa4db5b7917bc4d475c484ff5fca35ad2c31eb647f",
+      "source_member": "source/AGENTS.md",
+      "source_sha256": "a2530c7f8817d2ee38109456dc182d5918b91eedc44e44b8da0d1eb1054806b6",
+      "reason": "Excluded internal instructions, full delivery manifests or uncurated review/private provenance; original archive preserved."
+    },
+    {
+      "study": "c1",
+      "source_archive": "confirm_gpu_01_lite.zip",
+      "source_archive_sha256": "1aa980c61512a64c1e49a2aa4db5b7917bc4d475c484ff5fca35ad2c31eb647f",
+      "source_member": "source/CODEX_START_CN.md",
+      "source_sha256": "9967e248e3bac5649c1cb55d19643fbf5611b413528758eefdd7ba2ba73f5b00",
+      "reason": "Excluded internal instructions, full delivery manifests or uncurated review/private provenance; original archive preserved."
+    },
+    {
+      "study": "c1",
+      "source_archive": "confirm_gpu_01_lite.zip",
+      "source_archive_sha256": "1aa980c61512a64c1e49a2aa4db5b7917bc4d475c484ff5fca35ad2c31eb647f",
+      "source_member": "source/MANIFEST_SHA256.json",
+      "source_sha256": "87a4f44b5774c6610d0085b15bd1c8aa1aa6116e67dd00041056c6b13bb9044a",
+      "reason": "Excluded internal instructions, full delivery manifests or uncurated review/private provenance; original archive preserved."
+    },
+    {
+      "study": "c1",
+      "source_archive": "confirm_gpu_01_lite.zip",
+      "source_archive_sha256": "1aa980c61512a64c1e49a2aa4db5b7917bc4d475c484ff5fca35ad2c31eb647f",
+      "source_member": "source/README_CN.md",
+      "source_sha256": "f3f094161ac06384a6f7c72da4e0c8635c0f59ba4d705ddda3d4a48adf8a2af9",
+      "reason": "Excluded internal instructions, full delivery manifests or uncurated review/private provenance; original archive preserved."
+    },
+    {
+      "study": "b1",
+      "source_archive": "baseline_gpu_01_lite.zip",
+      "source_archive_sha256": "d0f483702811f0a3c9e438fa4959c2b822b22b4d54073653e275eaca26920397",
+      "source_member": "source/AGENTS.md",
+      "source_sha256": "024d325a4bacb1d4a314a5bf9dc0a1b3f47ac8977028b0288d51a26ac88e96aa",
+      "reason": "Excluded internal instructions, full delivery manifests or uncurated review/private provenance; original archive preserved."
+    },
+    {
+      "study": "b1",
+      "source_archive": "baseline_gpu_01_lite.zip",
+      "source_archive_sha256": "d0f483702811f0a3c9e438fa4959c2b822b22b4d54073653e275eaca26920397",
+      "source_member": "source/CODEX_START_CN.md",
+      "source_sha256": "7179df311bcd539a277682988ba5b3b2df9b75ec9133e2972a006f36e294e1ee",
+      "reason": "Excluded internal instructions, full delivery manifests or uncurated review/private provenance; original archive preserved."
+    },
+    {
+      "study": "b1",
+      "source_archive": "baseline_gpu_01_lite.zip",
+      "source_archive_sha256": "d0f483702811f0a3c9e438fa4959c2b822b22b4d54073653e275eaca26920397",
+      "source_member": "source/MANIFEST_SHA256.json",
+      "source_sha256": "0f1b17ca41f5c3dce1da37e353d778435d2be8bdfa8f9bd7450e49c6ac2c18ef",
+      "reason": "Excluded internal instructions, full delivery manifests or uncurated review/private provenance; original archive preserved."
+    },
+    {
+      "study": "b1",
+      "source_archive": "baseline_gpu_01_lite.zip",
+      "source_archive_sha256": "d0f483702811f0a3c9e438fa4959c2b822b22b4d54073653e275eaca26920397",
+      "source_member": "source/README_CN.md",
+      "source_sha256": "48b0d39cd390c6d228b3ad89c7aef9b6bf7d2c785b518a5441bb830f0e66d5f1",
+      "reason": "Excluded internal instructions, full delivery manifests or uncurated review/private provenance; original archive preserved."
+    },
+    {
+      "study": "t1",
+      "source_archive": "time_gpu_02_lite.zip",
+      "source_archive_sha256": "71ee665134396d920842e5164f3d50bd7064d7517cdec81e9abdc9ce4e3bbb3a",
+      "source_member": "source/AGENTS.md",
+      "source_sha256": "3b5b18e0861295e44374e9353c1b2a1c49adc3067182815cf5683b6811b47fdc",
+      "reason": "Excluded internal instructions, full delivery manifests or uncurated review/private provenance; original archive preserved."
+    },
+    {
+      "study": "t1",
+      "source_archive": "time_gpu_02_lite.zip",
+      "source_archive_sha256": "71ee665134396d920842e5164f3d50bd7064d7517cdec81e9abdc9ce4e3bbb3a",
+      "source_member": "source/CODEX_START_CN.md",
+      "source_sha256": "54238d4d60eaa3397652b0e0cbc7233b419f32fe1ac5053b645cfd140895abb1",
+      "reason": "Excluded internal instructions, full delivery manifests or uncurated review/private provenance; original archive preserved."
+    },
+    {
+      "study": "t1",
+      "source_archive": "time_gpu_02_lite.zip",
+      "source_archive_sha256": "71ee665134396d920842e5164f3d50bd7064d7517cdec81e9abdc9ce4e3bbb3a",
+      "source_member": "source/README_CN.md",
+      "source_sha256": "f3ba4a4b8f94e3437c2eb11199df02386f5e10e64cda3a9473312c94fa873892",
+      "reason": "Excluded internal instructions, full delivery manifests or uncurated review/private provenance; original archive preserved."
+    },
+    {
+      "study": "t1",
+      "source_archive": "time_gpu_02_lite.zip",
+      "source_archive_sha256": "71ee665134396d920842e5164f3d50bd7064d7517cdec81e9abdc9ce4e3bbb3a",
+      "source_member": "source/provenance/B1_GPU01_REVIEW_CN.md",
+      "source_sha256": "05445113eac07657d141f4a68a5fdc45542a407c78b43ede45b8e3aa7eca01ec",
+      "reason": "Excluded internal instructions, full delivery manifests or uncurated review/private provenance; original archive preserved."
+    },
+    {
+      "study": "t1",
+      "source_archive": "time_gpu_02_lite.zip",
+      "source_archive_sha256": "71ee665134396d920842e5164f3d50bd7064d7517cdec81e9abdc9ce4e3bbb3a",
+      "source_member": "source/provenance/B1_PROTOCOL_CN.md",
+      "source_sha256": "67d2910d9cd1638fc7c4945c97d432293b8573ab4fee3184eba6f0d7af05aae2",
+      "reason": "Excluded internal instructions, full delivery manifests or uncurated review/private provenance; original archive preserved."
+    },
+    {
+      "study": "t1",
+      "source_archive": "time_gpu_02_lite.zip",
+      "source_archive_sha256": "71ee665134396d920842e5164f3d50bd7064d7517cdec81e9abdc9ce4e3bbb3a",
+      "source_member": "source/provenance/B1_SOURCES.md",
+      "source_sha256": "fd791723ef377929862c3ae97122f83b8c8a5de29240f62ba0b2697808222aa5",
+      "reason": "Excluded internal instructions, full delivery manifests or uncurated review/private provenance; original archive preserved."
+    },
+    {
+      "study": "t1",
+      "source_archive": "time_gpu_02_lite.zip",
+      "source_archive_sha256": "71ee665134396d920842e5164f3d50bd7064d7517cdec81e9abdc9ce4e3bbb3a",
+      "source_member": "source/provenance/CUDA_INIT_REPAIR.json",
+      "source_sha256": "0fb51ae997321d57003bd7fa2640e38288aab3ee5bf6f169fdeeb894ba1281ba",
+      "reason": "Excluded internal instructions, full delivery manifests or uncurated review/private provenance; original archive preserved."
+    },
+    {
+      "study": "t1",
+      "source_archive": "time_gpu_02_lite.zip",
+      "source_archive_sha256": "71ee665134396d920842e5164f3d50bd7064d7517cdec81e9abdc9ce4e3bbb3a",
+      "source_member": "source/provenance/ORIGINAL_FAILED_RUN_PRESERVATION.json",
+      "source_sha256": "0a6b77fd7fffd6e7c5a8d005be3313cb7e4dbef529a4038be7a1177a780749fb",
+      "reason": "Excluded internal instructions, full delivery manifests or uncurated review/private provenance; original archive preserved."
+    },
+    {
+      "study": "t1",
+      "source_archive": "time_gpu_02_lite.zip",
+      "source_archive_sha256": "71ee665134396d920842e5164f3d50bd7064d7517cdec81e9abdc9ce4e3bbb3a",
+      "source_member": "source/provenance/ORIGINAL_T1_DELIVERY_MANIFEST_SHA256.json",
+      "source_sha256": "26dbe61228ea85fd44bd00f1df9fb179b6cbbe9ac76d9f5f618e35ed677be83e",
+      "reason": "Excluded internal instructions, full delivery manifests or uncurated review/private provenance; original archive preserved."
+    }
+  ],
+  "original_files_modified": false,
+  "policy": "Exclude private material from the derivative while retaining scientific records and decisions."
+}

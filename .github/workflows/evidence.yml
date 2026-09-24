@@ -1,0 +1,25 @@
+name: evidence-only
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+env:
+  PYTHONDONTWRITEBYTECODE: "1"
+jobs:
+  records:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2, verified upstream identity; not a claim of latest version
+        with:
+          persist-credentials: false
+      - name: Check immutable records and derived tables
+        run: python3 scripts/rebuild_results.py
+      - name: Verify public source snapshots
+        run: python3 scripts/verify_reference.py
+      - name: Standard-library evidence tests
+        run: python3 -m unittest discover -s tests -v
+      - name: Bounded public-tree hygiene scan
+        run: python3 scripts/check_public_tree.py

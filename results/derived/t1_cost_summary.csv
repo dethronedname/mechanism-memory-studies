@@ -1,0 +1,7 @@
+method,n_fits,parameters_median,persistent_dimension_median,updates_median,elapsed_seconds_median,validation_calls_median
+fixed_behavior,9,1510,4,2494,570.1620888244361,20
+free_behavior,9,1892,4,2822,570.1961008552462,20
+graph32_behavior,9,8786,32,9183,570.5808467539027,20
+gru32_behavior,9,4082,32,11719,570.632217662409,20
+gru4_behavior,9,1198,4,11844,570.6460538581014,20
+node32_behavior,9,3970,32,9312,570.5757974162698,20

@@ -1,0 +1,123 @@
+{
+  "methods": [
+    "fixed_behavior",
+    "free_behavior",
+    "gru4_behavior",
+    "gru32_behavior",
+    "graph32_behavior",
+    "node32_behavior"
+  ],
+  "numerics": {
+    "legacy_rtol": 2e-05,
+    "legacy_atol": 2e-05,
+    "normalized_rms_limit": 0.0001,
+    "normalized_max_limit": 0.001,
+    "metric_normalized_abs_limit": 0.0001,
+    "saved_metric_recompute_limit": 1e-12,
+    "validation_score_limit": 0.0001,
+    "fp64_probe_rows": 2
+  },
+  "decision": {
+    "mechanism_geomean_max": 0.9,
+    "each_general_median_max": 1.05,
+    "seed_wins_min": 2,
+    "required_pass_datasets": 3,
+    "numeric_boundary_guard": 0.001
+  },
+  "protocol": "PI4-T1-CPU-SMOKE-v0.1",
+  "stage": "cpu",
+  "datasets": [
+    {
+      "id": "smoke",
+      "data_seed": 2922101
+    }
+  ],
+  "initialization_seeds": [
+    991
+  ],
+  "schedule_seed": 1922901,
+  "fit": {
+    "protocol": "PI4-T1-CPU-SMOKE-v0.1",
+    "methods": [
+      "fixed_behavior",
+      "free_behavior",
+      "gru4_behavior",
+      "gru32_behavior",
+      "graph32_behavior",
+      "node32_behavior"
+    ],
+    "seeds": [
+      991
+    ],
+    "data_seed": 920509,
+    "history": 8,
+    "horizon": 4,
+    "reset_horizon": 6,
+    "support_count": 2,
+    "support_length": 12,
+    "train_count": 4,
+    "val_count": 2,
+    "test_count": 2,
+    "general_batch": 2,
+    "pair_batch": 2,
+    "learning_rate": 0.003,
+    "weight_decay": 1e-06,
+    "width": 24,
+    "history_width": 16,
+    "difference_weight": 0.25,
+    "consistency_weight": 0.25,
+    "train_waits": [
+      0,
+      2
+    ],
+    "test_waits": [
+      0,
+      2
+    ],
+    "process_limit_seconds": 40,
+    "cleanup_reserve_seconds": 5,
+    "total_limit_seconds": 1800,
+    "precision": "fp32",
+    "selection": "raw validation NMSE equally weighted between general and reset; mean over both support views",
+    "new_architecture_claim": false,
+    "purpose": "Full fit wall budget; no fixed update stop or new hyperparameter search"
+  },
+  "time_policy": {
+    "primary_seconds": 40,
+    "secondary_seconds": [
+      15,
+      25
+    ],
+    "validation_interval_seconds": 1,
+    "emergency_max_updates": 100000,
+    "clock": "time.monotonic parent origin",
+    "step_cap_is_success": false,
+    "cpu_smoke_max_updates": 2
+  },
+  "resource": {
+    "total_limit_seconds": 1800,
+    "postprocess_reserve_seconds": 300,
+    "prepare_seconds": 180,
+    "preflight_seconds": 180,
+    "evaluate_seconds_per_dataset": 240,
+    "audit_seconds_per_dataset": 300,
+    "finalize_seconds": 90,
+    "packaging_reserve_seconds": 60
+  },
+  "learning_rates": {
+    "fixed_behavior": 0.003,
+    "free_behavior": 0.003,
+    "gru4_behavior": 0.003,
+    "gru32_behavior": 0.003,
+    "graph32_behavior": 0.003,
+    "node32_behavior": 0.003
+  },
+  "limits": [
+    "Primary 600-second complete fit upper bound, not equal step counts or identical realized seconds.",
+    "Secondary checkpoints are VALIDATION ONLY; no extra test-set selection.",
+    "B1 locked recipes retained; not optimizing each family anew for this horizon.",
+    "Same simulator distribution with new samples, not independent external task.",
+    "Common simulation preparation and old search cost reported separately, no claim of equal cumulative research cost.",
+    "No resume, retries, automatic follow-up or model changes."
+  ]
+}

@@ -1,0 +1,32 @@
+# Large/raw/private evidence is retained locally, not committed by default.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.mypy_cache/
+.env
+.env.*
+!.env.example
+artifacts/
+vault/
+private/
+handoff_only/
+local_inventory/
+raw_runs/
+runs/
+returns/
+outputs/
+data/cache/
+*.zip
+*.tar
+*.tar.gz
+*.tar.zst
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+*.log
+*.jsonl
+# Small source_records JSON and generated CSV remain tracked.

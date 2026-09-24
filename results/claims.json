@@ -1,0 +1,60 @@
+{
+  "claims": [
+    {
+      "id": "C1_PARTIAL",
+      "type": "observed",
+      "claim": "Mechanism direction improved across three same-simulator generated datasets, but full gate passed for only one.",
+      "source": "results/source_records/c1/run/DECISION.json",
+      "pointer": "/datasets",
+      "boundary": "Not independent external systems; no formal significance claim."
+    },
+    {
+      "id": "B1_MIXED",
+      "type": "observed",
+      "claim": "Equal-update persistent-calibration baseline challenge gave a mixed trade-off.",
+      "source": "results/source_records/b1/run/DECISION.json",
+      "pointer": "/status",
+      "boundary": "Not equal-time competitive evidence."
+    },
+    {
+      "id": "T1_GRU_MECHANISM_SHORT",
+      "type": "observed",
+      "claim": "At the complete-fit time cap, wider GRU has lower recorded error in all paired mechanism and short-horizon comparisons.",
+      "source": "results/derived/t1_directional_counts.csv",
+      "pointer": "baseline=gru32_behavior;category=mechanism|short",
+      "boundary": "Same simulator and locked recipes; wider capacity and more updates within time cap."
+    },
+    {
+      "id": "T1_LONG",
+      "type": "observed",
+      "claim": "Candidate has lower long-horizon error in 7/9 pairs with wider GRU and 9/9 with graph GRU.",
+      "source": "results/derived/t1_directional_counts.csv",
+      "pointer": "category=long",
+      "boundary": "Not broad accuracy superiority, speed benefit or a redefinition of the failed full gate."
+    },
+    {
+      "id": "T1_BUDGET",
+      "type": "observed",
+      "claim": "The six methods had the same 600-second complete-fit cap; their realized times and update counts differ.",
+      "source": "results/derived/t1_fit_costs.csv",
+      "pointer": "all 54 rows",
+      "boundary": "Not equal capacity, equal updates, inference latency or equal total historical research cost."
+    },
+    {
+      "id": "OPEN_DEPLOYMENT",
+      "type": "open_unverified",
+      "claim": "Smaller persistent state might matter for a separately specified deployment setting.",
+      "source": null,
+      "pointer": null,
+      "boundary": "No measured deployment advantage is asserted."
+    },
+    {
+      "id": "CONCLUSION",
+      "type": "bounded_interpretation",
+      "claim": "No general quality-cost advantage established; some task/resource-dependent trade-offs remain useful research questions.",
+      "source": "docs/conclusions.md",
+      "pointer": "Current conclusion",
+      "boundary": "Neither universal superiority nor universal impossibility."
+    }
+  ]
+}

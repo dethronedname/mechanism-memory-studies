@@ -1,0 +1,128 @@
+"""Time-bounded fitting using unchanged B1 model factory and PI4 objective."""
+from __future__ import annotations
+import os,shutil,time,json,math
+from pathlib import Path
+import numpy as np
+import torch
+from pi4.io import seed_all,load,take,write,sha
+from pi4.learning import objective
+from bc1.models import model_for,METHODS
+from bc1.experiment import valid
+from .budget import choose_checkpoint,summarize_budgets,next_slot,admission
+
+
+def sync(device):
+    if str(device).startswith('cuda'):torch.cuda.synchronize(device)
+
+
+def save_checkpoint(path,content):
+    """Atomic, flushed serialization. Digest time is charged to this same fit."""
+    path=Path(path);path.parent.mkdir(parents=True,exist_ok=True)
+    temp=path.with_name(path.name+'.tmp')
+    with temp.open('wb') as f:
+        torch.save(content,f);f.flush();os.fsync(f.fileno())
+    os.replace(temp,path)
+
+
+def fit(config,method,seed,datadir,out,device,started):
+    if started is None or not math.isfinite(started) or started>time.monotonic():
+        raise ValueError('Parent monotonic origin required')
+    start=started;out=Path(out);datadir=Path(datadir)
+    if (datadir.parent/'TEST_RELEASE_LOCK.json').exists() or (datadir.parents[2]/'TEST_RELEASE_LOCK.json').exists():
+        raise RuntimeError('Training closed after test release')
+    if any((out/n).exists() for n in ('result.json','best.pt','initial.pt')):raise RuntimeError('No resume/retry')
+    out.mkdir(parents=True,exist_ok=True)
+    tp=config['time_policy'];limit=tp['primary_seconds'];reserve=config['cleanup_reserve_seconds'];soft=limit-reserve
+    if config['stage']=='gpu' and (device!='cuda:0' or not torch.cuda.is_available()):raise RuntimeError('CUDA required')
+    seed_all(seed)
+    if str(device).startswith('cuda'):
+        torch.cuda.init()
+        torch.cuda.reset_peak_memory_stats(device)
+    events=[]
+    def event(name,**kw):
+        events.append(dict(name=name,elapsed=time.monotonic()-start,**kw));write(out/'events.json',events)
+    event('worker_entered')
+    scales=json.loads((datadir/'SCALES.json').read_text())
+    train=[load(datadir/f'train_g{n}.npz',device) for n in (2,4)]+[load(datadir/'train_reset.npz',device)]
+    val=[load(datadir/f'val_g{n}.npz',device) for n in (2,4)]+[load(datadir/'val_reset.npz',device)]
+    model=model_for(method,config['width'],config['history_width']).to(device)
+    opt=torch.optim.AdamW(model.parameters(),lr=config['learning_rate'],weight_decay=config['weight_decay'])
+    save_checkpoint(out/'initial.pt',dict(model_config=model.config(),state_dict={k:v.detach().cpu().clone() for k,v in model.state_dict().items()}))
+    sync(device);event('setup_complete')
+    curve=[];steps=0;recent_step=0.;recent_val=0.;train_seconds=0.;val_seconds=0.;save_seconds=0.;last_parts=None
+    def checkpoint(reason,scheduled=None):
+        nonlocal recent_val,val_seconds,save_seconds
+        sync(device);vstart=time.monotonic()-start
+        score,stats=valid(model,val,scales);sync(device);vend=time.monotonic()-start
+        if not np.isfinite(score):raise FloatingPointError('nonfinite validation')
+        recent_val=vend-vstart;val_seconds+=recent_val
+        index=len(curve);rel=f'checkpoints/val_{index:03d}_step_{steps:07d}.pt'
+        row=dict(step=steps,elapsed=vend,selection_score=score,validation=stats,train=last_parts,
+                 reason=reason,scheduled_elapsed=scheduled,validation_started_elapsed=vstart,validation_complete_elapsed=vend,
+                 checkpoint_path=rel)
+        content=dict(config=model.config(),state_dict={k:v.detach().cpu().clone() for k,v in model.state_dict().items()},
+                     seed=seed,method=method,step=steps,validation_score=score,validation_complete_elapsed=vend)
+        save_checkpoint(out/rel,content);row['checkpoint_saved_elapsed']=time.monotonic()-start
+        row['checkpoint_sha256']=sha(out/rel);row['checkpoint_ready_elapsed']=time.monotonic()-start
+        save_seconds+=row['checkpoint_ready_elapsed']-vend
+        curve.append(row);write(out/'curve.json',curve)
+        print(method,seed,'step',steps,'wall',round(row['checkpoint_ready_elapsed'],3),'val',score,flush=True)
+    rng=np.random.default_rng(seed+177)
+    if time.monotonic()-start>=soft:raise RuntimeError('Setup exhausted fit budget; no comparison')
+    checkpoint('initial')
+    scheduled=next_slot(time.monotonic()-start,tp['validation_interval_seconds'])
+    stop_reason='TIME_BUDGET';logs=[]
+    while True:
+        elapsed=time.monotonic()-start
+        if config['stage']=='cpu' and tp['cpu_smoke_max_updates'] is not None and steps>=tp['cpu_smoke_max_updates']:
+            stop_reason='CPU_SMOKE_UPDATE_CAP';break
+        if steps>=tp['emergency_max_updates']:
+            stop_reason='EMERGENCY_UPDATE_CAP';break
+        if not admission(elapsed,limit,reserve,recent_step,recent_val):break
+        if elapsed>=scheduled:
+            checkpoint('wall_schedule',scheduled)
+            scheduled=next_slot(time.monotonic()-start,tp['validation_interval_seconds'])
+            continue
+        i=steps+1
+        which=int(rng.integers(0,2)) if i%2 else 2
+        d=train[which];size=config['general_batch'] if which<2 else config['pair_batch']
+        ix=rng.choice(len(d['target']),size,replace=False);batch=take(d,ix)
+        wait=int(rng.choice(config['train_waits'])) if which==2 else 0
+        tt=time.monotonic();model.train();opt.zero_grad(set_to_none=True)
+        loss,parts=objective(model,batch,'general' if which<2 else 'reset',METHODS[method][1],scales,config,wait)
+        if not torch.isfinite(loss):raise FloatingPointError('nonfinite objective')
+        loss.backward();gn=torch.nn.utils.clip_grad_norm_(model.parameters(),5.,error_if_nonfinite=True);opt.step();sync(device)
+        cost=time.monotonic()-tt;train_seconds+=cost;recent_step=max(cost,.9*recent_step);steps=i
+        last_parts=dict(parts,kind='general' if which<2 else 'reset',wait=wait,loss=float(loss.detach()),gradient_norm=float(gn))
+        # One compact JSONL row per update. All bytes and flushing are inside budget.
+        with (out/'training.jsonl').open('a',encoding='utf8') as f:
+            f.write(json.dumps(dict(step=steps,elapsed=time.monotonic()-start,step_seconds=cost,**last_parts),allow_nan=False)+'\n')
+    event('learning_stopped',step=steps,stop_reason=stop_reason)
+    if steps and curve[-1]['step']!=steps:
+        # No update after the stop. Saving/validation still charged and eligibility checked.
+        if time.monotonic()-start+1.5*recent_val<limit-2:
+            checkpoint('final')
+        else:event('final_validation_skipped',reason='insufficient remaining complete-fit budget')
+    budget_views=summarize_budgets(curve,tp['secondary_seconds']+[tp['primary_seconds']])
+    chosen=choose_checkpoint(curve,limit)
+    if chosen is None:raise RuntimeError('No budget-qualified checkpoint')
+    # File copy is final-fit overhead; parent verifies this process also exits by limit.
+    shutil.copyfile(out/chosen['checkpoint_path'],out/'best.pt')
+    with (out/'best.pt').open('rb') as f:os.fsync(f.fileno())
+    write(out/'BUDGET_CHECKPOINTS.json',budget_views)
+    result=dict(status='COMPLETE' if steps>0 and stop_reason!='EMERGENCY_UPDATE_CAP' else 'INCONCLUSIVE',
+      clock_origin_monotonic=start,stop_reason=stop_reason,method=method,family=METHODS[method][0],seed=seed,updates=steps,
+      best_step=chosen['step'],validation_score=chosen['selection_score'],checkpoint_sha256=sha(out/'best.pt'),
+      selected_checkpoint=chosen['checkpoint_path'],initial_sha256=sha(out/'initial.pt'),
+      parameters=sum(p.numel() for p in model.parameters()),persistent_dimension=model.persistent_dimension,
+      learning_rate=config['learning_rate'],training_loop_seconds=train_seconds,validation_seconds=val_seconds,
+      checkpoint_write_and_hash_seconds=save_seconds,worker_elapsed=time.monotonic()-start,
+      complete_fit_budget_seconds=limit,cleanup_reserve_seconds=reserve,primary_checkpoint_ready_elapsed=chosen['checkpoint_ready_elapsed'],
+      validation_calls=len(curve),peak_cuda_allocated_bytes=int(torch.cuda.max_memory_allocated(device)) if str(device).startswith('cuda') else None,
+      gpu='EXECUTED' if str(device).startswith('cuda') else 'NOT_RUN',formal_scientific_result=config['stage']=='gpu',
+      limits=['Secondary checkpoints are validation-only retrospective views, not separately timed cold runs.',
+              'Parent exit status/deadline must also pass; COMPLETE print alone is not eligibility.'])
+    event('artifact_finalization_complete',step=steps)
+    result['worker_elapsed']=time.monotonic()-start
+    write(out/'result.json',result);print('COMPLETE' if result['status']=='COMPLETE' else result['status'],flush=True)
+    return result

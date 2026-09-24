@@ -1,0 +1,49 @@
+{
+  "protocol": "PI4-behavioral-mechanisms-GPU-screen-v0.1-20260920",
+  "methods": [
+    "fixed_mse",
+    "fixed_behavior",
+    "free_mse",
+    "free_behavior",
+    "ode_behavior"
+  ],
+  "seeds": [
+    727,
+    733,
+    739
+  ],
+  "data_seed": 920509,
+  "history": 16,
+  "horizon": 16,
+  "reset_horizon": 32,
+  "support_count": 2,
+  "support_length": 48,
+  "train_count": 256,
+  "val_count": 32,
+  "test_count": 48,
+  "updates": 1600,
+  "validate_every": 100,
+  "general_batch": 6,
+  "pair_batch": 4,
+  "learning_rate": 0.003,
+  "weight_decay": 1e-06,
+  "width": 24,
+  "history_width": 16,
+  "difference_weight": 0.25,
+  "consistency_weight": 0.25,
+  "train_waits": [
+    0,
+    16
+  ],
+  "test_waits": [
+    0,
+    256
+  ],
+  "process_limit_seconds": 900,
+  "cleanup_reserve_seconds": 20,
+  "total_limit_seconds": 14400,
+  "precision": "fp32",
+  "selection": "raw validation NMSE equally weighted between general and reset; mean over both support views",
+  "new_architecture_claim": false,
+  "purpose": "bounded new-data GPU task screen; no BF16/compile/width search and no automatic further training"
+}

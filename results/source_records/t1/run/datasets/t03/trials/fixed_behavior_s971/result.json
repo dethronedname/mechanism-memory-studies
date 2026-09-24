@@ -1,0 +1,32 @@
+{
+  "status": "COMPLETE",
+  "clock_origin_monotonic": 5381592.853933159,
+  "stop_reason": "TIME_BUDGET",
+  "method": "fixed_behavior",
+  "family": "fixed_context_ph",
+  "seed": 971,
+  "updates": 2426,
+  "best_step": 2426,
+  "validation_score": 0.01991782879313603,
+  "checkpoint_sha256": "6d8be425abf04610227c3b081e4fc0933ef8183a47351b71c4230bafd7e6fd97",
+  "selected_checkpoint": "checkpoints/val_019_step_0002426.pt",
+  "initial_sha256": "42e44a69e63457d0c14ebdae07607decc95c4c7f3cd796d612813c0b860ecf95",
+  "parameters": 1510,
+  "persistent_dimension": 4,
+  "learning_rate": 0.003,
+  "training_loop_seconds": 559.6930676503107,
+  "validation_seconds": 5.512731305323541,
+  "checkpoint_write_and_hash_seconds": 0.05209851451218128,
+  "worker_elapsed": 569.453895165585,
+  "complete_fit_budget_seconds": 600,
+  "cleanup_reserve_seconds": 30,
+  "primary_checkpoint_ready_elapsed": 569.4507764782757,
+  "validation_calls": 20,
+  "peak_cuda_allocated_bytes": 57650688,
+  "gpu": "EXECUTED",
+  "formal_scientific_result": true,
+  "limits": [
+    "Secondary checkpoints are validation-only retrospective views, not separately timed cold runs.",
+    "Parent exit status/deadline must also pass; COMPLETE print alone is not eligibility."
+  ]
+}

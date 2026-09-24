@@ -1,0 +1,135 @@
+{
+  "methods": [
+    "fixed_behavior",
+    "free_behavior",
+    "gru4_behavior",
+    "gru32_behavior",
+    "graph32_behavior",
+    "node32_behavior"
+  ],
+  "numerics": {
+    "legacy_rtol": 2e-05,
+    "legacy_atol": 2e-05,
+    "normalized_rms_limit": 0.0001,
+    "normalized_max_limit": 0.001,
+    "metric_normalized_abs_limit": 0.0001,
+    "saved_metric_recompute_limit": 1e-12,
+    "validation_score_limit": 0.0001,
+    "fp64_probe_rows": 2
+  },
+  "decision": {
+    "mechanism_geomean_max": 0.9,
+    "each_general_median_max": 1.05,
+    "seed_wins_min": 2,
+    "required_pass_datasets": 3,
+    "numeric_boundary_guard": 0.001
+  },
+  "protocol": "PI4-T1-v0.1-20260922",
+  "stage": "gpu",
+  "datasets": [
+    {
+      "id": "t01",
+      "data_seed": 2422101
+    },
+    {
+      "id": "t02",
+      "data_seed": 2522101
+    },
+    {
+      "id": "t03",
+      "data_seed": 2622101
+    }
+  ],
+  "initialization_seeds": [
+    971,
+    977,
+    983
+  ],
+  "schedule_seed": 1922901,
+  "fit": {
+    "protocol": "PI4-T1-v0.1-20260922",
+    "methods": [
+      "fixed_behavior",
+      "free_behavior",
+      "gru4_behavior",
+      "gru32_behavior",
+      "graph32_behavior",
+      "node32_behavior"
+    ],
+    "seeds": [
+      971,
+      977,
+      983
+    ],
+    "data_seed": 920509,
+    "history": 16,
+    "horizon": 16,
+    "reset_horizon": 32,
+    "support_count": 2,
+    "support_length": 48,
+    "train_count": 256,
+    "val_count": 32,
+    "test_count": 48,
+    "general_batch": 6,
+    "pair_batch": 4,
+    "learning_rate": 0.003,
+    "weight_decay": 1e-06,
+    "width": 24,
+    "history_width": 16,
+    "difference_weight": 0.25,
+    "consistency_weight": 0.25,
+    "train_waits": [
+      0,
+      16
+    ],
+    "test_waits": [
+      0,
+      256
+    ],
+    "process_limit_seconds": 600,
+    "cleanup_reserve_seconds": 30,
+    "total_limit_seconds": 57600,
+    "precision": "fp32",
+    "selection": "raw validation NMSE equally weighted between general and reset; mean over both support views",
+    "new_architecture_claim": false,
+    "purpose": "Full fit wall budget; no fixed update stop or new hyperparameter search"
+  },
+  "time_policy": {
+    "primary_seconds": 600,
+    "secondary_seconds": [
+      150,
+      300
+    ],
+    "validation_interval_seconds": 30,
+    "emergency_max_updates": 100000,
+    "clock": "time.monotonic parent origin",
+    "step_cap_is_success": false,
+    "cpu_smoke_max_updates": null
+  },
+  "resource": {
+    "total_limit_seconds": 57600,
+    "postprocess_reserve_seconds": 14400,
+    "prepare_seconds": 600,
+    "preflight_seconds": 900,
+    "evaluate_seconds_per_dataset": 1800,
+    "audit_seconds_per_dataset": 3000,
+    "finalize_seconds": 180,
+    "packaging_reserve_seconds": 900
+  },
+  "learning_rates": {
+    "fixed_behavior": 0.003,
+    "free_behavior": 0.003,
+    "gru4_behavior": 0.003,
+    "gru32_behavior": 0.003,
+    "graph32_behavior": 0.003,
+    "node32_behavior": 0.003
+  },
+  "limits": [
+    "Primary 600-second complete fit upper bound, not equal step counts or identical realized seconds.",
+    "Secondary checkpoints are VALIDATION ONLY; no extra test-set selection.",
+    "B1 locked recipes retained; not optimizing each family anew for this horizon.",
+    "Same simulator distribution with new samples, not independent external task.",
+    "Common simulation preparation and old search cost reported separately, no claim of equal cumulative research cost.",
+    "No resume, retries, automatic follow-up or model changes."
+  ]
+}

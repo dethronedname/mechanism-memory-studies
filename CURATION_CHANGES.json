@@ -1,0 +1,307 @@
+{
+  "source_archive": "MechanismMemory_Repo_Handoff_20260924.zip",
+  "source_archive_sha256": "31b776a97ed4fc093343ee75f462f4fb8d9b0ee68a2386c2b80264b3c3a13531",
+  "changed_overlay_files": [
+    {
+      "path": ".github/workflows/evidence.yml",
+      "source_member": "MechanismMemory_Repo_Handoff_20260924/repo_overlay/.github/workflows/evidence.yml",
+      "source_sha256": "06b335b2bd51723ebacab982eb164043055d69fb8d7f2df40eb40276f9c593ab",
+      "public_sha256": "f8196da4617c0a8a8b7a1e92533072c2d79b8c55b77fe7ce04440677fbbd7f96",
+      "reason": "Assembled content, validation, author/license metadata, or private review hosting documentation."
+    },
+    {
+      "path": "AI_USAGE.md",
+      "source_member": "MechanismMemory_Repo_Handoff_20260924/repo_overlay/AI_USAGE.md",
+      "source_sha256": "6d0be7c13e8eaed4f6904425924bba74ab694909275744422234df6a34a38db1",
+      "public_sha256": "63a5b99ad552f9e02013b7ba7468395b404d581b4ef743c55bf58ee2855e20aa",
+      "reason": "Assembled content, validation, author/license metadata, or private review hosting documentation."
+    },
+    {
+      "path": "CHANGELOG.md",
+      "source_member": "MechanismMemory_Repo_Handoff_20260924/repo_overlay/CHANGELOG.md",
+      "source_sha256": "a6e76d31f03e3628f6c2130766eafc84c7f3fad67bdac88e203923bb158520de",
+      "public_sha256": "3ac348c8ba82259560844f2a0a4c3c690040ade3f210ed7e28d16d158eaa46bb",
+      "reason": "Assembled content, validation, author/license metadata, or private review hosting documentation."
+    },
+    {
+      "path": "README.md",
+      "source_member": "MechanismMemory_Repo_Handoff_20260924/repo_overlay/README.md",
+      "source_sha256": "6c6340b374920d1eec5803579d7b02283479d513e6d1860180be887fe59109d6",
+      "public_sha256": "83f1105eaf5f7be2cc3085a8b870ae2516661d89bb762020a07b21f28f9264e0",
+      "reason": "Assembled content, validation, author/license metadata, or private review hosting documentation."
+    },
+    {
+      "path": "README_CN.md",
+      "source_member": "MechanismMemory_Repo_Handoff_20260924/repo_overlay/README_CN.md",
+      "source_sha256": "7e6dec271b20b2922f6bc9a7516e3b7ccb04afb7df00dd98ec7db2083e169da4",
+      "public_sha256": "9a653dcf9c3bea1b587f28a9731f5fb573aa37886089a7ce73248e4078a5abde",
+      "reason": "Assembled content, validation, author/license metadata, or private review hosting documentation."
+    },
+    {
+      "path": "catalog/assets.json",
+      "source_member": "MechanismMemory_Repo_Handoff_20260924/repo_overlay/catalog/assets.json",
+      "source_sha256": "1fb34d548b80f3c1d4a9a0558f620895614a1a4c224b24d61551deec86e5baf6",
+      "public_sha256": "7cf1db0abe2181e8181d8c149635e738690acd1312faa5207d74d15ab8dc0c76",
+      "reason": "Assembled content, validation, author/license metadata, or private review hosting documentation."
+    },
+    {
+      "path": "catalog/studies.json",
+      "source_member": "MechanismMemory_Repo_Handoff_20260924/repo_overlay/catalog/studies.json",
+      "source_sha256": "6acfb66ff4441d6fb77850de00f6267494778b377e40d56fa0d8da8a72a55f85",
+      "public_sha256": "537885d919dfbe8bdd7edd1a7ccf77cd250979fb839b34ba73854c68fe876d9a",
+      "reason": "Assembled content, validation, author/license metadata, or private review hosting documentation."
+    },
+    {
+      "path": "docs/ci_scope.md",
+      "source_member": "MechanismMemory_Repo_Handoff_20260924/repo_overlay/docs/ci_scope.md",
+      "source_sha256": "a542f0bf1392b474aa6d7ce49e8f5350aa0f807bb348caeed72a68494aa7b802",
+      "public_sha256": "025b15b95adc7cbeb4f0dcfabfecc463018fdcef7721bc49da71ddb3f6c7886f",
+      "reason": "Assembled content, validation, author/license metadata, or private review hosting documentation."
+    },
+    {
+      "path": "docs/conclusions.md",
+      "source_member": "MechanismMemory_Repo_Handoff_20260924/repo_overlay/docs/conclusions.md",
+      "source_sha256": "bafed2a3b0a9a05a1b531935159401941ace336e50be3fa2108d0775abfacd85",
+      "public_sha256": "5473f93032d667d9e0b997c5a26e83591d0274ff0cc8a2ed76dc6ffbf148e971",
+      "reason": "Assembled content, validation, author/license metadata, or private review hosting documentation."
+    },
+    {
+      "path": "docs/provenance.md",
+      "source_member": "MechanismMemory_Repo_Handoff_20260924/repo_overlay/docs/provenance.md",
+      "source_sha256": "703e8abe204d28d3d8c23791c5927d6f69c67b40d1626455ce6a8ee55b2ac9f2",
+      "public_sha256": "38c45637f8a0fe36543a50ae231deffa45e65887e5b9e5d3320807a4146e7966",
+      "reason": "Assembled content, validation, author/license metadata, or private review hosting documentation."
+    },
+    {
+      "path": "docs/release_checklist.md",
+      "source_member": "MechanismMemory_Repo_Handoff_20260924/repo_overlay/docs/release_checklist.md",
+      "source_sha256": "5b5e094a1f18f017f8dcbca2621e9b4a8451df7c2f4f3c0f7afaa5a8e63e3d9b",
+      "public_sha256": "24ef7bb1872191e497cb7dc535b447e266ed9a5018d8ec47d94bf294844260bd",
+      "reason": "Assembled content, validation, author/license metadata, or private review hosting documentation."
+    },
+    {
+      "path": "docs/reproduction.md",
+      "source_member": "MechanismMemory_Repo_Handoff_20260924/repo_overlay/docs/reproduction.md",
+      "source_sha256": "d87cf06c3ea40fe205face066fb04a74a1c0dfdbd2d7b7ffb23ccfe7ba7836bc",
+      "public_sha256": "813bc0441f98986b47a603dc1069a235c827dba6623087b6c0f7b64b727977c3",
+      "reason": "Assembled content, validation, author/license metadata, or private review hosting documentation."
+    },
+    {
+      "path": "docs/study_map.md",
+      "source_member": "MechanismMemory_Repo_Handoff_20260924/repo_overlay/docs/study_map.md",
+      "source_sha256": "30c4853161c16b2c9e305224178b6e53c867ef8b465ebba43faef73924f91b78",
+      "public_sha256": "212bc4c9a0621d2102da27f11003575496b4705bbccea29b3754918e116b1cf2",
+      "reason": "Assembled content, validation, author/license metadata, or private review hosting documentation."
+    }
+  ],
+  "science_records_changed": false,
+  "original_archives_modified": false,
+  "attribution_revision": {
+    "date": "2026-09-24",
+    "previous_draft_archive": "MechanismMemory_Repo_Draft_20260924.zip",
+    "previous_draft_sha256": "a55a76e4a16fcbf6ecbe0d4de82eb30e6ceb2e33928d9a12341d8bd895146897",
+    "author": "chumingyzx",
+    "code_license": "MIT",
+    "documentation_data_license": "CC-BY-4.0",
+    "research_citation": "requested; no additional standard-license condition",
+    "files": [
+      {
+        "path": "AI_USAGE.md",
+        "kind": "modified",
+        "previous_sha256": "6d0be7c13e8eaed4f6904425924bba74ab694909275744422234df6a34a38db1",
+        "current_sha256": "63a5b99ad552f9e02013b7ba7468395b404d581b4ef743c55bf58ee2855e20aa"
+      },
+      {
+        "path": "ASSET_INVENTORY.json",
+        "kind": "modified",
+        "previous_sha256": "981d01ddb00c8103311ccb48e95cffcb35b9cc79a5f8a007ff664974325ab60b",
+        "current_sha256": "7cf1db0abe2181e8181d8c149635e738690acd1312faa5207d74d15ab8dc0c76"
+      },
+      {
+        "path": "AUTHORS.md",
+        "kind": "added",
+        "previous_sha256": null,
+        "current_sha256": "48b2e9a757fad682e8ae23d7132a3861ea141ddad2b77dac78ec4c593cdbe662"
+      },
+      {
+        "path": "CHANGELOG.md",
+        "kind": "modified",
+        "previous_sha256": "f24cbd2970bb8174a8b62e4ac5725eb20e824cb4fcbaa94b15a762e4ef521122",
+        "current_sha256": "29f71380dffd6ed313ac454c370d892b5e845834687effccec523a3c7ed41b4c"
+      },
+      {
+        "path": "CITATION.cff",
+        "kind": "added",
+        "previous_sha256": null,
+        "current_sha256": "f60fd8595378a93be2ff04c06f714b28160df7046b7101d1796564a3948f5c2a"
+      },
+      {
+        "path": "CITATION.md",
+        "kind": "added",
+        "previous_sha256": null,
+        "current_sha256": "a3004721c642a67d5d5fbdb1a36dfdf550c6092ac91c7c5ca2734078dff1ca7f"
+      },
+      {
+        "path": "LICENSE",
+        "kind": "added",
+        "previous_sha256": null,
+        "current_sha256": "80167e5d295eee9893ffac903031802ced76087190d4709187392a377a82b246"
+      },
+      {
+        "path": "LICENSES/CC-BY-4.0.txt",
+        "kind": "added",
+        "previous_sha256": null,
+        "current_sha256": "d557539df68e771cc1eedcc91d13f70fca930e508d11eedcafa4b15db49e3744"
+      },
+      {
+        "path": "LICENSE_REVIEW.md",
+        "kind": "modified",
+        "previous_sha256": "9432dab1bb31eb9bb54e2a7433bf518be5a5c0c41ccf4dce0b79718a1e410ad9",
+        "current_sha256": "89bdf1a6b0ac44f1b6ad00f4cde68598e36676c944a278e1aeb0e0b4b0f9f216"
+      },
+      {
+        "path": "LICENSING.md",
+        "kind": "added",
+        "previous_sha256": null,
+        "current_sha256": "93311be54187836a9cf8322e450e6090b1a7e02b7c6d2d3feecfc5900c42b226"
+      },
+      {
+        "path": "README.md",
+        "kind": "modified",
+        "previous_sha256": "bb2af27157eefbf7891e53a419fea6d948a2e7017a47c6edc5f09733a811e0ab",
+        "current_sha256": "21f1018f7faff3c416d359cc488a6b024d1784b4484311052ecd1b4c8c0ed7a0"
+      },
+      {
+        "path": "README_CN.md",
+        "kind": "modified",
+        "previous_sha256": "ec427823483e7756e7869afad8318e88b21461533b3a01144a196468946a588e",
+        "current_sha256": "75f60b09bb92c45211b6785b57dd9944128361f6495b43f8d13dab41211fff71"
+      },
+      {
+        "path": "REPO_READY_REPORT.md",
+        "kind": "added",
+        "previous_sha256": null,
+        "current_sha256": "c0dfaa17f5351f1eba05ffa05a16c3b6889d4898a98620f706e7f3add7f33013"
+      },
+      {
+        "path": "REPO_READY_REPORT_CN.md",
+        "kind": "modified",
+        "previous_sha256": "28cfebea27e0628ff7fb5c1f6b355f9f73f355410d9bac709b57ce02befe1799",
+        "current_sha256": "f32a3ac5d69b675cf68583a7489ebee00b4bae51fa7a0a82be69d4e2cd531f55"
+      },
+      {
+        "path": "SOURCE_IMPORT_MANIFEST.json",
+        "kind": "modified",
+        "previous_sha256": "a10fcf1ce52af631d02f17c32b57264c73cb4b4370523075442d72f067bbec8a",
+        "current_sha256": "1ea2244cd8a831cbe8ccf6dcfd82b9735d285b6abbeb370cd52de9d8160bc14d"
+      },
+      {
+        "path": "VALIDATION_REPORT.json",
+        "kind": "modified",
+        "previous_sha256": "9da1209f423ba90408ff4787c7b2cb3179d6f4479157d906b128c5a79c06c1bd",
+        "current_sha256": "8ae8fad79527ca228628f2d0608712e91aca2cfba71310227595e549d97847d6"
+      },
+      {
+        "path": "catalog/assets.json",
+        "kind": "modified",
+        "previous_sha256": "981d01ddb00c8103311ccb48e95cffcb35b9cc79a5f8a007ff664974325ab60b",
+        "current_sha256": "7cf1db0abe2181e8181d8c149635e738690acd1312faa5207d74d15ab8dc0c76"
+      },
+      {
+        "path": "catalog/publication_metadata.json",
+        "kind": "modified",
+        "previous_sha256": "9138578d7f62fa9cd0e6496fbe5942b9fba2cbec56527c983708a851847fbf6a",
+        "current_sha256": "4d1cc1a7e948b0eb539b574fd8b35f03788ec2ffff05909fce5e0188bb26a27c"
+      },
+      {
+        "path": "catalog/source_license_scan.json",
+        "kind": "modified",
+        "previous_sha256": "e2d33fcac0ac60d8252961c7a6f8975fe9548158d9b18b55523843c71629a9a0",
+        "current_sha256": "c99db840d6f11e15d31507e8d26c15654bdeea00e408a589744347a9b69995b3"
+      },
+      {
+        "path": "docs/related_work.md",
+        "kind": "modified",
+        "previous_sha256": "3d01c6ad57bb72ca212d73dfef3eaadb1363b72358d8374bf463c7ee5cf8a0ff",
+        "current_sha256": "3eed8aa6f790ec9e1c2247bd3c8d000f0ab052c1de6637f256ee0e45b30e35c9"
+      },
+      {
+        "path": "docs/release_checklist.md",
+        "kind": "modified",
+        "previous_sha256": "5b5e094a1f18f017f8dcbca2621e9b4a8451df7c2f4f3c0f7afaa5a8e63e3d9b",
+        "current_sha256": "e1810180b2e7acb5c30ab5481f29905e32f48ecdcf52d61e9e865904f28309df"
+      },
+      {
+        "path": "reference/pi4/MANIFEST_SHA256.json",
+        "kind": "modified",
+        "previous_sha256": "7ccf377182b46eb7facc73a492108f97bbbb2caa65595e757f5b467d98921129",
+        "current_sha256": "b0320c19f1fd3274888abe63e1ac70c95a92914d1931fb920696745c73ccfff9"
+      },
+      {
+        "path": "reference/pi4/README.md",
+        "kind": "modified",
+        "previous_sha256": "4e6c3a623457803be1007f1322b46f8ce1e5553bd56f0e01e0b030598732216a",
+        "current_sha256": "31a8273b327f211bb8414757f1185b2264745efe824a377904cdafdfaad63f4b"
+      },
+      {
+        "path": "reference/pi4_b1/MANIFEST_SHA256.json",
+        "kind": "modified",
+        "previous_sha256": "998171468d177b645c91cdba533ef5f683626a9db67fa44bb7c783e0107d16d4",
+        "current_sha256": "f5b1358c47d5f4acde3f88e4ccbef9217c2bbbdf94e95e65d8724ba0dce55276"
+      },
+      {
+        "path": "reference/pi4_b1/README.md",
+        "kind": "modified",
+        "previous_sha256": "1a80f11d1a7217f0f4351de9ae39c9cb222d0c690f1ce3e6baf3059d26a63efc",
+        "current_sha256": "6ffb71c9c8c0d63263693851fe6b1e4e320c1d005a0ac3d6b7360c7b5700f8bb"
+      },
+      {
+        "path": "reference/pi4_c1/MANIFEST_SHA256.json",
+        "kind": "modified",
+        "previous_sha256": "ea512dc363756c6c379e73fbf922f9130dda3f4f786537f0b16257cf610acfeb",
+        "current_sha256": "5f9dfb5f691817dfeb879402b0cb4f1dc5dd7e315309db09afbb2202a29698d9"
+      },
+      {
+        "path": "reference/pi4_c1/README.md",
+        "kind": "modified",
+        "previous_sha256": "7b1e86c7f099a5356f27669ac568502d6be3234cf3f8599ec857eca5c46a2d51",
+        "current_sha256": "a5db5ec527ea965d421990dd6aa0f6e21dcb028c5140e6e577540af0759b6234"
+      },
+      {
+        "path": "reference/pi4_t1_gpu02/MANIFEST_SHA256.json",
+        "kind": "modified",
+        "previous_sha256": "0145cc39079ec695cd1cb91d45afa2cd336108230783cad6a1fcf0082b9a7627",
+        "current_sha256": "61b3e7bfe7151b0873fc309807236591e1e2b6ea9bf39e5be61454ab97a5561d"
+      },
+      {
+        "path": "reference/pi4_t1_gpu02/README.md",
+        "kind": "modified",
+        "previous_sha256": "860e00ebcddb47c1f5938e75f3185cb196dca578c72f02ddc87481d38f0037bc",
+        "current_sha256": "6e5a67b39882eb60eda1c6d0d1825b3b7690a60e64ff7ce7cd40a58fad8685cd"
+      }
+    ],
+    "manifest_self_reference_excluded": true,
+    "code_config_evidence_byte_comparison": 277,
+    "snapshot_scope": "Historical pre-hosting revision; current_sha256 fields record that revision, not subsequent hosting edits."
+  },
+  "private_hosting_revision": {
+    "date": "2026-09-24",
+    "repository": "https://github.com/chumingyzx/mechanism-memory-studies",
+    "visibility": "private",
+    "public_release": false,
+    "modified_documentation_and_metadata": [
+      "CHANGELOG.md",
+      "CITATION.cff",
+      "CITATION.md",
+      "LICENSE_REVIEW.md",
+      "README.md",
+      "README_CN.md",
+      "REPO_READY_REPORT.md",
+      "REPO_READY_REPORT_CN.md",
+      "VALIDATION_REPORT.json",
+      "catalog/publication_metadata.json",
+      "docs/release_checklist.md"
+    ],
+    "science_records_changed": false
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "status": "COMPLETE",
+  "clock_origin_monotonic": 5382733.048901729,
+  "stop_reason": "TIME_BUDGET",
+  "method": "gru4_behavior",
+  "family": "calibration_gru_d2_c2",
+  "seed": 971,
+  "updates": 11637,
+  "best_step": 11009,
+  "validation_score": 0.021968261138446243,
+  "checkpoint_sha256": "913e9446b43c7ae19eae4a6d1d313c3a4a68cf2e92c91c61bd4e52fe4ad4e683",
+  "selected_checkpoint": "checkpoints/val_018_step_0011009.pt",
+  "initial_sha256": "df361c2fdf2a5c9e55282772792fd6987cc239774e5e50a08dd6cf292df46513",
+  "parameters": 1198,
+  "persistent_dimension": 4,
+  "learning_rate": 0.003,
+  "training_loop_seconds": 553.3946008523926,
+  "validation_seconds": 1.1615800093859434,
+  "checkpoint_write_and_hash_seconds": 0.05577923450618982,
+  "worker_elapsed": 569.9117715656757,
+  "complete_fit_budget_seconds": 600,
+  "cleanup_reserve_seconds": 30,
+  "primary_checkpoint_ready_elapsed": 540.0611603083089,
+  "validation_calls": 20,
+  "peak_cuda_allocated_bytes": 57658880,
+  "gpu": "EXECUTED",
+  "formal_scientific_result": true,
+  "limits": [
+    "Secondary checkpoints are validation-only retrospective views, not separately timed cold runs.",
+    "Parent exit status/deadline must also pass; COMPLETE print alone is not eligibility."
+  ]
+}

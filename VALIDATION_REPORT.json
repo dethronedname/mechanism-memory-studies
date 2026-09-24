@@ -1,0 +1,59 @@
+{
+  "status": "PASS_LOCAL_ATTRIBUTED_DRAFT",
+  "checked_utc": "2026-09-24T15:59:06.887123+00:00",
+  "checks": [
+    {
+      "command": "python -B -S scripts/rebuild_results.py",
+      "returncode": 0
+    },
+    {
+      "command": "python -B -S scripts/verify_reference.py",
+      "returncode": 0
+    },
+    {
+      "command": "python -B -S -m unittest discover -s tests -v",
+      "returncode": 0
+    },
+    {
+      "command": "python -B -S scripts/check_public_tree.py --release",
+      "returncode": 0
+    }
+  ],
+  "standard_library_tests_passed": 20,
+  "bounded_cpu_tests": {
+    "pi4": 9,
+    "c1": 11,
+    "b1": 39,
+    "t1": 12,
+    "total": 71
+  },
+  "inventory_tool_tests_passed": 4,
+  "all_original_readonly_verifiers_passed": true,
+  "table_write_byte_identical": true,
+  "source_import_members": 127,
+  "python_members_byte_identical": 84,
+  "scalar_records": 1512,
+  "evidence_files": 128,
+  "evidence_archive_members_verified": true,
+  "source_and_raw_archives_unchanged": true,
+  "scientific_training": false,
+  "new_gpu_work": false,
+  "historical_neural_replay": false,
+  "remote_creation_or_publication": false,
+  "remote_urls": [],
+  "commit_created": false,
+  "hosted_ci_executed": false,
+  "draft_scan": "PASS",
+  "release_ready": true,
+  "release_scan_remaining_issues": [],
+  "note": "Current checks cover metadata, evidence consistency, source identity, and bounded public-tree hygiene. Prior assembly CPU checks are retained separately. These checks are not independent scientific replication.",
+  "prior_assembly_checked_utc": "2026-09-24T15:27:57.262423+00:00",
+  "citation_schema_validation": "PASS_CFF_1.2.0",
+  "license_metadata_complete": true,
+  "sole_author": "chumingyzx",
+  "author_name_type": "public_pseudonym",
+  "bounded_cpu_tests_rerun_for_metadata_revision": false,
+  "unchanged_code_config_evidence_files_vs_prior_draft": 277,
+  "release_ready_scope": "Local repository content and metadata only; no remote, release, or full-weight asset has been published.",
+  "report_scope": "Historical local validation before private hosting; remote/commit/CI fields describe the recorded validation time."
+}

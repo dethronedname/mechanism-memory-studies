@@ -1,0 +1,12 @@
+{
+  "status": "COMPLETE",
+  "exit_code": 0,
+  "elapsed_seconds": 570.1736574778333,
+  "hard_limit_seconds": 600,
+  "parent_origin_monotonic": 5381592.853933159,
+  "parent_end_monotonic": 5382163.027590637,
+  "deadline_monotonic": 5382192.853933159,
+  "timeout_observed": false,
+  "cleanup_overrun_seconds": 0.0,
+  "note": "Deadline includes subprocess startup. Reaping after a timeout is charged, not training allowance."
+}

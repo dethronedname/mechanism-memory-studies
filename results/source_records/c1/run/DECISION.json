@@ -1,0 +1,380 @@
+{
+  "protocol": "PI4-C1-independent-data-confirmation-v0.1-20260921",
+  "status": "PARTIAL_REPLICATION",
+  "datasets": [
+    {
+      "dataset": "d01",
+      "data_seed": 921101,
+      "saved": {
+        "passed": true,
+        "checks": {
+          "mechanism": true,
+          "general": true,
+          "seed_direction": true
+        },
+        "boundary_sensitive": false,
+        "mechanism_geomean_ratio": 0.5429206379516591,
+        "general_paired_median_ratios": {
+          "ring4": 1.0315294833923179,
+          "ring8": 0.9757154684858207,
+          "long8": 0.8213106017751893
+        },
+        "seed_mechanism_geomeans": [
+          0.9589602447747817,
+          0.4704316302737017,
+          0.3547414480242989
+        ],
+        "mechanism_diagnostics": {
+          "reset_iso": {
+            "same_mechanism_repeat_over_true_difference": [
+              0.08939901946742056,
+              0.3786571821516205,
+              0.303809917150909
+            ],
+            "wrong_mechanism_mse_ratio": [
+              1.0181237939410004,
+              1.8080113349129534,
+              2.0198973281444297
+            ],
+            "candidate_difference_errors": [
+              0.9620772851320801,
+              0.5636940910558385,
+              0.36885146063302787
+            ]
+          },
+          "reset_ring4": {
+            "same_mechanism_repeat_over_true_difference": [
+              0.05921394332890403,
+              0.27729617315190364,
+              0.3124860746055842
+            ],
+            "wrong_mechanism_mse_ratio": [
+              1.0452402452106153,
+              2.6000316923113016,
+              2.468320205670516
+            ],
+            "candidate_difference_errors": [
+              0.9561627527153659,
+              0.39269008121495497,
+              0.34120692082625487
+            ]
+          }
+        },
+        "log_2x2_contrast_mean": -0.5839430294650335,
+        "warning": "Calibration consistency and mechanism reading are reported; no new post-hoc gate."
+      },
+      "cpu_replay": {
+        "passed": true,
+        "checks": {
+          "mechanism": true,
+          "general": true,
+          "seed_direction": true
+        },
+        "boundary_sensitive": false,
+        "mechanism_geomean_ratio": 0.542921030954001,
+        "general_paired_median_ratios": {
+          "ring4": 1.0315269866501644,
+          "ring8": 0.9757132134180082,
+          "long8": 0.82131096030868
+        },
+        "seed_mechanism_geomeans": [
+          0.9589602930046723,
+          0.4704321282662381,
+          0.35474182501549323
+        ],
+        "mechanism_diagnostics": {
+          "reset_iso": {
+            "same_mechanism_repeat_over_true_difference": [
+              0.08939923792568465,
+              0.3786574652503128,
+              0.3038106336044635
+            ],
+            "wrong_mechanism_mse_ratio": [
+              1.0181237586219112,
+              1.8080076963222125,
+              2.019898185380899
+            ],
+            "candidate_difference_errors": [
+              0.9620773679781374,
+              0.5636950788519275,
+              0.3688523025659172
+            ]
+          },
+          "reset_ring4": {
+            "same_mechanism_repeat_over_true_difference": [
+              0.05921396473965399,
+              0.277296353390271,
+              0.3124866093707676
+            ],
+            "wrong_mechanism_mse_ratio": [
+              1.0452401522823207,
+              2.6000249902544934,
+              2.468317665485696
+            ],
+            "candidate_difference_errors": [
+              0.9561628122347483,
+              0.39269018884865203,
+              0.34120682242669165
+            ]
+          }
+        },
+        "log_2x2_contrast_mean": -0.5839421566338099,
+        "warning": "Calibration consistency and mechanism reading are reported; no new post-hoc gate."
+      },
+      "audit_status": "PASS",
+      "legacy_elementwise_status": "FAIL"
+    },
+    {
+      "dataset": "d02",
+      "data_seed": 922101,
+      "saved": {
+        "passed": false,
+        "checks": {
+          "mechanism": true,
+          "general": false,
+          "seed_direction": true
+        },
+        "boundary_sensitive": false,
+        "mechanism_geomean_ratio": 0.5358144515172601,
+        "general_paired_median_ratios": {
+          "ring4": 1.2997220476811866,
+          "ring8": 1.0654723520627791,
+          "long8": 0.7914032187130218
+        },
+        "seed_mechanism_geomeans": [
+          0.3290093779241832,
+          0.9258451222879223,
+          0.5050061285749182
+        ],
+        "mechanism_diagnostics": {
+          "reset_iso": {
+            "same_mechanism_repeat_over_true_difference": [
+              0.48568844261714134,
+              0.21274909550970447,
+              0.582689347709061
+            ],
+            "wrong_mechanism_mse_ratio": [
+              2.8638822661226833,
+              1.1043180317196903,
+              1.5632932108299828
+            ],
+            "candidate_difference_errors": [
+              0.2698269133270473,
+              0.9198301531626536,
+              0.45718712321748783
+            ]
+          },
+          "reset_ring4": {
+            "same_mechanism_repeat_over_true_difference": [
+              0.4323876755586169,
+              0.19272489363482953,
+              0.6033354569638907
+            ],
+            "wrong_mechanism_mse_ratio": [
+              2.1929905954237547,
+              1.0680261694903097,
+              1.4534024650061885
+            ],
+            "candidate_difference_errors": [
+              0.4012075147513644,
+              0.9318654877954248,
+              0.5501642280153592
+            ]
+          }
+        },
+        "log_2x2_contrast_mean": -0.6134852905864745,
+        "warning": "Calibration consistency and mechanism reading are reported; no new post-hoc gate."
+      },
+      "cpu_replay": {
+        "passed": false,
+        "checks": {
+          "mechanism": true,
+          "general": false,
+          "seed_direction": true
+        },
+        "boundary_sensitive": false,
+        "mechanism_geomean_ratio": 0.5358145923811013,
+        "general_paired_median_ratios": {
+          "ring4": 1.299723589992486,
+          "ring8": 1.065474407856378,
+          "long8": 0.7914027764627434
+        },
+        "seed_mechanism_geomeans": [
+          0.32900984791503973,
+          0.9258454536393012,
+          0.5050056247292345
+        ],
+        "mechanism_diagnostics": {
+          "reset_iso": {
+            "same_mechanism_repeat_over_true_difference": [
+              0.48568699782807917,
+              0.2127496644543015,
+              0.5826888878275813
+            ],
+            "wrong_mechanism_mse_ratio": [
+              2.86388414743476,
+              1.1043177351928606,
+              1.563293439622323
+            ],
+            "candidate_difference_errors": [
+              0.2698269192987544,
+              0.9198305903706153,
+              0.45718602143225473
+            ]
+          },
+          "reset_ring4": {
+            "same_mechanism_repeat_over_true_difference": [
+              0.4323868023829058,
+              0.1927252197654596,
+              0.603336109876576
+            ],
+            "wrong_mechanism_mse_ratio": [
+              2.1929884696082453,
+              1.0680259673515549,
+              1.453402613339692
+            ],
+            "candidate_difference_errors": [
+              0.4012086528683831,
+              0.9318657257743804,
+              0.5501644577728501
+            ]
+          }
+        },
+        "log_2x2_contrast_mean": -0.6134850567240612,
+        "warning": "Calibration consistency and mechanism reading are reported; no new post-hoc gate."
+      },
+      "audit_status": "PASS",
+      "legacy_elementwise_status": "FAIL"
+    },
+    {
+      "dataset": "d03",
+      "data_seed": 923101,
+      "saved": {
+        "passed": false,
+        "checks": {
+          "mechanism": true,
+          "general": false,
+          "seed_direction": true
+        },
+        "boundary_sensitive": false,
+        "mechanism_geomean_ratio": 0.8941661052969649,
+        "general_paired_median_ratios": {
+          "ring4": 1.1925638760029886,
+          "ring8": 0.9661066064647837,
+          "long8": 0.9600700731868974
+        },
+        "seed_mechanism_geomeans": [
+          0.8012308968928372,
+          0.9042041493850415,
+          0.9868029201753984
+        ],
+        "mechanism_diagnostics": {
+          "reset_iso": {
+            "same_mechanism_repeat_over_true_difference": [
+              0.28096160510516566,
+              0.0944715584222375,
+              0.023912876299899518
+            ],
+            "wrong_mechanism_mse_ratio": [
+              1.284026610432887,
+              1.1134348849881832,
+              1.0140156601033297
+            ],
+            "candidate_difference_errors": [
+              0.7972815664686633,
+              0.8984555559873116,
+              0.9886202372155379
+            ]
+          },
+          "reset_ring4": {
+            "same_mechanism_repeat_over_true_difference": [
+              0.2795433839389381,
+              0.11549434452322942,
+              0.027163113748383524
+            ],
+            "wrong_mechanism_mse_ratio": [
+              1.215770682276436,
+              1.0860591212521367,
+              1.0151300388529696
+            ],
+            "candidate_difference_errors": [
+              0.8058760561079695,
+              0.9100154233105795,
+              0.9847507428365092
+            ]
+          }
+        },
+        "log_2x2_contrast_mean": -0.10847418417169906,
+        "warning": "Calibration consistency and mechanism reading are reported; no new post-hoc gate."
+      },
+      "cpu_replay": {
+        "passed": false,
+        "checks": {
+          "mechanism": true,
+          "general": false,
+          "seed_direction": true
+        },
+        "boundary_sensitive": false,
+        "mechanism_geomean_ratio": 0.8941660944163844,
+        "general_paired_median_ratios": {
+          "ring4": 1.192559923684872,
+          "ring8": 0.9661070140732122,
+          "long8": 0.9600704915455966
+        },
+        "seed_mechanism_geomeans": [
+          0.8012303729251344,
+          0.9042047508939139,
+          0.9868028730190013
+        ],
+        "mechanism_diagnostics": {
+          "reset_iso": {
+            "same_mechanism_repeat_over_true_difference": [
+              0.280961896053892,
+              0.09447168478660962,
+              0.02391290088995839
+            ],
+            "wrong_mechanism_mse_ratio": [
+              1.2840297933131128,
+              1.113433705081015,
+              1.014015894650356
+            ],
+            "candidate_difference_errors": [
+              0.7972800874695216,
+              0.8984566195495913,
+              0.9886200136490311
+            ]
+          },
+          "reset_ring4": {
+            "same_mechanism_repeat_over_true_difference": [
+              0.2795436863698276,
+              0.11549449785623155,
+              0.027163152540651037
+            ],
+            "wrong_mechanism_mse_ratio": [
+              1.2157702572924436,
+              1.0860589632463904,
+              1.0151301284958785
+            ],
+            "candidate_difference_errors": [
+              0.8058764440964468,
+              0.9100155816695342,
+              0.9847506471117233
+            ]
+          }
+        },
+        "log_2x2_contrast_mean": -0.10847410119937555,
+        "warning": "Calibration consistency and mechanism reading are reported; no new post-hoc gate."
+      },
+      "audit_status": "PASS",
+      "legacy_elementwise_status": "PASS"
+    }
+  ],
+  "problems": [],
+  "n_independent_data_draws": 3,
+  "initializations_per_data_draw": 3,
+  "dataset_pass_count": 1,
+  "pooled_equal_dataset_mechanism_geomean": 0.6383462708315064,
+  "scope": "Replication within the same known simulator and parameter law. No cross-simulator, measured-data, significance, or architecture-originality claim.",
+  "historical_status_unchanged": "PI4 GPU01 had elementwise replay FAIL; never changed by C1.",
+  "automatic_next_experiment": false
+}

@@ -1,0 +1,13 @@
+{
+  "status": "COLLECTING",
+  "run_returncode": 0,
+  "run_wall_seconds": 4713.438647617586,
+  "raw_protocol_status": "EXPLORATORY_COMPLETE",
+  "summarize_returncode": 0,
+  "audit_returncode": 1,
+  "audit_status": "MISSING",
+  "greybox_returncode": 0,
+  "greybox_status": "COMPLETE",
+  "raw_numeric_decision": "LIMITED_ARCHITECTURE_SIGNAL",
+  "decision_validity": "INCONCLUSIVE"
+}

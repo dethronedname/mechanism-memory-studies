@@ -1,0 +1,1295 @@
+{
+  "schema_version": 1,
+  "kind": "PUBLIC_DRAFT_EXPORT",
+  "files": {
+    ".github/workflows/evidence.yml": {
+      "bytes": 800,
+      "sha256": "f8196da4617c0a8a8b7a1e92533072c2d79b8c55b77fe7ce04440677fbbd7f96"
+    },
+    ".gitignore": {
+      "bytes": 407,
+      "sha256": "37140dca78b50333254509eaaaafdde10b7fe8a4dba42587c3262d5b2d56bd46"
+    },
+    "AI_USAGE.md": {
+      "bytes": 804,
+      "sha256": "63a5b99ad552f9e02013b7ba7468395b404d581b4ef743c55bf58ee2855e20aa"
+    },
+    "ASSET_INVENTORY.json": {
+      "bytes": 29184,
+      "sha256": "7cf1db0abe2181e8181d8c149635e738690acd1312faa5207d74d15ab8dc0c76"
+    },
+    "AUTHORS.md": {
+      "bytes": 722,
+      "sha256": "48b2e9a757fad682e8ae23d7132a3861ea141ddad2b77dac78ec4c593cdbe662"
+    },
+    "CHANGELOG.md": {
+      "bytes": 1831,
+      "sha256": "3ac348c8ba82259560844f2a0a4c3c690040ade3f210ed7e28d16d158eaa46bb"
+    },
+    "CITATION.cff": {
+      "bytes": 920,
+      "sha256": "ca3e73801bed6b7834bf0dbb6fd6f567095288a5753d7e51e6378697a01c1d4a"
+    },
+    "CITATION.md": {
+      "bytes": 2050,
+      "sha256": "9c305aab577a3972333b2d5b1d5f38b6dbe2cb28bd1662ac5efcacef99028c6b"
+    },
+    "CONTRIBUTING.md": {
+      "bytes": 1042,
+      "sha256": "a4af81e1d5cbeb3f5726a31ff31f53161f0107a770c53990caed42d6747a4018"
+    },
+    "CURATION_CHANGES.json": {
+      "bytes": 14770,
+      "sha256": "ffb2bbec7b4b8f1149bf53629047db726cb4855028bb2b10f2d1b99781eaf5d1"
+    },
+    "LICENSE": {
+      "bytes": 1067,
+      "sha256": "80167e5d295eee9893ffac903031802ced76087190d4709187392a377a82b246"
+    },
+    "LICENSES/CC-BY-4.0.txt": {
+      "bytes": 17023,
+      "sha256": "d557539df68e771cc1eedcc91d13f70fca930e508d11eedcafa4b15db49e3744"
+    },
+    "LICENSE_REVIEW.md": {
+      "bytes": 2349,
+      "sha256": "0b53de419174f7eab90ef36333b696bac9d211b30c84924584f726498b5a2e2f"
+    },
+    "LICENSING.md": {
+      "bytes": 3597,
+      "sha256": "93311be54187836a9cf8322e450e6090b1a7e02b7c6d2d3feecfc5900c42b226"
+    },
+    "README.md": {
+      "bytes": 7222,
+      "sha256": "83f1105eaf5f7be2cc3085a8b870ae2516661d89bb762020a07b21f28f9264e0"
+    },
+    "README_CN.md": {
+      "bytes": 5004,
+      "sha256": "9a653dcf9c3bea1b587f28a9731f5fb573aa37886089a7ce73248e4078a5abde"
+    },
+    "REDACTION_LOG.json": {
+      "bytes": 17797,
+      "sha256": "27a3fe6ad33c1393c2f9ac1d99e97cabf379109168d787f431257a0bfcbc027c"
+    },
+    "REPO_READY_REPORT.md": {
+      "bytes": 5119,
+      "sha256": "238ef2fc12652b456e607664b9ceff76fdb72d1c24f920a430181d17f9bebdcc"
+    },
+    "REPO_READY_REPORT_CN.md": {
+      "bytes": 7131,
+      "sha256": "6a82fb63a5d94c95e58aba568c0059c3a6252f4f704ccf760edcc78d03631d28"
+    },
+    "SOURCE_IMPORT_MANIFEST.json": {
+      "bytes": 73436,
+      "sha256": "1ea2244cd8a831cbe8ccf6dcfd82b9735d285b6abbeb370cd52de9d8160bc14d"
+    },
+    "VALIDATION_REPORT.json": {
+      "bytes": 2138,
+      "sha256": "9dda7ef3b05bb51719f1c50c02d41d1a3b79b6982b3f2f5d5e7d85f990817462"
+    },
+    "catalog/assets.json": {
+      "bytes": 29184,
+      "sha256": "7cf1db0abe2181e8181d8c149635e738690acd1312faa5207d74d15ab8dc0c76"
+    },
+    "catalog/ci_source_verification.json": {
+      "bytes": 388,
+      "sha256": "8e1ec81948e5eafbcf87b10781f3ef44eb559fa94b34ca00149d15f08c3c4336"
+    },
+    "catalog/publication_metadata.json": {
+      "bytes": 1183,
+      "sha256": "7e24bbce5f2d76b72a750806c239652f729f11481686ef21a739f53b69249e29"
+    },
+    "catalog/runtime_environments.json": {
+      "bytes": 2612,
+      "sha256": "147ae061b6e530e4475dc2e7a7ddfdad3cfb8f9cba5a3af15cae01920f8c269b"
+    },
+    "catalog/source_license_scan.json": {
+      "bytes": 1506,
+      "sha256": "c99db840d6f11e15d31507e8d26c15654bdeea00e408a589744347a9b69995b3"
+    },
+    "catalog/studies.json": {
+      "bytes": 2435,
+      "sha256": "537885d919dfbe8bdd7edd1a7ccf77cd250979fb839b34ba73854c68fe876d9a"
+    },
+    "catalog/t1_failed_run_inspection.json": {
+      "bytes": 8004,
+      "sha256": "66de8beef20d1e3c7967f65c29696dfa96fc6e4db35907f8fc7ac15736d09eb2"
+    },
+    "docs/ci_scope.md": {
+      "bytes": 1148,
+      "sha256": "025b15b95adc7cbeb4f0dcfabfecc463018fdcef7721bc49da71ddb3f6c7886f"
+    },
+    "docs/conclusions.md": {
+      "bytes": 5945,
+      "sha256": "5473f93032d667d9e0b997c5a26e83591d0274ff0cc8a2ed76dc6ffbf148e971"
+    },
+    "docs/historical_context.md": {
+      "bytes": 2042,
+      "sha256": "e973e0b8cc8d18fe80ecf081769f9cf3429fb18c3e126e4e850b7ed8bf3327d2"
+    },
+    "docs/incidents/t1_cuda_initialization.md": {
+      "bytes": 1513,
+      "sha256": "b6f18c2c3113789e8986d972cfc2c2420aefd113850c595a8249118dcb852d58"
+    },
+    "docs/methods.md": {
+      "bytes": 5976,
+      "sha256": "04a1038718ff00c919bace59455658002f19156a4203a7b77d05a357a3cc2e48"
+    },
+    "docs/provenance.md": {
+      "bytes": 3336,
+      "sha256": "38c45637f8a0fe36543a50ae231deffa45e65887e5b9e5d3320807a4146e7966"
+    },
+    "docs/related_work.md": {
+      "bytes": 2821,
+      "sha256": "3eed8aa6f790ec9e1c2247bd3c8d000f0ab052c1de6637f256ee0e45b30e35c9"
+    },
+    "docs/release_checklist.md": {
+      "bytes": 3415,
+      "sha256": "24ef7bb1872191e497cb7dc535b447e266ed9a5018d8ec47d94bf294844260bd"
+    },
+    "docs/reproduction.md": {
+      "bytes": 4582,
+      "sha256": "813bc0441f98986b47a603dc1069a235c827dba6623087b6c0f7b64b727977c3"
+    },
+    "docs/study_map.md": {
+      "bytes": 3497,
+      "sha256": "212bc4c9a0621d2102da27f11003575496b4705bbccea29b3754918e116b1cf2"
+    },
+    "reference/pi4/MANIFEST_SHA256.json": {
+      "bytes": 2149,
+      "sha256": "b0320c19f1fd3274888abe63e1ac70c95a92914d1931fb920696745c73ccfff9"
+    },
+    "reference/pi4/PUBLIC_SNAPSHOT.json": {
+      "bytes": 692,
+      "sha256": "76a74840006b870e909a989cdf04197f0e055097114454c8d34f62ffdad00e4f"
+    },
+    "reference/pi4/README.md": {
+      "bytes": 1016,
+      "sha256": "31a8273b327f211bb8414757f1185b2264745efe824a377904cdafdfaad63f4b"
+    },
+    "reference/pi4/configs/cpu.json": {
+      "bytes": 907,
+      "sha256": "95e2ab2901ef685b7b110ed24e201d47f7b42e273443faa34154bab48469fd35"
+    },
+    "reference/pi4/configs/gpu.json": {
+      "bytes": 1104,
+      "sha256": "d7740fe8a8a1212970eb787964b25e1891e4d4e17a357527e8340d4087a1ce87"
+    },
+    "reference/pi4/docs/MATH_CN.md": {
+      "bytes": 3362,
+      "sha256": "3721e19e77bb3878fbe31df013e5acbc6cefe3c758b22ab5683db186acc5ec64"
+    },
+    "reference/pi4/docs/PROTOCOL_CN.md": {
+      "bytes": 4030,
+      "sha256": "c4729d8b9f421091cf34e507683569d5e13785a94dd7b0c12c471d7a07ce2020"
+    },
+    "reference/pi4/docs/SOURCES.md": {
+      "bytes": 379,
+      "sha256": "416a9c81cb10dbd4e272d2a7be626e3f7a5bd89040af826daf28775f3cbf5094"
+    },
+    "reference/pi4/pi2/__init__.py": {
+      "bytes": 78,
+      "sha256": "be3f02892b484b0d3d2f8f143bb3af5f0bd14d081644829bf8a308830710169c"
+    },
+    "reference/pi4/pi2/models.py": {
+      "bytes": 6815,
+      "sha256": "6688dbbec6c4283e285d7668806eb2afacbfdf9fe5d857b07cdd1f1d869b114f"
+    },
+    "reference/pi4/pi2/simulator.py": {
+      "bytes": 3562,
+      "sha256": "898220c5a67cd014301e5b3cd9a33aa24ae0402e5ed994a8227f84356a7ddf48"
+    },
+    "reference/pi4/pi4/__init__.py": {
+      "bytes": 84,
+      "sha256": "2feb687726a080bb9a40ca484e4a988e8504870b6fdbbc66c4b9d7e0ef8da0fa"
+    },
+    "reference/pi4/pi4/data.py": {
+      "bytes": 5372,
+      "sha256": "c0410065cf322b860f0f69a6848bc46e0b732d6d5e50ddd029381b52975fe12c"
+    },
+    "reference/pi4/pi4/experiment.py": {
+      "bytes": 8597,
+      "sha256": "d740e119070098c1715133b63344cea220963a7aa0f8305fe52a61c26888fceb"
+    },
+    "reference/pi4/pi4/greybox.py": {
+      "bytes": 4498,
+      "sha256": "a0689a11c5551a1b359c2145210fd313119d2cca362d276b533d1c891c9e2a59"
+    },
+    "reference/pi4/pi4/io.py": {
+      "bytes": 1182,
+      "sha256": "94eab91a05e8292caf9ddc372984f0f44d175d096c7e1d0e1b4bde681aebdecf"
+    },
+    "reference/pi4/pi4/learning.py": {
+      "bytes": 3770,
+      "sha256": "98f9a8c95b4d74f11b871447406646092cf224aa81ffb3d0903c9412126c1b76"
+    },
+    "reference/pi4/pi4/preflight.py": {
+      "bytes": 2551,
+      "sha256": "61a430317f276c74fc34d963f6764282dba802b5e04a0d5bdb19adc28788d69e"
+    },
+    "reference/pi4/pyproject.toml": {
+      "bytes": 394,
+      "sha256": "1090081f196bc5072e7abc6b7216b108909436505fa2ac9a454715a8b249bda3"
+    },
+    "reference/pi4/scripts/audit.py": {
+      "bytes": 5092,
+      "sha256": "18d4502a98111e75989e9d5372060e71d19f855561402527a9eb90a07a56be32"
+    },
+    "reference/pi4/scripts/greybox.py": {
+      "bytes": 302,
+      "sha256": "a90447c457ee9fe1c09fa539f120d1500a1a37db1071f2190133679f2b18e6b8"
+    },
+    "reference/pi4/scripts/run.py": {
+      "bytes": 5862,
+      "sha256": "9d9fbc0333dbc4cc09888db5ed38b75874171bd223260669a7ca4d3b2fec1f90"
+    },
+    "reference/pi4/scripts/run_gpu.sh": {
+      "bytes": 300,
+      "sha256": "cc9c04468025dbc7dfa60cb3803a1ae12d388fcb20ca267b1d887c3f42732184"
+    },
+    "reference/pi4/scripts/summarize.py": {
+      "bytes": 2774,
+      "sha256": "c0e5a36afa406bcde895d522cf3e6b35a7f31ca926ba2b7d818c208b05b0eada"
+    },
+    "reference/pi4/tests/test_study.py": {
+      "bytes": 8447,
+      "sha256": "7c9e6d3d0f8cc82f19b1165b73a613f12a62da247de425c31f0998d455df90f6"
+    },
+    "reference/pi4_b1/MANIFEST_SHA256.json": {
+      "bytes": 2905,
+      "sha256": "f5b1358c47d5f4acde3f88e4ccbef9217c2bbbdf94e95e65d8724ba0dce55276"
+    },
+    "reference/pi4_b1/PUBLIC_SNAPSHOT.json": {
+      "bytes": 696,
+      "sha256": "a57153937c1b848d0660b9b917ba74fe4e95369aa182cf0baa8ce60e9ba34f82"
+    },
+    "reference/pi4_b1/README.md": {
+      "bytes": 1019,
+      "sha256": "6ffb71c9c8c0d63263693851fe6b1e4e320c1d005a0ac3d6b7360c7b5700f8bb"
+    },
+    "reference/pi4_b1/bc1/__init__.py": {
+      "bytes": 87,
+      "sha256": "e17cda16b273e69c3c146b100ea07e990c97099d804c9acaa57326ecf3e1e4ae"
+    },
+    "reference/pi4_b1/bc1/analysis.py": {
+      "bytes": 5634,
+      "sha256": "7d5d2683aa08b500311741bcc5cae42964c49ce63f870e0f4acea72ac62091b7"
+    },
+    "reference/pi4_b1/bc1/experiment.py": {
+      "bytes": 8787,
+      "sha256": "41118ae6bee4794b2dc4d5ff60b5295a5a18f7124f162eef7cb511065564ac65"
+    },
+    "reference/pi4_b1/bc1/models.py": {
+      "bytes": 5123,
+      "sha256": "9816e48243f4b0c1ea91b376fc2a59311d83daf850ae4260a9c838ead8d209b4"
+    },
+    "reference/pi4_b1/bc1/numerics.py": {
+      "bytes": 13835,
+      "sha256": "79a7b8a681f28321decd00a941f00cdcc92532b80297dc6803e2412599742d58"
+    },
+    "reference/pi4_b1/bc1/protocol.py": {
+      "bytes": 5019,
+      "sha256": "ede8966cb07d1aa0e1faab46ffec4489289c5ff65f893eb9e65fa07e02a85ecb"
+    },
+    "reference/pi4_b1/bc1/runner.py": {
+      "bytes": 12727,
+      "sha256": "9339b8c2f66b6aea19762536dbd29521bcc81453e47411a4de925c289a3335ea"
+    },
+    "reference/pi4_b1/configs/challenge.json": {
+      "bytes": 3278,
+      "sha256": "30917409f124e0773ef223b0e11006fe528afe56f85ef2b90c4ff95f431cafbc"
+    },
+    "reference/pi4_b1/configs/cpu.json": {
+      "bytes": 907,
+      "sha256": "95e2ab2901ef685b7b110ed24e201d47f7b42e273443faa34154bab48469fd35"
+    },
+    "reference/pi4_b1/configs/legacy_cpu.json": {
+      "bytes": 907,
+      "sha256": "95e2ab2901ef685b7b110ed24e201d47f7b42e273443faa34154bab48469fd35"
+    },
+    "reference/pi4_b1/configs/legacy_gpu.json": {
+      "bytes": 1104,
+      "sha256": "d7740fe8a8a1212970eb787964b25e1891e4d4e17a357527e8340d4087a1ce87"
+    },
+    "reference/pi4_b1/configs/smoke.json": {
+      "bytes": 3123,
+      "sha256": "bc8a0ff1d7f0de2ef3b63c78320d5437a1a54cbc090c500934544f1b4d7a884a"
+    },
+    "reference/pi4_b1/docs/PROTOCOL_CN.md": {
+      "bytes": 9513,
+      "sha256": "67d2910d9cd1638fc7c4945c97d432293b8573ab4fee3184eba6f0d7af05aae2"
+    },
+    "reference/pi4_b1/docs/SOURCES.md": {
+      "bytes": 383,
+      "sha256": "73a92a1beadb08a81f3d0273aee9f9b403c6d00fcd47093153449be5c35f7f38"
+    },
+    "reference/pi4_b1/pi2/__init__.py": {
+      "bytes": 78,
+      "sha256": "be3f02892b484b0d3d2f8f143bb3af5f0bd14d081644829bf8a308830710169c"
+    },
+    "reference/pi4_b1/pi2/models.py": {
+      "bytes": 6815,
+      "sha256": "6688dbbec6c4283e285d7668806eb2afacbfdf9fe5d857b07cdd1f1d869b114f"
+    },
+    "reference/pi4_b1/pi2/simulator.py": {
+      "bytes": 3562,
+      "sha256": "898220c5a67cd014301e5b3cd9a33aa24ae0402e5ed994a8227f84356a7ddf48"
+    },
+    "reference/pi4_b1/pi4/__init__.py": {
+      "bytes": 84,
+      "sha256": "2feb687726a080bb9a40ca484e4a988e8504870b6fdbbc66c4b9d7e0ef8da0fa"
+    },
+    "reference/pi4_b1/pi4/data.py": {
+      "bytes": 5372,
+      "sha256": "c0410065cf322b860f0f69a6848bc46e0b732d6d5e50ddd029381b52975fe12c"
+    },
+    "reference/pi4_b1/pi4/experiment.py": {
+      "bytes": 8597,
+      "sha256": "d740e119070098c1715133b63344cea220963a7aa0f8305fe52a61c26888fceb"
+    },
+    "reference/pi4_b1/pi4/greybox.py": {
+      "bytes": 4498,
+      "sha256": "a0689a11c5551a1b359c2145210fd313119d2cca362d276b533d1c891c9e2a59"
+    },
+    "reference/pi4_b1/pi4/io.py": {
+      "bytes": 1182,
+      "sha256": "94eab91a05e8292caf9ddc372984f0f44d175d096c7e1d0e1b4bde681aebdecf"
+    },
+    "reference/pi4_b1/pi4/learning.py": {
+      "bytes": 3770,
+      "sha256": "98f9a8c95b4d74f11b871447406646092cf224aa81ffb3d0903c9412126c1b76"
+    },
+    "reference/pi4_b1/pi4/preflight.py": {
+      "bytes": 2551,
+      "sha256": "61a430317f276c74fc34d963f6764282dba802b5e04a0d5bdb19adc28788d69e"
+    },
+    "reference/pi4_b1/provenance/ORIGINAL_CORE_SHA256.json": {
+      "bytes": 883,
+      "sha256": "0245700c9f2654e386712dd74280bc4d8ecc47666750712b341872c563a8832d"
+    },
+    "reference/pi4_b1/pyproject.toml": {
+      "bytes": 443,
+      "sha256": "078403b7fbe47840f70b85256191b8db27bf7a1af1ebc1cd58ca244e8e8ad0fc"
+    },
+    "reference/pi4_b1/scripts/run.py": {
+      "bytes": 1267,
+      "sha256": "d6f97779c1a1f5d9ee2358add631508a49c0452b23be145623483f90a28e7896"
+    },
+    "reference/pi4_b1/scripts/run_gpu.sh": {
+      "bytes": 541,
+      "sha256": "cbcc788f3da89435a616b609054ffe958117a6d0129d56aa3a047a45b3814d9d"
+    },
+    "reference/pi4_b1/tests/test_baselines.py": {
+      "bytes": 7695,
+      "sha256": "08c446f6d9ab7ea83febbae5a3350aa0ec1ac316084797ef088a38ef70b3e389"
+    },
+    "reference/pi4_b1/tests/test_legacy.py": {
+      "bytes": 8447,
+      "sha256": "7c9e6d3d0f8cc82f19b1165b73a613f12a62da247de425c31f0998d455df90f6"
+    },
+    "reference/pi4_c1/MANIFEST_SHA256.json": {
+      "bytes": 2618,
+      "sha256": "5f9dfb5f691817dfeb879402b0cb4f1dc5dd7e315309db09afbb2202a29698d9"
+    },
+    "reference/pi4_c1/PUBLIC_SNAPSHOT.json": {
+      "bytes": 695,
+      "sha256": "79808cb3144d287d759feb50659c39a3408f31b8002c795ed94e8e30cf2999d4"
+    },
+    "reference/pi4_c1/README.md": {
+      "bytes": 1018,
+      "sha256": "a5db5ec527ea965d421990dd6aa0f6e21dcb028c5140e6e577540af0759b6234"
+    },
+    "reference/pi4_c1/c1/__init__.py": {
+      "bytes": 80,
+      "sha256": "ce74ba7ee52e392f8f2be8ad3c0fb66a63c4a065076a4a7a2da7c6102a465805"
+    },
+    "reference/pi4_c1/c1/analysis.py": {
+      "bytes": 6502,
+      "sha256": "13ed98807283640554bed1ec67abe635c26a7554357505b3b956c71b93a1b492"
+    },
+    "reference/pi4_c1/c1/numerics.py": {
+      "bytes": 13782,
+      "sha256": "6051b187289a5498c33c980693b9f1a684b18bbb8f48728474e04445fa0db9c5"
+    },
+    "reference/pi4_c1/c1/protocol.py": {
+      "bytes": 4831,
+      "sha256": "a72a0514b832669db98ce3482ae9a06be4687404f362041ba37ec1035c5820b6"
+    },
+    "reference/pi4_c1/c1/runner.py": {
+      "bytes": 12941,
+      "sha256": "dfe0f1bd6b5934896df2c80238a49b8f0883df953b3bf165c812cdd13471f868"
+    },
+    "reference/pi4_c1/configs/confirm.json": {
+      "bytes": 2708,
+      "sha256": "44edebb506034d3ffa293844dbec80ae7595c8b6374f8dac0f224543bbcdc938"
+    },
+    "reference/pi4_c1/configs/cpu.json": {
+      "bytes": 907,
+      "sha256": "95e2ab2901ef685b7b110ed24e201d47f7b42e273443faa34154bab48469fd35"
+    },
+    "reference/pi4_c1/configs/gpu.json": {
+      "bytes": 1104,
+      "sha256": "d7740fe8a8a1212970eb787964b25e1891e4d4e17a357527e8340d4087a1ce87"
+    },
+    "reference/pi4_c1/configs/smoke.json": {
+      "bytes": 2547,
+      "sha256": "369c35e36b5982d5d6f593c2a7132e8f4db276ebea0699f682fc2de83b30312a"
+    },
+    "reference/pi4_c1/docs/PROTOCOL_CN.md": {
+      "bytes": 10219,
+      "sha256": "6c25f22b9c8adb43f6757ecb2ae86038d01e63d0c670b5cfd237a61fcc663d73"
+    },
+    "reference/pi4_c1/docs/SOURCES.md": {
+      "bytes": 382,
+      "sha256": "f8fdb157504e9b6d10c76ff933188b78d39da46088be736dde6863c80e43fee1"
+    },
+    "reference/pi4_c1/pi2/__init__.py": {
+      "bytes": 78,
+      "sha256": "be3f02892b484b0d3d2f8f143bb3af5f0bd14d081644829bf8a308830710169c"
+    },
+    "reference/pi4_c1/pi2/models.py": {
+      "bytes": 6815,
+      "sha256": "6688dbbec6c4283e285d7668806eb2afacbfdf9fe5d857b07cdd1f1d869b114f"
+    },
+    "reference/pi4_c1/pi2/simulator.py": {
+      "bytes": 3562,
+      "sha256": "898220c5a67cd014301e5b3cd9a33aa24ae0402e5ed994a8227f84356a7ddf48"
+    },
+    "reference/pi4_c1/pi4/__init__.py": {
+      "bytes": 84,
+      "sha256": "2feb687726a080bb9a40ca484e4a988e8504870b6fdbbc66c4b9d7e0ef8da0fa"
+    },
+    "reference/pi4_c1/pi4/data.py": {
+      "bytes": 5372,
+      "sha256": "c0410065cf322b860f0f69a6848bc46e0b732d6d5e50ddd029381b52975fe12c"
+    },
+    "reference/pi4_c1/pi4/experiment.py": {
+      "bytes": 8597,
+      "sha256": "d740e119070098c1715133b63344cea220963a7aa0f8305fe52a61c26888fceb"
+    },
+    "reference/pi4_c1/pi4/greybox.py": {
+      "bytes": 4498,
+      "sha256": "a0689a11c5551a1b359c2145210fd313119d2cca362d276b533d1c891c9e2a59"
+    },
+    "reference/pi4_c1/pi4/io.py": {
+      "bytes": 1182,
+      "sha256": "94eab91a05e8292caf9ddc372984f0f44d175d096c7e1d0e1b4bde681aebdecf"
+    },
+    "reference/pi4_c1/pi4/learning.py": {
+      "bytes": 3770,
+      "sha256": "98f9a8c95b4d74f11b871447406646092cf224aa81ffb3d0903c9412126c1b76"
+    },
+    "reference/pi4_c1/pi4/preflight.py": {
+      "bytes": 2551,
+      "sha256": "61a430317f276c74fc34d963f6764282dba802b5e04a0d5bdb19adc28788d69e"
+    },
+    "reference/pi4_c1/provenance/ORIGINAL_CORE_SHA256.json": {
+      "bytes": 883,
+      "sha256": "0245700c9f2654e386712dd74280bc4d8ecc47666750712b341872c563a8832d"
+    },
+    "reference/pi4_c1/pyproject.toml": {
+      "bytes": 445,
+      "sha256": "33085b0bae544eea2404cca271a9d4bcfa2d17f58717396bcbac3ebe27d16f68"
+    },
+    "reference/pi4_c1/scripts/run.py": {
+      "bytes": 1999,
+      "sha256": "90fb0454af7dbe6954dd03cf4999470a5e6e55a7f9abd0262111a3aa00b39e9c"
+    },
+    "reference/pi4_c1/scripts/run_gpu.sh": {
+      "bytes": 542,
+      "sha256": "e53a36103c6bd09b0227a809179eb948035374cc4889d43f2726df864a23da19"
+    },
+    "reference/pi4_c1/tests/test_confirmation.py": {
+      "bytes": 8939,
+      "sha256": "193a568152232d2aa55a99a9432269c7a67090a3db3b684223af02e0f2b4839d"
+    },
+    "reference/pi4_c1/tests/test_study.py": {
+      "bytes": 8447,
+      "sha256": "7c9e6d3d0f8cc82f19b1165b73a613f12a62da247de425c31f0998d455df90f6"
+    },
+    "reference/pi4_t1_gpu02/MANIFEST_SHA256.json": {
+      "bytes": 4676,
+      "sha256": "61b3e7bfe7151b0873fc309807236591e1e2b6ea9bf39e5be61454ab97a5561d"
+    },
+    "reference/pi4_t1_gpu02/PUBLIC_SNAPSHOT.json": {
+      "bytes": 737,
+      "sha256": "e9287a89496aefca19a4010301659a2494c748daeb97b89f44d30cdeb09033cc"
+    },
+    "reference/pi4_t1_gpu02/README.md": {
+      "bytes": 1015,
+      "sha256": "6e5a67b39882eb60eda1c6d0d1825b3b7690a60e64ff7ce7cd40a58fad8685cd"
+    },
+    "reference/pi4_t1_gpu02/bc1/__init__.py": {
+      "bytes": 87,
+      "sha256": "e17cda16b273e69c3c146b100ea07e990c97099d804c9acaa57326ecf3e1e4ae"
+    },
+    "reference/pi4_t1_gpu02/bc1/analysis.py": {
+      "bytes": 5634,
+      "sha256": "7d5d2683aa08b500311741bcc5cae42964c49ce63f870e0f4acea72ac62091b7"
+    },
+    "reference/pi4_t1_gpu02/bc1/experiment.py": {
+      "bytes": 8787,
+      "sha256": "41118ae6bee4794b2dc4d5ff60b5295a5a18f7124f162eef7cb511065564ac65"
+    },
+    "reference/pi4_t1_gpu02/bc1/models.py": {
+      "bytes": 5123,
+      "sha256": "9816e48243f4b0c1ea91b376fc2a59311d83daf850ae4260a9c838ead8d209b4"
+    },
+    "reference/pi4_t1_gpu02/bc1/numerics.py": {
+      "bytes": 13835,
+      "sha256": "79a7b8a681f28321decd00a941f00cdcc92532b80297dc6803e2412599742d58"
+    },
+    "reference/pi4_t1_gpu02/bc1/protocol.py": {
+      "bytes": 5019,
+      "sha256": "ede8966cb07d1aa0e1faab46ffec4489289c5ff65f893eb9e65fa07e02a85ecb"
+    },
+    "reference/pi4_t1_gpu02/bc1/runner.py": {
+      "bytes": 12727,
+      "sha256": "9339b8c2f66b6aea19762536dbd29521bcc81453e47411a4de925c289a3335ea"
+    },
+    "reference/pi4_t1_gpu02/configs/challenge.json": {
+      "bytes": 3278,
+      "sha256": "30917409f124e0773ef223b0e11006fe528afe56f85ef2b90c4ff95f431cafbc"
+    },
+    "reference/pi4_t1_gpu02/configs/cpu.json": {
+      "bytes": 907,
+      "sha256": "95e2ab2901ef685b7b110ed24e201d47f7b42e273443faa34154bab48469fd35"
+    },
+    "reference/pi4_t1_gpu02/configs/legacy_cpu.json": {
+      "bytes": 907,
+      "sha256": "95e2ab2901ef685b7b110ed24e201d47f7b42e273443faa34154bab48469fd35"
+    },
+    "reference/pi4_t1_gpu02/configs/legacy_gpu.json": {
+      "bytes": 1104,
+      "sha256": "d7740fe8a8a1212970eb787964b25e1891e4d4e17a357527e8340d4087a1ce87"
+    },
+    "reference/pi4_t1_gpu02/configs/smoke.json": {
+      "bytes": 3123,
+      "sha256": "bc8a0ff1d7f0de2ef3b63c78320d5437a1a54cbc090c500934544f1b4d7a884a"
+    },
+    "reference/pi4_t1_gpu02/configs/time_budget.json": {
+      "bytes": 3477,
+      "sha256": "c46fb5c1e5faabcbe61b7bd4af139078f4e77d622625e7984d0bb7a051ca25f1"
+    },
+    "reference/pi4_t1_gpu02/configs/time_smoke.json": {
+      "bytes": 3296,
+      "sha256": "de054e5ecc6d7c8fbb315cd5de7ee6602683d26dd8bc0ba33dac0062f0468b0c"
+    },
+    "reference/pi4_t1_gpu02/docs/PROTOCOL_CN.md": {
+      "bytes": 9078,
+      "sha256": "5c8e649b9e4b9b252e953fc0be76531bed06c0d66076ea437a2fb4b8891a0cd7"
+    },
+    "reference/pi4_t1_gpu02/docs/REPAIR_DECLARATION_CN_20260923.md": {
+      "bytes": 807,
+      "sha256": "3c1631c6d0600775ce54e05567ec0f8311931f02e5041982241619e96bccdef7"
+    },
+    "reference/pi4_t1_gpu02/docs/SOURCES.md": {
+      "bytes": 379,
+      "sha256": "ccffd3bd97a912490f8b36af0af19261c5bacf7c84580e0dd929d4cf6d1a355f"
+    },
+    "reference/pi4_t1_gpu02/pi2/__init__.py": {
+      "bytes": 78,
+      "sha256": "be3f02892b484b0d3d2f8f143bb3af5f0bd14d081644829bf8a308830710169c"
+    },
+    "reference/pi4_t1_gpu02/pi2/models.py": {
+      "bytes": 6815,
+      "sha256": "6688dbbec6c4283e285d7668806eb2afacbfdf9fe5d857b07cdd1f1d869b114f"
+    },
+    "reference/pi4_t1_gpu02/pi2/simulator.py": {
+      "bytes": 3562,
+      "sha256": "898220c5a67cd014301e5b3cd9a33aa24ae0402e5ed994a8227f84356a7ddf48"
+    },
+    "reference/pi4_t1_gpu02/pi4/__init__.py": {
+      "bytes": 84,
+      "sha256": "2feb687726a080bb9a40ca484e4a988e8504870b6fdbbc66c4b9d7e0ef8da0fa"
+    },
+    "reference/pi4_t1_gpu02/pi4/data.py": {
+      "bytes": 5372,
+      "sha256": "c0410065cf322b860f0f69a6848bc46e0b732d6d5e50ddd029381b52975fe12c"
+    },
+    "reference/pi4_t1_gpu02/pi4/experiment.py": {
+      "bytes": 8597,
+      "sha256": "d740e119070098c1715133b63344cea220963a7aa0f8305fe52a61c26888fceb"
+    },
+    "reference/pi4_t1_gpu02/pi4/greybox.py": {
+      "bytes": 4498,
+      "sha256": "a0689a11c5551a1b359c2145210fd313119d2cca362d276b533d1c891c9e2a59"
+    },
+    "reference/pi4_t1_gpu02/pi4/io.py": {
+      "bytes": 1182,
+      "sha256": "94eab91a05e8292caf9ddc372984f0f44d175d096c7e1d0e1b4bde681aebdecf"
+    },
+    "reference/pi4_t1_gpu02/pi4/learning.py": {
+      "bytes": 3770,
+      "sha256": "98f9a8c95b4d74f11b871447406646092cf224aa81ffb3d0903c9412126c1b76"
+    },
+    "reference/pi4_t1_gpu02/pi4/preflight.py": {
+      "bytes": 2551,
+      "sha256": "61a430317f276c74fc34d963f6764282dba802b5e04a0d5bdb19adc28788d69e"
+    },
+    "reference/pi4_t1_gpu02/provenance/B1_FROZEN_PYTHON_SHA256.json": {
+      "bytes": 1505,
+      "sha256": "4756b67b1aaa1fb6b73595f804611d6f43e93a8040313a6dcc224ed2e07412d9"
+    },
+    "reference/pi4_t1_gpu02/provenance/B1_HYPERPARAMETER_LOCK.json": {
+      "bytes": 4363,
+      "sha256": "7eeefdcf82de5dc0c9c9aae8267f040f32effd9c577ed97f9fa0698aeac17825"
+    },
+    "reference/pi4_t1_gpu02/provenance/CUDA_INIT_REPAIR.patch": {
+      "bytes": 679,
+      "sha256": "a186de8027194590f75aabbe9ea04173fc322550e8ea7f584fe3de5456a18e01"
+    },
+    "reference/pi4_t1_gpu02/provenance/ORIGINAL_CORE_SHA256.json": {
+      "bytes": 883,
+      "sha256": "0245700c9f2654e386712dd74280bc4d8ecc47666750712b341872c563a8832d"
+    },
+    "reference/pi4_t1_gpu02/provenance/ORIGINAL_T1_experiment.py.txt": {
+      "bytes": 8693,
+      "sha256": "dd0392b6f7d41e5afe989c99690c4a4721d0e70fbac728c9769775cfdff8c9d8"
+    },
+    "reference/pi4_t1_gpu02/pyproject.toml": {
+      "bytes": 450,
+      "sha256": "20cdffdd7dcf4519ad808e053d0aa8e1f963d53944258125fa6e959c85036b54"
+    },
+    "reference/pi4_t1_gpu02/scripts/run.py": {
+      "bytes": 1267,
+      "sha256": "d6f97779c1a1f5d9ee2358add631508a49c0452b23be145623483f90a28e7896"
+    },
+    "reference/pi4_t1_gpu02/scripts/run_t1.py": {
+      "bytes": 1317,
+      "sha256": "0d189f9b10d5aee5a9f142338e931a0d5e7245e3ba4e1539609e230100b78a3c"
+    },
+    "reference/pi4_t1_gpu02/scripts/run_time_gpu.sh": {
+      "bytes": 551,
+      "sha256": "0b65a83d56e740af78a4d2a11864f2ee0e09be068ad78094419b563fbdb7ae32"
+    },
+    "reference/pi4_t1_gpu02/tc1/__init__.py": {
+      "bytes": 77,
+      "sha256": "178ba9df41b3e35f4cdda0d6a243f6100fbeaaf2ac2684d1c78b9f7e3bd6ce17"
+    },
+    "reference/pi4_t1_gpu02/tc1/analysis.py": {
+      "bytes": 7339,
+      "sha256": "3af165764fe485eb80aa1552e14e2e51a0c921d4ebcc1ebb95c82ae6c6eed946"
+    },
+    "reference/pi4_t1_gpu02/tc1/budget.py": {
+      "bytes": 3142,
+      "sha256": "9b30d70d3d670b190a1c60067ebb426e210e45a85f31e9312fc53b59e4fce13f"
+    },
+    "reference/pi4_t1_gpu02/tc1/evaluation.py": {
+      "bytes": 4347,
+      "sha256": "16ab5144eb3939a0fc937b80d95cfde660268be7ffdd642fb3a4b73ec0f148b9"
+    },
+    "reference/pi4_t1_gpu02/tc1/experiment.py": {
+      "bytes": 8728,
+      "sha256": "0eb1e3035763d85e9757fe3988e7dd7b3bbea6ad1be7117ba45cd5c4780b4900"
+    },
+    "reference/pi4_t1_gpu02/tc1/numerics.py": {
+      "bytes": 14159,
+      "sha256": "3d616e313d7700eb84a5cb268f24a3d50d1f40e5ee141eb4d828bb54a18c6f0c"
+    },
+    "reference/pi4_t1_gpu02/tc1/protocol.py": {
+      "bytes": 5715,
+      "sha256": "bbf0ed2672fecc16e5ca651aa046eade5c5b68436fc923e17b1a5051b86112bf"
+    },
+    "reference/pi4_t1_gpu02/tc1/runner.py": {
+      "bytes": 14674,
+      "sha256": "02c6b07111cb233264ace2405b024e8925070de18a23afec9ece08027b320f31"
+    },
+    "reference/pi4_t1_gpu02/tests/test_baselines.py": {
+      "bytes": 7695,
+      "sha256": "08c446f6d9ab7ea83febbae5a3350aa0ec1ac316084797ef088a38ef70b3e389"
+    },
+    "reference/pi4_t1_gpu02/tests/test_cuda_fit_initialization.py": {
+      "bytes": 2405,
+      "sha256": "74d4ff1197c1ddbd43689e93984d2513176001bc0366d54654dad0540f39327d"
+    },
+    "reference/pi4_t1_gpu02/tests/test_legacy.py": {
+      "bytes": 8447,
+      "sha256": "7c9e6d3d0f8cc82f19b1165b73a613f12a62da247de425c31f0998d455df90f6"
+    },
+    "reference/pi4_t1_gpu02/tests/test_time_budget.py": {
+      "bytes": 7006,
+      "sha256": "da6002b915ddbd6c81e249da1f8811d7d54741bf5d6576163c4214752c1a2e46"
+    },
+    "results/claims.json": {
+      "bytes": 2576,
+      "sha256": "89a9f557ee0272878f5cdfe778fa7f1bde04b242ce61f4de84881c051a0cceab"
+    },
+    "results/derived/REBUILD_CHECK.json": {
+      "bytes": 345,
+      "sha256": "7582bd1439c09438e4dc1317b107729c38a3700a8b5988ac29201405dbe25eb7"
+    },
+    "results/derived/TABLES.md": {
+      "bytes": 5546,
+      "sha256": "7ceb34f89fb66b1fb0bd221d8dfaba62a27f0eb819fa0f5339b982a2e1b1c45c"
+    },
+    "results/derived/absolute_scores.csv": {
+      "bytes": 66128,
+      "sha256": "019e85403aacb9d5eb22e670925ac3f14a23916948465f6b997c330e5d19030b"
+    },
+    "results/derived/all_scores.csv": {
+      "bytes": 374414,
+      "sha256": "76b94970d13a2b3c1739651bdde4d35c357d206a69bc328b1451a6ed1c41ef6d"
+    },
+    "results/derived/paired_ratios.csv": {
+      "bytes": 3603,
+      "sha256": "391b946a2a84f5b103debae8a0897dbffaa60a431953c08bcc111b9d5305d87c"
+    },
+    "results/derived/study_statuses.json": {
+      "bytes": 1271,
+      "sha256": "a788441d9e2734ff9e9271772da3511405e3d50879320b801c136fa6a54870ce"
+    },
+    "results/derived/t1_cost_summary.csv": {
+      "bytes": 427,
+      "sha256": "bdb575f85ae1a82b251d39159fda190900f2e0d62ebb1593a6909d8fa10ff101"
+    },
+    "results/derived/t1_directional_counts.csv": {
+      "bytes": 1769,
+      "sha256": "bcf88511fa530cee39a4b52b3a7f3487aeb0dd27f3b84c4ceca3efc3ff78b4ba"
+    },
+    "results/derived/t1_fit_costs.csv": {
+      "bytes": 10449,
+      "sha256": "eeff067784f1eff141f17f1dcecabfd02177af53829f31a73b7ed74a68d188d6"
+    },
+    "results/evidence_manifest.json": {
+      "bytes": 72934,
+      "sha256": "6675fe42997036f97456ca05ca57567063a927d3998de4c473188904029da7f9"
+    },
+    "results/source_records/b1/run/DECISION.json": {
+      "bytes": 11207,
+      "sha256": "8b05ad5a8fe04b4d53aa083125865eaa638ecf65635807e4c8b46a1ed18ca02c"
+    },
+    "results/source_records/b1/run/datasets/b01/summary.json": {
+      "bytes": 82706,
+      "sha256": "b45fd93d8c22f431369de4a09f928959a9de6d007a3d9f75e82ebe28ba0f6307"
+    },
+    "results/source_records/b1/run/datasets/b02/summary.json": {
+      "bytes": 82662,
+      "sha256": "341da340357baa4dba1ffe447be87e3b94200d128aaa75ac418b5758c2848531"
+    },
+    "results/source_records/b1/run/datasets/b03/summary.json": {
+      "bytes": 82691,
+      "sha256": "808892733ea8bc5b6fe782b1595221f8c8b52afda07e4a90f2c527399f9ad73a"
+    },
+    "results/source_records/b1/run/protocol.json": {
+      "bytes": 3278,
+      "sha256": "30917409f124e0773ef223b0e11006fe528afe56f85ef2b90c4ff95f431cafbc"
+    },
+    "results/source_records/c1/run/DECISION.json": {
+      "bytes": 12068,
+      "sha256": "4c87fe7cb0a7496eff4fd247ebafddbfd9ead59425f625c9fac139c64fb801fe"
+    },
+    "results/source_records/c1/run/datasets/d01/summary.json": {
+      "bytes": 68927,
+      "sha256": "2fc523fe241c2747ccad7a1775cc97404848c1cf841c09e6c81e0d419bd48e9e"
+    },
+    "results/source_records/c1/run/datasets/d02/summary.json": {
+      "bytes": 68892,
+      "sha256": "108620ac6ce7676e4626945eeb72c87b536386a628c0c4c8a8b410a9d2caa72c"
+    },
+    "results/source_records/c1/run/datasets/d03/summary.json": {
+      "bytes": 68941,
+      "sha256": "50b5047fb446483dd48008c64703801e5d51bc49bdb42a4282e41c0656a77ccc"
+    },
+    "results/source_records/c1/run/protocol.json": {
+      "bytes": 2708,
+      "sha256": "44edebb506034d3ffa293844dbec80ae7595c8b6374f8dac0f224543bbcdc938"
+    },
+    "results/source_records/pi4/run/analysis.json": {
+      "bytes": 27615,
+      "sha256": "81b1268340657d18785885623096840d05be93f121bf98dc436f4a94f39a385a"
+    },
+    "results/source_records/pi4/run/config.json": {
+      "bytes": 1104,
+      "sha256": "d7740fe8a8a1212970eb787964b25e1891e4d4e17a357527e8340d4087a1ce87"
+    },
+    "results/source_records/pi4/run/execution_status_public.json": {
+      "bytes": 380,
+      "sha256": "4c4101779d8547cc11ea9e6a8c5a0499e00c5889db5b0e766daa8e4980beb7f3"
+    },
+    "results/source_records/pi4/run/summary.json": {
+      "bytes": 68932,
+      "sha256": "8c1ad7f9876bc5b5649ca4de0993b1b8c6efd3fa0d7a2e29196983a7d3396d03"
+    },
+    "results/source_records/t1/run/DECISION.json": {
+      "bytes": 11300,
+      "sha256": "86519500917ddfe0e7a89eb96f0e6e8406a59c50f063703d954bc51ef45c02b2"
+    },
+    "results/source_records/t1/run/WALL_COST.json": {
+      "bytes": 43028,
+      "sha256": "ef8685fb032e0a8bfb6cec9b0f579b62111df4e3ad67aaba4ef1b5a33919a087"
+    },
+    "results/source_records/t1/run/datasets/t01/summary.json": {
+      "bytes": 82641,
+      "sha256": "57573de9c9e10cddd8bb3a15e98b730a1ac9ad351a39896cb00ef0eea60cd644"
+    },
+    "results/source_records/t1/run/datasets/t01/trials/fixed_behavior_s971/parent.json": {
+      "bytes": 423,
+      "sha256": "5daa4e5fc03e524aeb018cb04533901d462a80c4b419cbc99403c7d5faf648a5"
+    },
+    "results/source_records/t1/run/datasets/t01/trials/fixed_behavior_s971/result.json": {
+      "bytes": 1236,
+      "sha256": "11e5450bc7797cdfc54a8bb92ca1a9701e93106af88a2c48dca74d1a11afa399"
+    },
+    "results/source_records/t1/run/datasets/t01/trials/fixed_behavior_s977/parent.json": {
+      "bytes": 423,
+      "sha256": "e8295b0de225de498982cb2f9dc50eeac0024547b0c1cb42008c1feb6b0f060f"
+    },
+    "results/source_records/t1/run/datasets/t01/trials/fixed_behavior_s977/result.json": {
+      "bytes": 1240,
+      "sha256": "d81805dcf7a274568ff22d208b3d7cd0e6d42146ea03abc3bcb5fdf05b3d7d94"
+    },
+    "results/source_records/t1/run/datasets/t01/trials/fixed_behavior_s983/parent.json": {
+      "bytes": 421,
+      "sha256": "7f14606418c1ffb2ff470353acb1dfa1dd861df90bb3579ec8f66367a0bf0eb5"
+    },
+    "results/source_records/t1/run/datasets/t01/trials/fixed_behavior_s983/result.json": {
+      "bytes": 1237,
+      "sha256": "d66e86b6de061e87062f05be75f65edc9aa96f381a72ed49135b861140ceea75"
+    },
+    "results/source_records/t1/run/datasets/t01/trials/free_behavior_s971/parent.json": {
+      "bytes": 423,
+      "sha256": "26ca5ac583cb7219330d06b5a28f1645dabfbc028002679aaf9a0aa68706fb1c"
+    },
+    "results/source_records/t1/run/datasets/t01/trials/free_behavior_s971/result.json": {
+      "bytes": 1233,
+      "sha256": "c57e869e4ac5a7a93ada4b0c80b6226b4a45f71f66a037e1ac48737fc239a8c0"
+    },
+    "results/source_records/t1/run/datasets/t01/trials/free_behavior_s977/parent.json": {
+      "bytes": 422,
+      "sha256": "95a7f553a1fe878857902a61430775a1f4d2c451375dc6d22215fda6a30c85ef"
+    },
+    "results/source_records/t1/run/datasets/t01/trials/free_behavior_s977/result.json": {
+      "bytes": 1235,
+      "sha256": "fa9746e9e411c98f99fb71a5d5ae044551ee52f41891f5832f8e9dee41e71ba4"
+    },
+    "results/source_records/t1/run/datasets/t01/trials/free_behavior_s983/parent.json": {
+      "bytes": 423,
+      "sha256": "05ff278c21346493ac88a5d7ad0c58233e8b70980a5420e44ed04b91083cd0ce"
+    },
+    "results/source_records/t1/run/datasets/t01/trials/free_behavior_s983/result.json": {
+      "bytes": 1233,
+      "sha256": "e98a649c2fa5066a3b6f8c4853d17a4a19145c34832bf0b248612930b3e5deb0"
+    },
+    "results/source_records/t1/run/datasets/t01/trials/graph32_behavior_s971/parent.json": {
+      "bytes": 423,
+      "sha256": "429816afdd6e3881ef8a99e5edc47e5923003acecd46775614add7cac68ac503"
+    },
+    "results/source_records/t1/run/datasets/t01/trials/graph32_behavior_s971/result.json": {
+      "bytes": 1255,
+      "sha256": "71ade4582f556e07a09ede2e002331bde94fa88c3023f86c224ce97534eec595"
+    },
+    "results/source_records/t1/run/datasets/t01/trials/graph32_behavior_s977/parent.json": {
+      "bytes": 423,
+      "sha256": "a2c41426f6b5fab4b6c4722d2b2c8ac49c82e1039016931b0bd42ee2c046c128"
+    },
+    "results/source_records/t1/run/datasets/t01/trials/graph32_behavior_s977/result.json": {
+      "bytes": 1255,
+      "sha256": "f1852a538594f2b0e685104260583f3df5756fb4670b6c2198cb3089654273db"
+    },
+    "results/source_records/t1/run/datasets/t01/trials/graph32_behavior_s983/parent.json": {
+      "bytes": 423,
+      "sha256": "bd09acf0a709d5909466e28f970371149fa3b44498d42a7632ff1e90e042d502"
+    },
+    "results/source_records/t1/run/datasets/t01/trials/graph32_behavior_s983/result.json": {
+      "bytes": 1255,
+      "sha256": "25bd89ff4cfa04046adbeda88f8bb10d176bba99913914d3eeda6de73bd732a9"
+    },
+    "results/source_records/t1/run/datasets/t01/trials/gru32_behavior_s971/parent.json": {
+      "bytes": 422,
+      "sha256": "3fb5719b1e7c3974b1e31539df3fb657821f50513674f09bb0f7b61f854d957b"
+    },
+    "results/source_records/t1/run/datasets/t01/trials/gru32_behavior_s971/result.json": {
+      "bytes": 1250,
+      "sha256": "2dfa27b50fdcacef83f028094837e388807d506b5af740c6a57358d194261d84"
+    },
+    "results/source_records/t1/run/datasets/t01/trials/gru32_behavior_s977/parent.json": {
+      "bytes": 423,
+      "sha256": "7ab7f26486c0ee7bf31516b0907e736d31bf32890243c7a7d5e4771f4b78f7a5"
+    },
+    "results/source_records/t1/run/datasets/t01/trials/gru32_behavior_s977/result.json": {
+      "bytes": 1250,
+      "sha256": "b4b8b5007260ae60933650a9557c3f167e7ce2ab5d711810bdd46a3766c110b8"
+    },
+    "results/source_records/t1/run/datasets/t01/trials/gru32_behavior_s983/parent.json": {
+      "bytes": 423,
+      "sha256": "6771e1e0f4d01edef235594322f96e41e89dbd2d59e61bc76cf73438cc482de6"
+    },
+    "results/source_records/t1/run/datasets/t01/trials/gru32_behavior_s983/result.json": {
+      "bytes": 1249,
+      "sha256": "a48945ae90dc277216ca028b101cf254bd72d52b99c32f3927b9238544d10eb1"
+    },
+    "results/source_records/t1/run/datasets/t01/trials/gru4_behavior_s971/parent.json": {
+      "bytes": 423,
+      "sha256": "05f5f07119d109d8aab31dd1444ad85bc6ad1fdb0f96e1392bbc75a6a91f11eb"
+    },
+    "results/source_records/t1/run/datasets/t01/trials/gru4_behavior_s971/result.json": {
+      "bytes": 1243,
+      "sha256": "eb8cc6065d10b7073e94d7dc56d02890095435845cd5b036d74f0328c8eb36c7"
+    },
+    "results/source_records/t1/run/datasets/t01/trials/gru4_behavior_s977/parent.json": {
+      "bytes": 422,
+      "sha256": "87c36aec0acdb96f8a37d841c1692cf91d97b1c4eb03a618f418bcc27ee7bc78"
+    },
+    "results/source_records/t1/run/datasets/t01/trials/gru4_behavior_s977/result.json": {
+      "bytes": 1244,
+      "sha256": "4ada80a3d45b08040dfb507238a6c8aff1bd1fdf16564cc23b32e678e8563204"
+    },
+    "results/source_records/t1/run/datasets/t01/trials/gru4_behavior_s983/parent.json": {
+      "bytes": 422,
+      "sha256": "292fb3c1eb7a92f34304b8333a6e6f6906b3dfbddef4d6a92b1b54152d531feb"
+    },
+    "results/source_records/t1/run/datasets/t01/trials/gru4_behavior_s983/result.json": {
+      "bytes": 1244,
+      "sha256": "0139b509f7e5751601bbc0ea5e7da8df257984429545ba3fa65c260f340da140"
+    },
+    "results/source_records/t1/run/datasets/t01/trials/node32_behavior_s971/parent.json": {
+      "bytes": 422,
+      "sha256": "3d9802063b559ba4baa0f7dd4ad3a2718f95b639a33139fd68b58aeeb8bd38d5"
+    },
+    "results/source_records/t1/run/datasets/t01/trials/node32_behavior_s971/result.json": {
+      "bytes": 1250,
+      "sha256": "5e0d3416c5e3ea7c8065be9b08ede80b1987d8099791e5783e9f6b9fd5d67d5f"
+    },
+    "results/source_records/t1/run/datasets/t01/trials/node32_behavior_s977/parent.json": {
+      "bytes": 419,
+      "sha256": "09ec39784ac666b961c46ba46dd1f36c1bcbe882d5ec323fa77e231bf9373e7d"
+    },
+    "results/source_records/t1/run/datasets/t01/trials/node32_behavior_s977/result.json": {
+      "bytes": 1247,
+      "sha256": "1e9a09f63acbe5383e9b68c3afdc0ced9d4697a01d8c467806d467ba455ca082"
+    },
+    "results/source_records/t1/run/datasets/t01/trials/node32_behavior_s983/parent.json": {
+      "bytes": 423,
+      "sha256": "7ce2747e8c241619da382a84e78ea54160f7e06395890b207260e281ebd8beed"
+    },
+    "results/source_records/t1/run/datasets/t01/trials/node32_behavior_s983/result.json": {
+      "bytes": 1248,
+      "sha256": "ec2553a7204496e7fa7943da3b273230ce837f618fa721f04ab4ff253427de8e"
+    },
+    "results/source_records/t1/run/datasets/t02/summary.json": {
+      "bytes": 82616,
+      "sha256": "6bbd711e87b78be64b47198b36e6fce2a4fabf6c5f387df2fb71e13f346516c8"
+    },
+    "results/source_records/t1/run/datasets/t02/trials/fixed_behavior_s971/parent.json": {
+      "bytes": 423,
+      "sha256": "9fb9535fbd8bb15190c96afed762087b7fa44d6286229ccb42afc56a3bb45216"
+    },
+    "results/source_records/t1/run/datasets/t02/trials/fixed_behavior_s971/result.json": {
+      "bytes": 1238,
+      "sha256": "3cbcd7bf647020603bfecc16ca3764c54975cc9b44b96ae46b44bfd9e9d82337"
+    },
+    "results/source_records/t1/run/datasets/t02/trials/fixed_behavior_s977/parent.json": {
+      "bytes": 423,
+      "sha256": "5cfb7de7a3796b7356f99757a3c0d6cc70d3721fb146a707a0c03614d0d89245"
+    },
+    "results/source_records/t1/run/datasets/t02/trials/fixed_behavior_s977/result.json": {
+      "bytes": 1237,
+      "sha256": "2259d44d692656a7538232f64ebba4a0b943ba6f4fd2e56961b378dccd22ddf6"
+    },
+    "results/source_records/t1/run/datasets/t02/trials/fixed_behavior_s983/parent.json": {
+      "bytes": 423,
+      "sha256": "7d662b884c4f7a71bfcb72f4335d53e8976e107341b2abdf0cb14d5b8f4ccd3d"
+    },
+    "results/source_records/t1/run/datasets/t02/trials/fixed_behavior_s983/result.json": {
+      "bytes": 1238,
+      "sha256": "e9f493d7200a622d832380c17e375f7aa8f1a20849dbc251960edbeccd9a1ef4"
+    },
+    "results/source_records/t1/run/datasets/t02/trials/free_behavior_s971/parent.json": {
+      "bytes": 421,
+      "sha256": "3c4476d41fbcff0339177c05c2a4c334452d12e0ad326b59ef191c171bf29496"
+    },
+    "results/source_records/t1/run/datasets/t02/trials/free_behavior_s971/result.json": {
+      "bytes": 1237,
+      "sha256": "e5fdc636721ea8f6b5c73c05745e27fd4d734837e72fe3bdb1b15aea2572e89c"
+    },
+    "results/source_records/t1/run/datasets/t02/trials/free_behavior_s977/parent.json": {
+      "bytes": 422,
+      "sha256": "ce98f7f2a78e259ed6ad97926443fd6ed8ec136034ad6501c9ab87091b043cc7"
+    },
+    "results/source_records/t1/run/datasets/t02/trials/free_behavior_s977/result.json": {
+      "bytes": 1236,
+      "sha256": "0f9c41baa02611ce6a108731447f84493addf99bfdff42e91453932fe36a11d3"
+    },
+    "results/source_records/t1/run/datasets/t02/trials/free_behavior_s983/parent.json": {
+      "bytes": 423,
+      "sha256": "0d28bd5febf3658e4e8a41e8bdfca08ab887473683b996298216c5adc41873aa"
+    },
+    "results/source_records/t1/run/datasets/t02/trials/free_behavior_s983/result.json": {
+      "bytes": 1238,
+      "sha256": "7d900204ea68eded9db17cbf2b58e3b5df5161d4c626be73f82cb40f6e35f333"
+    },
+    "results/source_records/t1/run/datasets/t02/trials/graph32_behavior_s971/parent.json": {
+      "bytes": 421,
+      "sha256": "1325e42567ab66aab50f9a5b04b4875fdc5925f2a91298b05e6b97e720c9bf80"
+    },
+    "results/source_records/t1/run/datasets/t02/trials/graph32_behavior_s971/result.json": {
+      "bytes": 1253,
+      "sha256": "d3d07666aeee991155bd048a798735caf610fba49de4d42180e5651dc3ae846c"
+    },
+    "results/source_records/t1/run/datasets/t02/trials/graph32_behavior_s977/parent.json": {
+      "bytes": 423,
+      "sha256": "8902f03344e59626e95df33e770acd59cabe07b65ec1afae1a0212a823cc8814"
+    },
+    "results/source_records/t1/run/datasets/t02/trials/graph32_behavior_s977/result.json": {
+      "bytes": 1255,
+      "sha256": "8c6f2eb97803b3adfab74f0fe84618f04c95e8497e4575853b16d31f7315e496"
+    },
+    "results/source_records/t1/run/datasets/t02/trials/graph32_behavior_s983/parent.json": {
+      "bytes": 423,
+      "sha256": "4743734e5635da9b1c3d65e1cb944f5b5f5146bd71d606c1546870dd98689efb"
+    },
+    "results/source_records/t1/run/datasets/t02/trials/graph32_behavior_s983/result.json": {
+      "bytes": 1256,
+      "sha256": "c36e1e75b2776e336356d8be05b50ee2e9d63aff6a6cfee1774e54187890a68e"
+    },
+    "results/source_records/t1/run/datasets/t02/trials/gru32_behavior_s971/parent.json": {
+      "bytes": 423,
+      "sha256": "472690a6e0ec860528c017db2ecb014c6918adf2a9a8d9134486cb36ca71941e"
+    },
+    "results/source_records/t1/run/datasets/t02/trials/gru32_behavior_s971/result.json": {
+      "bytes": 1249,
+      "sha256": "8d7fef7b2c15a2cf15daef710b10f3ae24ff8b89c0928f200dc5f43df64a249f"
+    },
+    "results/source_records/t1/run/datasets/t02/trials/gru32_behavior_s977/parent.json": {
+      "bytes": 423,
+      "sha256": "58098459b7e703d6b1cce6c072f48546becedce010a4d4e84605da3e0389e420"
+    },
+    "results/source_records/t1/run/datasets/t02/trials/gru32_behavior_s977/result.json": {
+      "bytes": 1249,
+      "sha256": "2137b47ef530daa2de737c68fdc05f8676ad63f27007b554952ac77a7c1f2f55"
+    },
+    "results/source_records/t1/run/datasets/t02/trials/gru32_behavior_s983/parent.json": {
+      "bytes": 423,
+      "sha256": "9c6877e9c043fb1beccd040dd29bff6c0f7eea12884a3e33de3e971c39c8243a"
+    },
+    "results/source_records/t1/run/datasets/t02/trials/gru32_behavior_s983/result.json": {
+      "bytes": 1249,
+      "sha256": "8d982340a59f28b9f7cb383a9398f04a4506e7ae7a17753ab292cae98164eb0b"
+    },
+    "results/source_records/t1/run/datasets/t02/trials/gru4_behavior_s971/parent.json": {
+      "bytes": 423,
+      "sha256": "72f6b8577b3200b4b70da88c16b547d6566cff0c620366bc6221c51af03de6cc"
+    },
+    "results/source_records/t1/run/datasets/t02/trials/gru4_behavior_s971/result.json": {
+      "bytes": 1244,
+      "sha256": "e5d724c223e12cb2e9a8b38ecd421fe3cb411060718f182683b34cacde50b1c8"
+    },
+    "results/source_records/t1/run/datasets/t02/trials/gru4_behavior_s977/parent.json": {
+      "bytes": 423,
+      "sha256": "e07fc7323ff0f3e83615bfa2d07a46781d276a98c71ec95de6ef0094e2ba038b"
+    },
+    "results/source_records/t1/run/datasets/t02/trials/gru4_behavior_s977/result.json": {
+      "bytes": 1241,
+      "sha256": "2bbdb006613d2aa75696225887b1c5a70c25cb12dccec78f5251ccff5d094f62"
+    },
+    "results/source_records/t1/run/datasets/t02/trials/gru4_behavior_s983/parent.json": {
+      "bytes": 423,
+      "sha256": "913921094c30cfe029eb086731741e27f1fdc01398db650f472f5863e1d9f48c"
+    },
+    "results/source_records/t1/run/datasets/t02/trials/gru4_behavior_s983/result.json": {
+      "bytes": 1244,
+      "sha256": "2a8b28e186b209dea31717b5a5f436c5b3bb48bc5736a76d4bd7a6c5b73bd0b1"
+    },
+    "results/source_records/t1/run/datasets/t02/trials/node32_behavior_s971/parent.json": {
+      "bytes": 421,
+      "sha256": "401d82aefd67579f9f467a06a516ed8830253ff5eeacb584c7da60e482590bd9"
+    },
+    "results/source_records/t1/run/datasets/t02/trials/node32_behavior_s971/result.json": {
+      "bytes": 1249,
+      "sha256": "038a3f6f3060df9f6ef202942b1359995b330e576e80120bdce8439f420b5224"
+    },
+    "results/source_records/t1/run/datasets/t02/trials/node32_behavior_s977/parent.json": {
+      "bytes": 421,
+      "sha256": "cb257d3db5d909e6f4ce0dbc76312b2ea3d6db410f9940d12401bbcb1ea7c4ce"
+    },
+    "results/source_records/t1/run/datasets/t02/trials/node32_behavior_s977/result.json": {
+      "bytes": 1248,
+      "sha256": "95b758040296aff992ac62044bd02a1bd49e06fa6aff9a6950f9e0f614f5806a"
+    },
+    "results/source_records/t1/run/datasets/t02/trials/node32_behavior_s983/parent.json": {
+      "bytes": 423,
+      "sha256": "b995dc91ed542a5fd88ae18a966cbc76a4e248a060aa0b4af9c89514b46026cd"
+    },
+    "results/source_records/t1/run/datasets/t02/trials/node32_behavior_s983/result.json": {
+      "bytes": 1250,
+      "sha256": "06c7016a3b9e88a295d83f54e5101088b22e447176a2b259b76f4ccf94931382"
+    },
+    "results/source_records/t1/run/datasets/t03/summary.json": {
+      "bytes": 82766,
+      "sha256": "222dbdf5489fa26c7adb418769950b78806a6502ddc5067e6cfe86f5e73fe258"
+    },
+    "results/source_records/t1/run/datasets/t03/trials/fixed_behavior_s971/parent.json": {
+      "bytes": 423,
+      "sha256": "1f13a003a4074f92e877a2b3565384d0b1f383dd78da6a7e3f66db108647875d"
+    },
+    "results/source_records/t1/run/datasets/t03/trials/fixed_behavior_s971/result.json": {
+      "bytes": 1236,
+      "sha256": "b636ea2b4884a3519b81d3e853bf2cf3a6dce9d74619f7206ae55f1ac7b3d765"
+    },
+    "results/source_records/t1/run/datasets/t03/trials/fixed_behavior_s977/parent.json": {
+      "bytes": 423,
+      "sha256": "76c0ff34945f1ec4b9d4c6051339c624200fc82c5bc8a715dea6c24bd5204063"
+    },
+    "results/source_records/t1/run/datasets/t03/trials/fixed_behavior_s977/result.json": {
+      "bytes": 1238,
+      "sha256": "4048c1940388f57ef4cefcef85e7d25f86337fef9a51eff1d0ac3d4a4397618e"
+    },
+    "results/source_records/t1/run/datasets/t03/trials/fixed_behavior_s983/parent.json": {
+      "bytes": 423,
+      "sha256": "6985c47632e6b55f34e8c56ff657511cdacecbc181bdeee7213b691e0c32c42a"
+    },
+    "results/source_records/t1/run/datasets/t03/trials/fixed_behavior_s983/result.json": {
+      "bytes": 1238,
+      "sha256": "78a9cc66eaffa2a9654ad8db5f8ddbb82cacc971421086bf76028be245a6395c"
+    },
+    "results/source_records/t1/run/datasets/t03/trials/free_behavior_s971/parent.json": {
+      "bytes": 423,
+      "sha256": "c4bd8d34e3bf55319473ce350edbea9e8a0b59be8bdbc5ac4624a120d20b18f3"
+    },
+    "results/source_records/t1/run/datasets/t03/trials/free_behavior_s971/result.json": {
+      "bytes": 1236,
+      "sha256": "f55ced01fbeb9402dec2fcbbaead3bf8adea028894e137cb23d6fa837080f325"
+    },
+    "results/source_records/t1/run/datasets/t03/trials/free_behavior_s977/parent.json": {
+      "bytes": 423,
+      "sha256": "8e74da98a7ad5af6282f564df2423c84f4cb295aad45a9c37fa00f989a615915"
+    },
+    "results/source_records/t1/run/datasets/t03/trials/free_behavior_s977/result.json": {
+      "bytes": 1234,
+      "sha256": "b5cce194725c5c6fe33ba019b421db9aa526387939e31fac0e39c1bec40e28ab"
+    },
+    "results/source_records/t1/run/datasets/t03/trials/free_behavior_s983/parent.json": {
+      "bytes": 423,
+      "sha256": "9bd66a14873b5078bf6f35764a009343515c7706cd233d9f607c8daf731b46fc"
+    },
+    "results/source_records/t1/run/datasets/t03/trials/free_behavior_s983/result.json": {
+      "bytes": 1236,
+      "sha256": "5dbd78ff15bdbbb472f44a77970aaabc7bc63705ed9e1e580c1e3eae722520cd"
+    },
+    "results/source_records/t1/run/datasets/t03/trials/graph32_behavior_s971/parent.json": {
+      "bytes": 423,
+      "sha256": "5e2ee0746fd9c70340ee9053fbfb580662c3fb6b838c016da14a35d3dbd55343"
+    },
+    "results/source_records/t1/run/datasets/t03/trials/graph32_behavior_s971/result.json": {
+      "bytes": 1255,
+      "sha256": "01408224f25b4ba01872adf4dabd1ab08b1cd848ad21d7ea9956458cf6df4657"
+    },
+    "results/source_records/t1/run/datasets/t03/trials/graph32_behavior_s977/parent.json": {
+      "bytes": 422,
+      "sha256": "e7e095be7d1688ed3b90644e40238ad86048e01a706da3b19c81c77c14d117f7"
+    },
+    "results/source_records/t1/run/datasets/t03/trials/graph32_behavior_s977/result.json": {
+      "bytes": 1254,
+      "sha256": "8d66ffc7f546d5ab917626f7210a2f6eb531830cc1b19878f4dfa0eaf3ebdb87"
+    },
+    "results/source_records/t1/run/datasets/t03/trials/graph32_behavior_s983/parent.json": {
+      "bytes": 423,
+      "sha256": "f4b90bfe139006f2247d957c802b4c4be418a1a6d7be42df5449a13b60279599"
+    },
+    "results/source_records/t1/run/datasets/t03/trials/graph32_behavior_s983/result.json": {
+      "bytes": 1255,
+      "sha256": "b129512f1cdc0ccb52faa10431342a4c4e2dec266f376db0bba0e57cb74c9da0"
+    },
+    "results/source_records/t1/run/datasets/t03/trials/gru32_behavior_s971/parent.json": {
+      "bytes": 422,
+      "sha256": "ef7a15e5bedff56ed66ee5f2adf4be1e6da38bc6907df7580e0fd31176dc41fe"
+    },
+    "results/source_records/t1/run/datasets/t03/trials/gru32_behavior_s971/result.json": {
+      "bytes": 1248,
+      "sha256": "5960a1b01afcd26188edb71c6d1e33f8fde0955682bc773c6e76b235166b28f3"
+    },
+    "results/source_records/t1/run/datasets/t03/trials/gru32_behavior_s977/parent.json": {
+      "bytes": 423,
+      "sha256": "7916705ae55db76257939af6f029498cf29aa3cff4c5557a54e8b23ce8b9936a"
+    },
+    "results/source_records/t1/run/datasets/t03/trials/gru32_behavior_s977/result.json": {
+      "bytes": 1248,
+      "sha256": "136c503f6a56a91c05b3a6d035c437f9d3dbac62567d3fa54ee8c8a291142e0c"
+    },
+    "results/source_records/t1/run/datasets/t03/trials/gru32_behavior_s983/parent.json": {
+      "bytes": 423,
+      "sha256": "b700d4de5da5901865fc2f9c521230ed41b1118946d9c6c144683fc4a4a2cc3d"
+    },
+    "results/source_records/t1/run/datasets/t03/trials/gru32_behavior_s983/result.json": {
+      "bytes": 1248,
+      "sha256": "c6d409d8bf82fb30bf89055d1a9455499c36722790285cdfe9f845faf54a2404"
+    },
+    "results/source_records/t1/run/datasets/t03/trials/gru4_behavior_s971/parent.json": {
+      "bytes": 423,
+      "sha256": "b88209b3d209a1cd006a275b901dd8f781a90704b5d35208b83b3b9e2b473ef7"
+    },
+    "results/source_records/t1/run/datasets/t03/trials/gru4_behavior_s971/result.json": {
+      "bytes": 1245,
+      "sha256": "43f726bf15c6748efce5cb982c8dde607f55b9f37cba7e778ca7371d93807736"
+    },
+    "results/source_records/t1/run/datasets/t03/trials/gru4_behavior_s977/parent.json": {
+      "bytes": 422,
+      "sha256": "72eafc3bc2ef15b039c21a4a30fcc1c1d88ab9300b86e053d23adc3726c9a681"
+    },
+    "results/source_records/t1/run/datasets/t03/trials/gru4_behavior_s977/result.json": {
+      "bytes": 1243,
+      "sha256": "e6478614a5b922c4f06e56c1eb497fbfc5cd47a793c8369a673f54d9809612fd"
+    },
+    "results/source_records/t1/run/datasets/t03/trials/gru4_behavior_s983/parent.json": {
+      "bytes": 422,
+      "sha256": "c56c27c3e047b3d626efdb7ea2ef75ef2ccb6e169a99e073193f2d578df54408"
+    },
+    "results/source_records/t1/run/datasets/t03/trials/gru4_behavior_s983/result.json": {
+      "bytes": 1244,
+      "sha256": "22dbbd3cb6f12d1cc577ce48d94ab27649821ade1c5055efb13109ad769835f2"
+    },
+    "results/source_records/t1/run/datasets/t03/trials/node32_behavior_s971/parent.json": {
+      "bytes": 422,
+      "sha256": "e88bcd0e773cde6a51c2e549a10d1817f50608a5a6f529d8ea98b994d1d58c24"
+    },
+    "results/source_records/t1/run/datasets/t03/trials/node32_behavior_s971/result.json": {
+      "bytes": 1248,
+      "sha256": "0077db50b70efbbf52dc58547d8e043bbe13b9fd3d402850a0232ff1e526818b"
+    },
+    "results/source_records/t1/run/datasets/t03/trials/node32_behavior_s977/parent.json": {
+      "bytes": 423,
+      "sha256": "f45ce87655c7e88e9b3d8ec955e3bc60e541e9fbb96788fc1a61ffd69b9d821e"
+    },
+    "results/source_records/t1/run/datasets/t03/trials/node32_behavior_s977/result.json": {
+      "bytes": 1249,
+      "sha256": "e14f7f4378014a8f418d6451187baf4c517b47bce528918c0449be9467e54de6"
+    },
+    "results/source_records/t1/run/datasets/t03/trials/node32_behavior_s983/parent.json": {
+      "bytes": 423,
+      "sha256": "161b545909c94c44c783120a5ba347eced0f387e9a1c46dd8e499609b67cdcc6"
+    },
+    "results/source_records/t1/run/datasets/t03/trials/node32_behavior_s983/result.json": {
+      "bytes": 1249,
+      "sha256": "c4ae95cc64b46b701b14449f2bda895e1517226eb5224637656685bfcd7543f2"
+    },
+    "results/source_records/t1/run/protocol.json": {
+      "bytes": 3476,
+      "sha256": "8677738d3037d3582d05fa63825573ba895a2ff86ff5e3218046036e193a2329"
+    },
+    "scripts/check_public_tree.py": {
+      "bytes": 2707,
+      "sha256": "1bd5bad50239e542a34e6fe1a6bbaf04cafeec0ba99d6941048f5018bf1906ee"
+    },
+    "scripts/check_reference_cpu.py": {
+      "bytes": 3672,
+      "sha256": "42c0de01a946916a9ba034213caf5f56ea9e7d3772be4910d675931c10e0e2d8"
+    },
+    "scripts/rebuild_results.py": {
+      "bytes": 15627,
+      "sha256": "5694f7f283c9f3c29d56c562df451792e02e90171bd70a2bfcd74b7e0d464ca2"
+    },
+    "scripts/verify_reference.py": {
+      "bytes": 2891,
+      "sha256": "ac28ec43aee04adefedb4bf0743b0b3977b82f4223b6c39503a6d07defb5bc2e"
+    },
+    "tests/test_evidence.py": {
+      "bytes": 4602,
+      "sha256": "bd284ac4768865ca2059dcc5f145e2dbfc8012f4fc16cdec1baa4ef85d478825"
+    },
+    "tests/test_public_snapshots.py": {
+      "bytes": 2635,
+      "sha256": "586e78d1b597eb8ad217c3d0c66b47bd0b16b351d50228597514f61928b0ff97"
+    }
+  },
+  "note": "Current repository snapshot, including private-hosting metadata; excludes this manifest and Git internals. The earlier ZIP has its own preserved manifest."
+}

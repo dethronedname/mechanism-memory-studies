@@ -1,0 +1,304 @@
+{
+  "protocol": "PI4-T1-v0.1-20260922",
+  "status": "MIXED_TIME_BUDGET_TRADEOFF",
+  "datasets": [
+    {
+      "dataset": "t01",
+      "comparisons": [
+        {
+          "baseline": "free_behavior",
+          "candidate_mechanism_ratio": 0.51109641752927,
+          "candidate_general_median_ratios": {
+            "ring4": 0.8961976213384509,
+            "ring8": 0.7142265889453954,
+            "long8": 0.5606675217107864
+          },
+          "seed_ratios": [
+            0.710802072764657,
+            0.4585215715765079,
+            0.4096378260145431
+          ],
+          "candidate_passes_original_gate": true,
+          "baseline_matches_within_5pct": false,
+          "boundary_sensitive": false,
+          "warning": "Three paired initializations within one dataset; neither model-family SOTA nor equivalence proof."
+        },
+        {
+          "baseline": "gru4_behavior",
+          "candidate_mechanism_ratio": 0.6848599382651467,
+          "candidate_general_median_ratios": {
+            "ring4": 1.2707145224285041,
+            "ring8": 1.053601026267564,
+            "long8": 0.23801181297494522
+          },
+          "seed_ratios": [
+            0.7486868347243781,
+            0.38280627840046605,
+            1.1207946228453356
+          ],
+          "candidate_passes_original_gate": false,
+          "baseline_matches_within_5pct": false,
+          "boundary_sensitive": false,
+          "warning": "Three paired initializations within one dataset; neither model-family SOTA nor equivalence proof."
+        },
+        {
+          "baseline": "gru32_behavior",
+          "candidate_mechanism_ratio": 1.4226353653161512,
+          "candidate_general_median_ratios": {
+            "ring4": 2.8366207069271865,
+            "ring8": 2.0863798773217614,
+            "long8": 0.6287907309060593
+          },
+          "seed_ratios": [
+            1.3897710011777433,
+            1.3829192845108673,
+            1.498099722554066
+          ],
+          "candidate_passes_original_gate": false,
+          "baseline_matches_within_5pct": false,
+          "boundary_sensitive": false,
+          "warning": "Three paired initializations within one dataset; neither model-family SOTA nor equivalence proof."
+        },
+        {
+          "baseline": "graph32_behavior",
+          "candidate_mechanism_ratio": 1.0593623928107005,
+          "candidate_general_median_ratios": {
+            "ring4": 2.004160857941929,
+            "ring8": 1.714741591576962,
+            "long8": 0.4344976490482129
+          },
+          "seed_ratios": [
+            0.8729581223150367,
+            1.1202766733925302,
+            1.2156679056129274
+          ],
+          "candidate_passes_original_gate": false,
+          "baseline_matches_within_5pct": false,
+          "boundary_sensitive": false,
+          "warning": "Three paired initializations within one dataset; neither model-family SOTA nor equivalence proof."
+        },
+        {
+          "baseline": "node32_behavior",
+          "candidate_mechanism_ratio": 0.6997145595146521,
+          "candidate_general_median_ratios": {
+            "ring4": 1.290232613072829,
+            "ring8": 1.230229344654801,
+            "long8": 0.3545497656471559
+          },
+          "seed_ratios": [
+            0.5805985983883148,
+            0.64260666678326,
+            0.9182089512280881
+          ],
+          "candidate_passes_original_gate": false,
+          "baseline_matches_within_5pct": false,
+          "boundary_sensitive": false,
+          "warning": "Three paired initializations within one dataset; neither model-family SOTA nor equivalence proof."
+        }
+      ],
+      "audit_status": "PASS",
+      "legacy_status": "FAIL"
+    },
+    {
+      "dataset": "t02",
+      "comparisons": [
+        {
+          "baseline": "free_behavior",
+          "candidate_mechanism_ratio": 0.38418464598064594,
+          "candidate_general_median_ratios": {
+            "ring4": 1.2926249906564033,
+            "ring8": 1.046077663293361,
+            "long8": 0.6911768347534419
+          },
+          "seed_ratios": [
+            0.26503259920550065,
+            0.3545091854902942,
+            0.6035221646658415
+          ],
+          "candidate_passes_original_gate": false,
+          "baseline_matches_within_5pct": false,
+          "boundary_sensitive": false,
+          "warning": "Three paired initializations within one dataset; neither model-family SOTA nor equivalence proof."
+        },
+        {
+          "baseline": "gru4_behavior",
+          "candidate_mechanism_ratio": 0.6653938267679139,
+          "candidate_general_median_ratios": {
+            "ring4": 0.9400425875849361,
+            "ring8": 1.1698473318370395,
+            "long8": 0.29927665519381563
+          },
+          "seed_ratios": [
+            0.6531361545897911,
+            0.5044146615567385,
+            0.8942210225347192
+          ],
+          "candidate_passes_original_gate": false,
+          "baseline_matches_within_5pct": false,
+          "boundary_sensitive": false,
+          "warning": "Three paired initializations within one dataset; neither model-family SOTA nor equivalence proof."
+        },
+        {
+          "baseline": "gru32_behavior",
+          "candidate_mechanism_ratio": 1.7895054099115058,
+          "candidate_general_median_ratios": {
+            "ring4": 3.0026711650085143,
+            "ring8": 2.655488311016931,
+            "long8": 1.0137084347066632
+          },
+          "seed_ratios": [
+            1.6318153416321397,
+            1.7221080801261903,
+            2.039236663178195
+          ],
+          "candidate_passes_original_gate": false,
+          "baseline_matches_within_5pct": true,
+          "boundary_sensitive": false,
+          "warning": "Three paired initializations within one dataset; neither model-family SOTA nor equivalence proof."
+        },
+        {
+          "baseline": "graph32_behavior",
+          "candidate_mechanism_ratio": 1.0503159076350401,
+          "candidate_general_median_ratios": {
+            "ring4": 1.6764942134401306,
+            "ring8": 1.921995827236657,
+            "long8": 0.5824421761164938
+          },
+          "seed_ratios": [
+            0.9264745955861325,
+            1.0838498798042129,
+            1.1538707928742729
+          ],
+          "candidate_passes_original_gate": false,
+          "baseline_matches_within_5pct": false,
+          "boundary_sensitive": false,
+          "warning": "Three paired initializations within one dataset; neither model-family SOTA nor equivalence proof."
+        },
+        {
+          "baseline": "node32_behavior",
+          "candidate_mechanism_ratio": 0.5653940441698004,
+          "candidate_general_median_ratios": {
+            "ring4": 1.5716851070765947,
+            "ring8": 1.241262868511402,
+            "long8": 0.5173153581398966
+          },
+          "seed_ratios": [
+            0.4460705879949019,
+            0.7195726592385929,
+            0.5630869285377912
+          ],
+          "candidate_passes_original_gate": false,
+          "baseline_matches_within_5pct": false,
+          "boundary_sensitive": false,
+          "warning": "Three paired initializations within one dataset; neither model-family SOTA nor equivalence proof."
+        }
+      ],
+      "audit_status": "PASS",
+      "legacy_status": "FAIL"
+    },
+    {
+      "dataset": "t03",
+      "comparisons": [
+        {
+          "baseline": "free_behavior",
+          "candidate_mechanism_ratio": 0.43778440549455816,
+          "candidate_general_median_ratios": {
+            "ring4": 0.9441483043173086,
+            "ring8": 1.0342773545067825,
+            "long8": 0.7346645652577818
+          },
+          "seed_ratios": [
+            0.551938342756641,
+            0.4132643284895342,
+            0.36784289893917
+          ],
+          "candidate_passes_original_gate": true,
+          "baseline_matches_within_5pct": false,
+          "boundary_sensitive": false,
+          "warning": "Three paired initializations within one dataset; neither model-family SOTA nor equivalence proof."
+        },
+        {
+          "baseline": "gru4_behavior",
+          "candidate_mechanism_ratio": 0.8806538217501635,
+          "candidate_general_median_ratios": {
+            "ring4": 1.2811963622661862,
+            "ring8": 1.2567347260879889,
+            "long8": 0.26065109673022097
+          },
+          "seed_ratios": [
+            0.8610001136655042,
+            0.9171442671082869,
+            0.8649177460749926
+          ],
+          "candidate_passes_original_gate": false,
+          "baseline_matches_within_5pct": false,
+          "boundary_sensitive": false,
+          "warning": "Three paired initializations within one dataset; neither model-family SOTA nor equivalence proof."
+        },
+        {
+          "baseline": "gru32_behavior",
+          "candidate_mechanism_ratio": 1.5414895912913187,
+          "candidate_general_median_ratios": {
+            "ring4": 2.18548099273297,
+            "ring8": 2.676186185190315,
+            "long8": 0.714157461574475
+          },
+          "seed_ratios": [
+            1.5302226109843526,
+            1.646514189348168,
+            1.4537900662803658
+          ],
+          "candidate_passes_original_gate": false,
+          "baseline_matches_within_5pct": false,
+          "boundary_sensitive": false,
+          "warning": "Three paired initializations within one dataset; neither model-family SOTA nor equivalence proof."
+        },
+        {
+          "baseline": "graph32_behavior",
+          "candidate_mechanism_ratio": 1.1376017798963076,
+          "candidate_general_median_ratios": {
+            "ring4": 1.6032550771700786,
+            "ring8": 2.0341728859113215,
+            "long8": 0.4721306066276418
+          },
+          "seed_ratios": [
+            0.9388760551284506,
+            1.4081955040897738,
+            1.1135239750513344
+          ],
+          "candidate_passes_original_gate": false,
+          "baseline_matches_within_5pct": false,
+          "boundary_sensitive": false,
+          "warning": "Three paired initializations within one dataset; neither model-family SOTA nor equivalence proof."
+        },
+        {
+          "baseline": "node32_behavior",
+          "candidate_mechanism_ratio": 0.6564285398019789,
+          "candidate_general_median_ratios": {
+            "ring4": 1.3287098491762008,
+            "ring8": 1.3600520160527758,
+            "long8": 0.32769997900357245
+          },
+          "seed_ratios": [
+            0.6544453258924853,
+            0.6089533022221106,
+            0.7097493511512748
+          ],
+          "candidate_passes_original_gate": false,
+          "baseline_matches_within_5pct": false,
+          "boundary_sensitive": false,
+          "warning": "Three paired initializations within one dataset; neither model-family SOTA nor equivalence proof."
+        }
+      ],
+      "audit_status": "PASS",
+      "legacy_status": "FAIL"
+    }
+  ],
+  "problems": [],
+  "automatic_next_experiment": false,
+  "scope": "Same simulator, task-adapted baseline implementations, not claims against official GNS/GRU/NODE methods as a whole",
+  "historical_B1": "MIXED_TRADEOFF_NO_DOMINANCE unchanged",
+  "cpu_is_performance_evidence": false,
+  "primary_budget_seconds": 600,
+  "early_budget_test_scores": "NOT_EVALUATED_BY_DESIGN"
+}

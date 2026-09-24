@@ -1,0 +1,13 @@
+--- a/tc1/experiment.py
++++ b/tc1/experiment.py
+@@ -35,7 +35,9 @@
+     tp=config['time_policy'];limit=tp['primary_seconds'];reserve=config['cleanup_reserve_seconds'];soft=limit-reserve
+     if config['stage']=='gpu' and (device!='cuda:0' or not torch.cuda.is_available()):raise RuntimeError('CUDA required')
+     seed_all(seed)
+-    if str(device).startswith('cuda'):torch.cuda.reset_peak_memory_stats(device)
++    if str(device).startswith('cuda'):
++        torch.cuda.init()
++        torch.cuda.reset_peak_memory_stats(device)
+     events=[]
+     def event(name,**kw):
+         events.append(dict(name=name,elapsed=time.monotonic()-start,**kw));write(out/'events.json',events)

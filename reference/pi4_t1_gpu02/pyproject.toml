@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "behavioral-mechanisms-pi4t1"
+version = "0.1.0"
+description = "Fixed complete-fit wall budget challenge"
+requires-python = ">=3.10"
+dependencies = ["numpy", "scipy", "torch"]
+[project.optional-dependencies]
+test = ["pytest"]
+[tool.setuptools.packages.find]
+include = ["pi2*", "pi4*", "bc1*", "tc1*"]
+[tool.pytest.ini_options]
+testpaths = ["tests"]

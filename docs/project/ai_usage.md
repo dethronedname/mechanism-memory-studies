@@ -1,6 +1,6 @@
 # AI-assisted work
 
-AI tools assisted with parts of planning, mathematical derivations, implementation, testing, analysis and documentation. The sole human author, [chumingyzx](https://github.com/chumingyzx), remains responsible for the repository, claims and source attribution. See [authorship](AUTHORS.md).
+AI tools assisted with parts of planning, mathematical derivations, implementation, testing, analysis and documentation. The sole human author, [dethronedname](https://github.com/dethronedname), remains responsible for the repository, claims and source attribution. See [authorship](authors.md).
 
 Do not treat tool-generated reports as external peer review. Hash verification, model replay, numerical checks and independent retraining are reported separately. Unsupported novelty or universal performance claims must not be inferred from AI-generated prose.
 

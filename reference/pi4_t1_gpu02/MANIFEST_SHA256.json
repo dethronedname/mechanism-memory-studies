@@ -1,6 +1,6 @@
 {
   "PUBLIC_SNAPSHOT.json": "e9287a89496aefca19a4010301659a2494c748daeb97b89f44d30cdeb09033cc",
-  "README.md": "6e5a67b39882eb60eda1c6d0d1825b3b7690a60e64ff7ce7cd40a58fad8685cd",
+  "README.md": "709b993a8d96b738e685f01e30f29ef95144058ec95e72690537a759d8d3d4a8",
   "bc1/__init__.py": "e17cda16b273e69c3c146b100ea07e990c97099d804c9acaa57326ecf3e1e4ae",
   "bc1/analysis.py": "7d5d2683aa08b500311741bcc5cae42964c49ce63f870e0f4acea72ac62091b7",
   "bc1/experiment.py": "41118ae6bee4794b2dc4d5ff60b5295a5a18f7124f162eef7cb511065564ac65",
@@ -17,7 +17,7 @@
   "configs/time_smoke.json": "de054e5ecc6d7c8fbb315cd5de7ee6602683d26dd8bc0ba33dac0062f0468b0c",
   "docs/PROTOCOL_CN.md": "5c8e649b9e4b9b252e953fc0be76531bed06c0d66076ea437a2fb4b8891a0cd7",
   "docs/REPAIR_DECLARATION_CN_20260923.md": "3c1631c6d0600775ce54e05567ec0f8311931f02e5041982241619e96bccdef7",
-  "docs/SOURCES.md": "ccffd3bd97a912490f8b36af0af19261c5bacf7c84580e0dd929d4cf6d1a355f",
+  "docs/SOURCES.md": "b04e8738b422f561fb6abe42c86fa095057edce69d894b6d7d861e5ca0738761",
   "pi2/__init__.py": "be3f02892b484b0d3d2f8f143bb3af5f0bd14d081644829bf8a308830710169c",
   "pi2/models.py": "6688dbbec6c4283e285d7668806eb2afacbfdf9fe5d857b07cdd1f1d869b114f",
   "pi2/simulator.py": "898220c5a67cd014301e5b3cd9a33aa24ae0402e5ed994a8227f84356a7ddf48",

@@ -1,0 +1,212 @@
+{
+  "schema_version": 2,
+  "source_archive": "MechanismMemory_Repo_Handoff_20260924.zip",
+  "source_archive_sha256": "31b776a97ed4fc093343ee75f462f4fb8d9b0ee68a2386c2b80264b3c3a13531",
+  "prior_repository_commit": "827c5d389bd962025cdca1e35198a7a54e77308e",
+  "repository": "https://github.com/dethronedname/mechanism-memory-studies",
+  "author_public_pseudonym": "dethronedname",
+  "changed_overlay_files": [
+    {
+      "path": ".github/workflows/evidence.yml",
+      "source_member": "MechanismMemory_Repo_Handoff_20260924/repo_overlay/.github/workflows/evidence.yml",
+      "source_sha256": "06b335b2bd51723ebacab982eb164043055d69fb8d7f2df40eb40276f9c593ab",
+      "public_sha256": "f8196da4617c0a8a8b7a1e92533072c2d79b8c55b77fe7ce04440677fbbd7f96",
+      "reason": "Assembled evidence/source availability, documented transformations, publication metadata, or directory organization."
+    },
+    {
+      "path": "docs/project/ai_usage.md",
+      "source_member": "MechanismMemory_Repo_Handoff_20260924/repo_overlay/AI_USAGE.md",
+      "source_sha256": "6d0be7c13e8eaed4f6904425924bba74ab694909275744422234df6a34a38db1",
+      "public_sha256": "04752ad0a71f2554306bb6a340f225c08c4152947c12bce9a35a16df7e683ec4",
+      "reason": "Assembled evidence/source availability, documented transformations, publication metadata, or directory organization."
+    },
+    {
+      "path": "docs/project/changelog.md",
+      "source_member": "MechanismMemory_Repo_Handoff_20260924/repo_overlay/CHANGELOG.md",
+      "source_sha256": "a6e76d31f03e3628f6c2130766eafc84c7f3fad67bdac88e203923bb158520de",
+      "public_sha256": "5a83854dadca22ac5e54b3298d69ff6c4e5061acd824ccf6ce6d682b1fce3619",
+      "reason": "Assembled evidence/source availability, documented transformations, publication metadata, or directory organization."
+    },
+    {
+      "path": ".github/CONTRIBUTING.md",
+      "source_member": "MechanismMemory_Repo_Handoff_20260924/repo_overlay/CONTRIBUTING.md",
+      "source_sha256": "a4af81e1d5cbeb3f5726a31ff31f53161f0107a770c53990caed42d6747a4018",
+      "public_sha256": "a4af81e1d5cbeb3f5726a31ff31f53161f0107a770c53990caed42d6747a4018",
+      "reason": "Assembled evidence/source availability, documented transformations, publication metadata, or directory organization."
+    },
+    {
+      "path": "README.md",
+      "source_member": "MechanismMemory_Repo_Handoff_20260924/repo_overlay/README.md",
+      "source_sha256": "6c6340b374920d1eec5803579d7b02283479d513e6d1860180be887fe59109d6",
+      "public_sha256": "8f13af329f9eefef620e3b2dfe736cfe456d2440ad06b8abcb18bb358da7c3fe",
+      "reason": "Assembled evidence/source availability, documented transformations, publication metadata, or directory organization."
+    },
+    {
+      "path": "README_CN.md",
+      "source_member": "MechanismMemory_Repo_Handoff_20260924/repo_overlay/README_CN.md",
+      "source_sha256": "7e6dec271b20b2922f6bc9a7516e3b7ccb04afb7df00dd98ec7db2083e169da4",
+      "public_sha256": "49774e1d74225531c65d201344b5f6a9ad1ac4494c2432da2323897f65781324",
+      "reason": "Assembled evidence/source availability, documented transformations, publication metadata, or directory organization."
+    },
+    {
+      "path": "catalog/assets.json",
+      "source_member": "MechanismMemory_Repo_Handoff_20260924/repo_overlay/catalog/assets.json",
+      "source_sha256": "1fb34d548b80f3c1d4a9a0558f620895614a1a4c224b24d61551deec86e5baf6",
+      "public_sha256": "14205e8258bb32fbdc16bb759f1d6b70a26acda212033b90234b100530e9c7ad",
+      "reason": "Assembled evidence/source availability, documented transformations, publication metadata, or directory organization."
+    },
+    {
+      "path": "catalog/studies.json",
+      "source_member": "MechanismMemory_Repo_Handoff_20260924/repo_overlay/catalog/studies.json",
+      "source_sha256": "6acfb66ff4441d6fb77850de00f6267494778b377e40d56fa0d8da8a72a55f85",
+      "public_sha256": "698435dfa1e98eab7e6ee05d65db1b1ff6d4c57d0a23db91477ef04ce89f0ad6",
+      "reason": "Assembled evidence/source availability, documented transformations, publication metadata, or directory organization."
+    },
+    {
+      "path": "docs/project/ci_scope.md",
+      "source_member": "MechanismMemory_Repo_Handoff_20260924/repo_overlay/docs/ci_scope.md",
+      "source_sha256": "a542f0bf1392b474aa6d7ce49e8f5350aa0f807bb348caeed72a68494aa7b802",
+      "public_sha256": "24bc9a625e4ad4f4e52c4a2c0ce90f4dd77a6566c59ac4abce73fe591a3e3091",
+      "reason": "Assembled evidence/source availability, documented transformations, publication metadata, or directory organization."
+    },
+    {
+      "path": "docs/conclusions.md",
+      "source_member": "MechanismMemory_Repo_Handoff_20260924/repo_overlay/docs/conclusions.md",
+      "source_sha256": "bafed2a3b0a9a05a1b531935159401941ace336e50be3fa2108d0775abfacd85",
+      "public_sha256": "5473f93032d667d9e0b997c5a26e83591d0274ff0cc8a2ed76dc6ffbf148e971",
+      "reason": "Assembled evidence/source availability, documented transformations, publication metadata, or directory organization."
+    },
+    {
+      "path": "docs/historical_context.md",
+      "source_member": "MechanismMemory_Repo_Handoff_20260924/repo_overlay/docs/historical_context.md",
+      "source_sha256": "e973e0b8cc8d18fe80ecf081769f9cf3429fb18c3e126e4e850b7ed8bf3327d2",
+      "public_sha256": "1b73e4d22e305bd46cc6156fd482f19d9d921e09095ae9ac4e4c968801fa81b6",
+      "reason": "Assembled evidence/source availability, documented transformations, publication metadata, or directory organization."
+    },
+    {
+      "path": "docs/provenance.md",
+      "source_member": "MechanismMemory_Repo_Handoff_20260924/repo_overlay/docs/provenance.md",
+      "source_sha256": "703e8abe204d28d3d8c23791c5927d6f69c67b40d1626455ce6a8ee55b2ac9f2",
+      "public_sha256": "52b0fc0a5b51a967b59eca8711c0d68e6b3205cf2773d422a37821e0072dbd3e",
+      "reason": "Assembled evidence/source availability, documented transformations, publication metadata, or directory organization."
+    },
+    {
+      "path": "docs/project/release_checklist.md",
+      "source_member": "MechanismMemory_Repo_Handoff_20260924/repo_overlay/docs/release_checklist.md",
+      "source_sha256": "5b5e094a1f18f017f8dcbca2621e9b4a8451df7c2f4f3c0f7afaa5a8e63e3d9b",
+      "public_sha256": "85b40bce317ce4408f045bb8ab401b0eb200acb163e2f54ae382ee4b80703c7f",
+      "reason": "Assembled evidence/source availability, documented transformations, publication metadata, or directory organization."
+    },
+    {
+      "path": "docs/reproduction.md",
+      "source_member": "MechanismMemory_Repo_Handoff_20260924/repo_overlay/docs/reproduction.md",
+      "source_sha256": "d87cf06c3ea40fe205face066fb04a74a1c0dfdbd2d7b7ffb23ccfe7ba7836bc",
+      "public_sha256": "b05dc7f2974c5a004ab78f2f267578b7b92c80b1a7167a7d8cc7ee15c9b2dc85",
+      "reason": "Assembled evidence/source availability, documented transformations, publication metadata, or directory organization."
+    },
+    {
+      "path": "docs/study_map.md",
+      "source_member": "MechanismMemory_Repo_Handoff_20260924/repo_overlay/docs/study_map.md",
+      "source_sha256": "30c4853161c16b2c9e305224178b6e53c867ef8b465ebba43faef73924f91b78",
+      "public_sha256": "212bc4c9a0621d2102da27f11003575496b4705bbccea29b3754918e116b1cf2",
+      "reason": "Assembled evidence/source availability, documented transformations, publication metadata, or directory organization."
+    }
+  ],
+  "file_relocations": [
+    {
+      "previous_path": "AI_USAGE.md",
+      "path": "docs/project/ai_usage.md",
+      "operation": "moved"
+    },
+    {
+      "previous_path": "AUTHORS.md",
+      "path": "docs/project/authors.md",
+      "operation": "moved"
+    },
+    {
+      "previous_path": "CHANGELOG.md",
+      "path": "docs/project/changelog.md",
+      "operation": "moved"
+    },
+    {
+      "previous_path": "CITATION.md",
+      "path": "docs/project/citation.md",
+      "operation": "moved"
+    },
+    {
+      "previous_path": "CONTRIBUTING.md",
+      "path": ".github/CONTRIBUTING.md",
+      "operation": "moved"
+    },
+    {
+      "previous_path": "LICENSING.md",
+      "path": "docs/project/licensing.md",
+      "operation": "moved"
+    },
+    {
+      "previous_path": "LICENSE_REVIEW.md",
+      "path": "docs/project/license_review.md",
+      "operation": "moved"
+    },
+    {
+      "previous_path": "REPO_READY_REPORT.md",
+      "path": "docs/reports/repository_readiness.md",
+      "operation": "moved"
+    },
+    {
+      "previous_path": "REPO_READY_REPORT_CN.md",
+      "path": "docs/reports/repository_readiness_CN.md",
+      "operation": "moved"
+    },
+    {
+      "previous_path": "VALIDATION_REPORT.json",
+      "path": "docs/reports/validation.json",
+      "operation": "moved"
+    },
+    {
+      "previous_path": "CURATION_CHANGES.json",
+      "path": "catalog/curation_changes.json",
+      "operation": "moved"
+    },
+    {
+      "previous_path": "DRAFT_FILE_MANIFEST.json",
+      "path": "catalog/file_manifest.json",
+      "operation": "moved"
+    },
+    {
+      "previous_path": "REDACTION_LOG.json",
+      "path": "catalog/redactions.json",
+      "operation": "moved"
+    },
+    {
+      "previous_path": "SOURCE_IMPORT_MANIFEST.json",
+      "path": "catalog/source_imports.json",
+      "operation": "moved"
+    },
+    {
+      "previous_path": "docs/release_checklist.md",
+      "path": "docs/project/release_checklist.md",
+      "operation": "moved"
+    },
+    {
+      "previous_path": "docs/ci_scope.md",
+      "path": "docs/project/ci_scope.md",
+      "operation": "moved"
+    },
+    {
+      "previous_path": "ASSET_INVENTORY.json",
+      "path": "catalog/assets.json",
+      "operation": "consolidated_duplicate"
+    }
+  ],
+  "relocation_note": "Previous paths are historical move records. Current catalogues and document links use the destination paths.",
+  "snapshot_documentation_updates": "Generated READMEs and previously transformed SOURCES.md attribution pages now use the current author and catalogue paths. Original source hashes and updated derivative hashes are retained in catalog/source_imports.json and catalog/redactions.json.",
+  "script_changes": [
+    "scripts/verify_reference.py reads the source-import catalogue from catalog/.",
+    "tests/test_public_snapshots.py follows the moved catalogue and checks the single asset inventory."
+  ],
+  "science_records_changed": false,
+  "imported_algorithm_source_changed": false,
+  "original_archives_modified": false,
+  "historical_curation_records": "Earlier metadata revisions remain in Git history; current entries describe the published tree."
+}

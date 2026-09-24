@@ -1,6 +1,6 @@
 {
   "PUBLIC_SNAPSHOT.json": "a57153937c1b848d0660b9b917ba74fe4e95369aa182cf0baa8ce60e9ba34f82",
-  "README.md": "6ffb71c9c8c0d63263693851fe6b1e4e320c1d005a0ac3d6b7360c7b5700f8bb",
+  "README.md": "0cc7d6e9dfbf74205594694a3fe065f6be25831257b6ba353798d5e8d6da6cf4",
   "bc1/__init__.py": "e17cda16b273e69c3c146b100ea07e990c97099d804c9acaa57326ecf3e1e4ae",
   "bc1/analysis.py": "7d5d2683aa08b500311741bcc5cae42964c49ce63f870e0f4acea72ac62091b7",
   "bc1/experiment.py": "41118ae6bee4794b2dc4d5ff60b5295a5a18f7124f162eef7cb511065564ac65",
@@ -14,7 +14,7 @@
   "configs/legacy_gpu.json": "d7740fe8a8a1212970eb787964b25e1891e4d4e17a357527e8340d4087a1ce87",
   "configs/smoke.json": "bc8a0ff1d7f0de2ef3b63c78320d5437a1a54cbc090c500934544f1b4d7a884a",
   "docs/PROTOCOL_CN.md": "67d2910d9cd1638fc7c4945c97d432293b8573ab4fee3184eba6f0d7af05aae2",
-  "docs/SOURCES.md": "73a92a1beadb08a81f3d0273aee9f9b403c6d00fcd47093153449be5c35f7f38",
+  "docs/SOURCES.md": "b1f2e8f4df34db75d9d1c91232ff0be6d8e9a8f75d23fa7cf33ed2e50f280256",
   "pi2/__init__.py": "be3f02892b484b0d3d2f8f143bb3af5f0bd14d081644829bf8a308830710169c",
   "pi2/models.py": "6688dbbec6c4283e285d7668806eb2afacbfdf9fe5d857b07cdd1f1d869b114f",
   "pi2/simulator.py": "898220c5a67cd014301e5b3cd9a33aa24ae0402e5ed994a8227f84356a7ddf48",

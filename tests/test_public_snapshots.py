@@ -10,7 +10,8 @@ class PublicSnapshotTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as td:
             root=Path(td);(root/'reference').mkdir()
             shutil.copytree(ROOT/'reference/pi4',root/'reference/pi4')
-            shutil.copyfile(ROOT/'SOURCE_IMPORT_MANIFEST.json',root/'SOURCE_IMPORT_MANIFEST.json')
+            (root/'catalog').mkdir()
+            shutil.copyfile(ROOT/'catalog/source_imports.json',root/'catalog/source_imports.json')
             p=root/'reference/pi4/pi2/models.py';p.write_bytes(p.read_bytes()+b'\n# unexpected\n')
             with self.assertRaises(ValueError):v.verify(root,'pi4')
     def test_manifest_escape_rejected(self):
@@ -25,7 +26,6 @@ class PublicSnapshotTests(unittest.TestCase):
         self.assertEqual((root/'tc1/experiment.py').read_text(),expected)
     def test_public_assets_are_present(self):
         catalog=json.loads((ROOT/'catalog/assets.json').read_text())
-        self.assertEqual(catalog,json.loads((ROOT/'ASSET_INVENTORY.json').read_text()))
         for item in catalog['assets']:
             self.assertIn(item['availability'],{'available','external','missing'})
             self.assertIsNone(item['public_asset_url'])

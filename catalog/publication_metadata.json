@@ -1,12 +1,12 @@
 {
-  "status": "PRIVATE_REVIEW_REPOSITORY",
-  "remote_url": "https://github.com/chumingyzx/mechanism-memory-studies",
+  "status": "PUBLIC_REPOSITORY",
+  "remote_url": "https://github.com/dethronedname/mechanism-memory-studies",
   "authors": [
     {
-      "name": "chumingyzx",
+      "name": "dethronedname",
       "kind": "person",
       "name_type": "public_pseudonym",
-      "github": "https://github.com/chumingyzx"
+      "github": "https://github.com/dethronedname"
     }
   ],
   "authors_confirmed": true,
@@ -14,20 +14,20 @@
   "documentation_license": "CC-BY-4.0",
   "data_license": "CC-BY-4.0",
   "doi": null,
-  "release_version_proposed": "v0.1.0",
-  "published": false,
+  "published": true,
   "original_project_ownership_confirmed": true,
-  "repository_owner": "chumingyzx",
+  "repository_owner": "dethronedname",
   "citation_policy": "ACADEMIC_REQUEST_WITHOUT_ADDITIONAL_LICENSE_CONDITION",
-  "license_scope": "LICENSING.md",
+  "license_scope": "docs/project/licensing.md",
   "primary_documentation_language": "en",
   "companion_documentation_languages": [
     "zh"
   ],
   "third_party_scope": "External dependencies retain upstream licenses; their implementations are not vendored.",
   "repository_name": "mechanism-memory-studies",
-  "repository_visibility": "private",
-  "publicly_available": false,
+  "repository_visibility": "public",
+  "publicly_available": true,
   "public_release_created": false,
-  "publication_note": "Privately hosted for author review. The published flag refers to public release, not private Git hosting."
+  "publication_note": "The repository is publicly available. No tagged software release, DOI, or research publication is asserted.",
+  "release_version": null
 }

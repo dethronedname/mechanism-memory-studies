@@ -2,7 +2,7 @@
 
 **Controlled studies of calibration, persistent context, compositional dynamics, and training-budget trade-offs.**
 
-[中文](README_CN.md) · [Study map](docs/study_map.md) · [Methods](docs/methods.md) · [Results](results/derived/TABLES.md) · [Conclusions and limits](docs/conclusions.md) · [Reproduction](docs/reproduction.md)
+[中文](README_CN.md) · [Documentation](docs/README.md) · [Study map](docs/study_map.md) · [Methods](docs/methods.md) · [Results](results/derived/TABLES.md) · [Conclusions and limits](docs/conclusions.md) · [Reproduction](docs/reproduction.md)
 
 This research collection asks how a model can learn a component's response law from interface observations, retain that information while its dynamic state changes, and reuse it after waiting or recomposition. It contains positive, negative, and mixed evidence—not a claim of a generally superior architecture.
 
@@ -41,10 +41,12 @@ No command above imports PyTorch, loads a checkpoint, downloads data, or schedul
 
 | Location | Purpose |
 |---|---|
-| `docs/` | Tasks, methods, study lineage, limitations, reproduction, publication policy |
+| `docs/` | Research documentation and [reading index](docs/README.md) |
+| `docs/project/` | Authorship, licensing, citation, changelog, and project policies |
+| `docs/reports/` | Repository content and verification reports |
 | `results/source_records/` | Small original or explicitly field-filtered JSON evidence, with source-archive and member hashes |
 | `results/derived/` | Deterministically rebuilt tables, all per-seed scores, directional counts, and fit costs |
-| `catalog/` | Study scope and release-asset inventory |
+| `catalog/` | Study scope, asset inventory, provenance, and file manifests |
 | `reference/` | Versioned frozen implementations, assembled from local source packages; do not overwrite one stage with another |
 | `scripts/`, `tests/` | Lightweight evidence checks and regeneration |
 | `docs/historical_context.md` | Earlier Wick / LocalPolyNet / role-geometry studies, separate from PI-family empirical claims |
@@ -59,16 +61,16 @@ The main experiments use a controlled nonlinear oscillator simulator, known inte
 
 The original protocols are closed historical studies; the repository remains open to independently specified replications and new questions. No automatic extension of a closed experiment is planned.
 
-Research and curation used AI assistance. Numerical replay described in historical records is not independent human peer review. See [AI usage](AI_USAGE.md), [contributing](CONTRIBUTING.md), and the [license/release checklist](docs/release_checklist.md). The sole author is [chumingyzx](https://github.com/chumingyzx), using a public pseudonym. Original code uses [MIT](LICENSE); original documentation and data use [CC BY 4.0](LICENSES/CC-BY-4.0.txt). See [license scope](LICENSING.md) and [authorship](AUTHORS.md). No DOI or release identifier is asserted before one exists.
+Research and curation used AI assistance. Numerical replay described in historical records is not independent human peer review. See [AI usage](docs/project/ai_usage.md), [contributing](.github/CONTRIBUTING.md), and the [license/release checklist](docs/project/release_checklist.md). The sole author is [dethronedname](https://github.com/dethronedname), using a public pseudonym. Original code uses [MIT](LICENSE); original documentation and data use [CC BY 4.0](LICENSES/CC-BY-4.0.txt). See [license scope](docs/project/licensing.md) and [authorship](docs/project/authors.md). No DOI or release identifier is asserted before one exists.
 
-If you use the software, protocols, data, or results in research, please [cite this project](CITATION.md) and identify the study and revision used. [CITATION.cff](CITATION.cff) provides machine-readable metadata. This academic citation request does not add a condition to the standard licenses.
+If you use the software, protocols, data, or results in research, please [cite this project](docs/project/citation.md) and identify the study and revision used. [CITATION.cff](CITATION.cff) provides machine-readable metadata. This academic citation request does not add a condition to the standard licenses.
 
 English is the main documentation language; the Chinese README and bilingual conclusions provide companion summaries. Historical Chinese protocol documents remain in their original language.
 
 ## Repository status
 
-This repository is **private for author review** at [chumingyzx/mechanism-memory-studies](https://github.com/chumingyzx/mechanism-memory-studies). A public release has not been made. [Citation metadata](CITATION.cff) identifies the repository without inventing a DOI or release version.
+The repository is available at [dethronedname/mechanism-memory-studies](https://github.com/dethronedname/mechanism-memory-studies). It contains the four source snapshots and the small evidence collection; full weights and prediction arrays are external assets. [Citation metadata](CITATION.cff) identifies the repository without inventing a DOI or release version.
 
-## Local draft assembly
+## Included implementation and verification
 
-Four source snapshots are integrated. Run python scripts/verify_reference.py to check their identity; python scripts/check_reference_cpu.py runs bounded CPU checks. Twenty standard-library tests and 71 bounded CPU tests passed. The local assembly performed no scientific training or new GPU experiment. It is now hosted privately for author review. See the [ready report](REPO_READY_REPORT.md), [assets](ASSET_INVENTORY.json), [source imports](SOURCE_IMPORT_MANIFEST.json), [redactions](REDACTION_LOG.json) and [license review](LICENSE_REVIEW.md).
+Four source snapshots are integrated. Run python scripts/verify_reference.py to check their identity; python scripts/check_reference_cpu.py runs bounded CPU checks. Twenty standard-library tests and 71 bounded CPU tests passed. The local assembly performed no scientific training or new GPU experiment. The [documentation index](docs/README.md) groups research, project information, and verification reports. See the [ready report](docs/reports/repository_readiness.md), [assets](catalog/assets.json), [source imports](catalog/source_imports.json), [redactions](catalog/redactions.json) and [license review](docs/project/license_review.md).

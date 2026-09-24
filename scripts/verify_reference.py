@@ -16,7 +16,7 @@ def safe_path(root, name):
     return path
 def verify(root=ROOT, study='all'):
     root=Path(root).resolve()
-    manifest=json.loads((root/'SOURCE_IMPORT_MANIFEST.json').read_text())
+    manifest=json.loads((root/'catalog/source_imports.json').read_text())
     snapshots=[s for s in manifest['snapshots'] if study=='all' or s['study']==study]
     if not snapshots: raise ValueError('Unknown study')
     reports=[]

@@ -10,4 +10,4 @@ The failure occurred when a fresh worker called torch.cuda.reset_peak_memory_sta
 - [Corrected executed source](../../reference/pi4_t1_gpu02/tc1/experiment.py)
 - [Corrected run decision](../../results/source_records/t1/run/DECISION.json)
 
-The public declaration removes original personal paths and conversational authorization. Its before/after hashes and transformation are recorded in REDACTION_LOG.json. The original failed run and original repair declaration remain unchanged in the maintainer's local vault.
+The public declaration removes original personal paths and conversational authorization. Its before/after hashes and transformation are recorded in catalog/redactions.json. The original failed run and original repair declaration remain unchanged in the maintainer's local vault.

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "LOCAL_CURATION_COMPLETE_AUTHOR_AND_LICENSE_METADATA_COMPLETE",
+  "status": "PUBLIC_REPOSITORY_CONTENT_CATALOGUE",
   "assets": [
     {
       "study": "pi1",
@@ -15,18 +15,18 @@
         "kind": "maintainer_local_vault",
         "archive": "PredictiveInterfaces_PI1_Codex_TestPack_v0.1_20260917.zip"
       },
-      "public_private": "private_original",
       "default_clone": false,
       "contains_weights": true,
       "code_version": "7c1b74d3df92fdfd14632761cbee07e533fc4419914a27df13afe50b2d4bcb89",
       "regenerable_content": null,
       "public_asset_url": null,
       "public_asset_sha256": null,
-      "license_status": "PRIVATE_ORIGINAL_NOT_DISTRIBUTED",
-      "notes": "Exact original located locally; excluded from clone and not cleared for publication.",
+      "license_status": "EXTERNAL_ORIGINAL_NOT_DISTRIBUTED",
+      "notes": "Exact original located locally; excluded from the repository.",
       "weight_file_count": 18,
       "array_file_count": 120,
-      "license_note": "Repository licenses cover included original derivatives; this raw external archive is not a public repository asset."
+      "license_note": "Repository licenses cover included original derivatives; this raw external archive is not a public repository asset.",
+      "distribution": "external_original"
     },
     {
       "study": "pi1",
@@ -41,18 +41,18 @@
         "kind": "maintainer_local_vault",
         "archive": "gpu_01_lite.zip"
       },
-      "public_private": "private_original",
       "default_clone": false,
       "contains_weights": true,
       "code_version": "bbd7c33f1893aacd0afab98ca57df9a3f3ac2585e87fca4868f022cc80a14bfe",
       "regenerable_content": "simulated NPZ with frozen generator/config/content hashes",
       "public_asset_url": null,
       "public_asset_sha256": null,
-      "license_status": "PRIVATE_ORIGINAL_NOT_DISTRIBUTED",
-      "notes": "Exact original located locally; excluded from clone and not cleared for publication.",
+      "license_status": "EXTERNAL_ORIGINAL_NOT_DISTRIBUTED",
+      "notes": "Exact original located locally; excluded from the repository.",
       "weight_file_count": 12,
       "array_file_count": 96,
-      "license_note": "Repository licenses cover included original derivatives; this raw external archive is not a public repository asset."
+      "license_note": "Repository licenses cover included original derivatives; this raw external archive is not a public repository asset.",
+      "distribution": "external_original"
     },
     {
       "study": "pi2",
@@ -67,18 +67,18 @@
         "kind": "maintainer_local_vault",
         "archive": "MechanismMemory_PI2_Codex_TestPack_v0.1_20260919.zip"
       },
-      "public_private": "private_original",
       "default_clone": false,
       "contains_weights": true,
       "code_version": "efc7f7840723f4fbb182fb80763876d5cd48c694bceb8326059accb53c509758",
       "regenerable_content": null,
       "public_asset_url": null,
       "public_asset_sha256": null,
-      "license_status": "PRIVATE_ORIGINAL_NOT_DISTRIBUTED",
-      "notes": "Exact original located locally; excluded from clone and not cleared for publication.",
+      "license_status": "EXTERNAL_ORIGINAL_NOT_DISTRIBUTED",
+      "notes": "Exact original located locally; excluded from the repository.",
       "weight_file_count": 23,
       "array_file_count": 98,
-      "license_note": "Repository licenses cover included original derivatives; this raw external archive is not a public repository asset."
+      "license_note": "Repository licenses cover included original derivatives; this raw external archive is not a public repository asset.",
+      "distribution": "external_original"
     },
     {
       "study": "pi2",
@@ -93,18 +93,18 @@
         "kind": "maintainer_local_vault",
         "archive": "pi2_gpu_01_lite.zip"
       },
-      "public_private": "private_original",
       "default_clone": false,
       "contains_weights": true,
       "code_version": "8e2fea5ff9edca8a2a009b7d9488dbef9fb3500b313b94b2c237c5b8fe781357",
       "regenerable_content": "simulated NPZ with frozen generator/config/content hashes",
       "public_asset_url": null,
       "public_asset_sha256": null,
-      "license_status": "PRIVATE_ORIGINAL_NOT_DISTRIBUTED",
-      "notes": "Exact original located locally; excluded from clone and not cleared for publication.",
+      "license_status": "EXTERNAL_ORIGINAL_NOT_DISTRIBUTED",
+      "notes": "Exact original located locally; excluded from the repository.",
       "weight_file_count": 12,
       "array_file_count": 78,
-      "license_note": "Repository licenses cover included original derivatives; this raw external archive is not a public repository asset."
+      "license_note": "Repository licenses cover included original derivatives; this raw external archive is not a public repository asset.",
+      "distribution": "external_original"
     },
     {
       "study": "pi3",
@@ -119,7 +119,6 @@
         "kind": "maintainer_local_vault",
         "archive": "MechanismRetention_PI3_ResearchPack_v0.1_20260920.zip"
       },
-      "public_private": "private_original",
       "default_clone": false,
       "contains_weights": null,
       "code_version": "d415c9d3cc1fc55d8a2e34bde0ab13e8852c2525f817f4f9bc25c21cc3d812fe",
@@ -129,7 +128,8 @@
       "license_status": "MISSING_ASSET_NOT_ASSESSED",
       "notes": "Expected archive not located in supplied project root; equivalent source not inferred from related review notes.",
       "weight_file_count": null,
-      "array_file_count": null
+      "array_file_count": null,
+      "distribution": "not_available"
     },
     {
       "study": "pi4",
@@ -144,18 +144,18 @@
         "kind": "maintainer_local_vault",
         "archive": "BehavioralMechanisms_PI4_Codex_TestPack_v0.1_20260920.zip"
       },
-      "public_private": "private_original",
       "default_clone": false,
       "contains_weights": true,
       "code_version": "fa5dcceceee9dd8fc77c0fa8f5995c46db67a1d5e418ae7c684543b91221be0a",
       "regenerable_content": null,
       "public_asset_url": null,
       "public_asset_sha256": null,
-      "license_status": "PRIVATE_ORIGINAL_NOT_DISTRIBUTED",
-      "notes": "Exact original located locally; excluded from clone and not cleared for publication.",
+      "license_status": "EXTERNAL_ORIGINAL_NOT_DISTRIBUTED",
+      "notes": "Exact original located locally; excluded from the repository.",
       "weight_file_count": 60,
       "array_file_count": 186,
-      "license_note": "Repository licenses cover included original derivatives; this raw external archive is not a public repository asset."
+      "license_note": "Repository licenses cover included original derivatives; this raw external archive is not a public repository asset.",
+      "distribution": "external_original"
     },
     {
       "study": "pi4",
@@ -170,18 +170,18 @@
         "kind": "maintainer_local_vault",
         "archive": "pi4_gpu_01_lite.zip"
       },
-      "public_private": "private_original",
       "default_clone": false,
       "contains_weights": true,
       "code_version": "70a9d2cb2375bf65e3375968263e9f17a2157b6b47959d8ff62748d8eb84f660",
       "regenerable_content": "simulated NPZ with frozen generator/config/content hashes",
       "public_asset_url": null,
       "public_asset_sha256": null,
-      "license_status": "PRIVATE_ORIGINAL_NOT_DISTRIBUTED",
-      "notes": "Exact original located locally; excluded from clone and not cleared for publication.",
+      "license_status": "EXTERNAL_ORIGINAL_NOT_DISTRIBUTED",
+      "notes": "Exact original located locally; excluded from the repository.",
       "weight_file_count": 45,
       "array_file_count": 162,
-      "license_note": "Repository licenses cover included original derivatives; this raw external archive is not a public repository asset."
+      "license_note": "Repository licenses cover included original derivatives; this raw external archive is not a public repository asset.",
+      "distribution": "external_original"
     },
     {
       "study": "c1",
@@ -196,18 +196,18 @@
         "kind": "maintainer_local_vault",
         "archive": "BehavioralMechanisms_PI4C1_Codex_TestPack_v0.1_20260921.zip"
       },
-      "public_private": "private_original",
       "default_clone": false,
       "contains_weights": true,
       "code_version": "bdf27f3f8e43a36c1a3325d7211c199e249152caa5487fd507ac4061abbea2bb",
       "regenerable_content": null,
       "public_asset_url": null,
       "public_asset_sha256": null,
-      "license_status": "PRIVATE_ORIGINAL_NOT_DISTRIBUTED",
-      "notes": "Exact original located locally; excluded from clone and not cleared for publication.",
+      "license_status": "EXTERNAL_ORIGINAL_NOT_DISTRIBUTED",
+      "notes": "Exact original located locally; excluded from the repository.",
       "weight_file_count": 60,
       "array_file_count": 276,
-      "license_note": "Repository licenses cover included original derivatives; this raw external archive is not a public repository asset."
+      "license_note": "Repository licenses cover included original derivatives; this raw external archive is not a public repository asset.",
+      "distribution": "external_original"
     },
     {
       "study": "c1",
@@ -222,18 +222,18 @@
         "kind": "maintainer_local_vault",
         "archive": "confirm_gpu_01_lite.zip"
       },
-      "public_private": "private_original",
       "default_clone": false,
       "contains_weights": true,
       "code_version": "1aa980c61512a64c1e49a2aa4db5b7917bc4d475c484ff5fca35ad2c31eb647f",
       "regenerable_content": "simulated NPZ with frozen generator/config/content hashes",
       "public_asset_url": null,
       "public_asset_sha256": null,
-      "license_status": "PRIVATE_ORIGINAL_NOT_DISTRIBUTED",
-      "notes": "Exact original located locally; excluded from clone and not cleared for publication.",
+      "license_status": "EXTERNAL_ORIGINAL_NOT_DISTRIBUTED",
+      "notes": "Exact original located locally; excluded from the repository.",
       "weight_file_count": 135,
       "array_file_count": 405,
-      "license_note": "Repository licenses cover included original derivatives; this raw external archive is not a public repository asset."
+      "license_note": "Repository licenses cover included original derivatives; this raw external archive is not a public repository asset.",
+      "distribution": "external_original"
     },
     {
       "study": "b1",
@@ -248,18 +248,18 @@
         "kind": "maintainer_local_vault",
         "archive": "BehavioralMechanisms_PI4B1_Codex_TestPack_v0.1_20260921.zip"
       },
-      "public_private": "private_original",
       "default_clone": false,
       "contains_weights": true,
       "code_version": "fa5ba220140f00dd68fd7c162e5f2faccde145921d5c926e84a0079fd1f8a5a3",
       "regenerable_content": null,
       "public_asset_url": null,
       "public_asset_sha256": null,
-      "license_status": "PRIVATE_ORIGINAL_NOT_DISTRIBUTED",
-      "notes": "Exact original located locally; excluded from clone and not cleared for publication.",
+      "license_status": "EXTERNAL_ORIGINAL_NOT_DISTRIBUTED",
+      "notes": "Exact original located locally; excluded from the repository.",
       "weight_file_count": 96,
       "array_file_count": 222,
-      "license_note": "Repository licenses cover included original derivatives; this raw external archive is not a public repository asset."
+      "license_note": "Repository licenses cover included original derivatives; this raw external archive is not a public repository asset.",
+      "distribution": "external_original"
     },
     {
       "study": "b1",
@@ -274,18 +274,18 @@
         "kind": "maintainer_local_vault",
         "archive": "baseline_gpu_01_lite.zip"
       },
-      "public_private": "private_original",
       "default_clone": false,
       "contains_weights": true,
       "code_version": "d0f483702811f0a3c9e438fa4959c2b822b22b4d54073653e275eaca26920397",
       "regenerable_content": "simulated NPZ with frozen generator/config/content hashes",
       "public_asset_url": null,
       "public_asset_sha256": null,
-      "license_status": "PRIVATE_ORIGINAL_NOT_DISTRIBUTED",
-      "notes": "Exact original located locally; excluded from clone and not cleared for publication.",
+      "license_status": "EXTERNAL_ORIGINAL_NOT_DISTRIBUTED",
+      "notes": "Exact original located locally; excluded from the repository.",
       "weight_file_count": 186,
       "array_file_count": 486,
-      "license_note": "Repository licenses cover included original derivatives; this raw external archive is not a public repository asset."
+      "license_note": "Repository licenses cover included original derivatives; this raw external archive is not a public repository asset.",
+      "distribution": "external_original"
     },
     {
       "study": "t1",
@@ -300,18 +300,18 @@
         "kind": "maintainer_local_vault",
         "archive": "BehavioralMechanisms_PI4T1_Codex_TestPack_v0.1_20260922.zip"
       },
-      "public_private": "private_original",
       "default_clone": false,
       "contains_weights": true,
       "code_version": "c6c841f5e6220205ad6328153f45b162e3b2a388f6d397d331f68283e96e8712",
       "regenerable_content": null,
       "public_asset_url": null,
       "public_asset_sha256": null,
-      "license_status": "PRIVATE_ORIGINAL_NOT_DISTRIBUTED",
-      "notes": "Exact original located locally; excluded from clone and not cleared for publication.",
+      "license_status": "EXTERNAL_ORIGINAL_NOT_DISTRIBUTED",
+      "notes": "Exact original located locally; excluded from the repository.",
       "weight_file_count": 103,
       "array_file_count": 264,
-      "license_note": "Repository licenses cover included original derivatives; this raw external archive is not a public repository asset."
+      "license_note": "Repository licenses cover included original derivatives; this raw external archive is not a public repository asset.",
+      "distribution": "external_original"
     },
     {
       "study": "t1",
@@ -326,18 +326,18 @@
         "kind": "maintainer_local_vault",
         "archive": "time_gpu_02_lite.zip"
       },
-      "public_private": "private_original",
       "default_clone": false,
       "contains_weights": true,
       "code_version": "71ee665134396d920842e5164f3d50bd7064d7517cdec81e9abdc9ce4e3bbb3a",
       "regenerable_content": "simulated NPZ with frozen generator/config/content hashes",
       "public_asset_url": null,
       "public_asset_sha256": null,
-      "license_status": "PRIVATE_ORIGINAL_NOT_DISTRIBUTED",
-      "notes": "Exact original located locally; excluded from clone and not cleared for publication.",
+      "license_status": "EXTERNAL_ORIGINAL_NOT_DISTRIBUTED",
+      "notes": "Exact original located locally; excluded from the repository.",
       "weight_file_count": 1188,
       "array_file_count": 486,
-      "license_note": "Repository licenses cover included original derivatives; this raw external archive is not a public repository asset."
+      "license_note": "Repository licenses cover included original derivatives; this raw external archive is not a public repository asset.",
+      "distribution": "external_original"
     },
     {
       "study": "t1",
@@ -352,7 +352,6 @@
         "kind": "maintainer_local_vault",
         "archive": "BehavioralMechanisms_PI4T1_GPU02_Independent_ReviewPack_20260924.zip"
       },
-      "public_private": "private_original",
       "default_clone": false,
       "contains_weights": null,
       "code_version": "6376dcb8c8212a377256e91523365fb5eb84f79ab3799abcab8079b717357b41",
@@ -362,7 +361,8 @@
       "license_status": "MISSING_ASSET_NOT_ASSESSED",
       "notes": "Expected archive not located in supplied project root; equivalent source not inferred from related review notes.",
       "weight_file_count": null,
-      "array_file_count": null
+      "array_file_count": null,
+      "distribution": "not_available"
     },
     {
       "study": "wick",
@@ -377,7 +377,6 @@
         "kind": "maintainer_local_vault",
         "archive": "WickPolyCore_v0.4_20260914.zip"
       },
-      "public_private": "private_original",
       "default_clone": false,
       "contains_weights": null,
       "code_version": "9ae70e05216ec37720d9b1f7dc0a496c471ba29f02ccabfebc606664bd1ab700",
@@ -387,7 +386,8 @@
       "license_status": "MISSING_ASSET_NOT_ASSESSED",
       "notes": "Expected archive not located in supplied project root; equivalent source not inferred from related review notes.",
       "weight_file_count": null,
-      "array_file_count": null
+      "array_file_count": null,
+      "distribution": "not_available"
     },
     {
       "study": "localpoly",
@@ -402,7 +402,6 @@
         "kind": "maintainer_local_vault",
         "archive": "LocalPolyNet_v0.5_20260914.zip"
       },
-      "public_private": "private_original",
       "default_clone": false,
       "contains_weights": null,
       "code_version": "fc8e9b20a7326fa1a4e03736ce92ff554d7f34f10bd6711001627807b4812952",
@@ -412,7 +411,8 @@
       "license_status": "MISSING_ASSET_NOT_ASSESSED",
       "notes": "Expected archive not located in supplied project root; equivalent source not inferred from related review notes.",
       "weight_file_count": null,
-      "array_file_count": null
+      "array_file_count": null,
+      "distribution": "not_available"
     },
     {
       "study": "sc1",
@@ -427,18 +427,18 @@
         "kind": "maintainer_local_vault",
         "archive": "sc1_gpu_dev_01_20260917_lite.zip"
       },
-      "public_private": "private_original",
       "default_clone": false,
       "contains_weights": false,
       "code_version": "d58e8bce53931c910a8623e90fcaf4cd462ab03386812076639d94a478e18316",
       "regenerable_content": "simulated NPZ with frozen generator/config/content hashes",
       "public_asset_url": null,
       "public_asset_sha256": null,
-      "license_status": "PRIVATE_ORIGINAL_NOT_DISTRIBUTED",
-      "notes": "Exact original located locally; excluded from clone and not cleared for publication.",
+      "license_status": "EXTERNAL_ORIGINAL_NOT_DISTRIBUTED",
+      "notes": "Exact original located locally; excluded from the repository.",
       "weight_file_count": 0,
       "array_file_count": 0,
-      "license_note": "Repository licenses cover included original derivatives; this raw external archive is not a public repository asset."
+      "license_note": "Repository licenses cover included original derivatives; this raw external archive is not a public repository asset.",
+      "distribution": "external_original"
     },
     {
       "study": "rg2",
@@ -453,7 +453,6 @@
         "kind": "maintainer_local_vault",
         "archive": "Wick_RoleGeometry_K2_ResearchPack_20260917.zip"
       },
-      "public_private": "private_original",
       "default_clone": false,
       "contains_weights": null,
       "code_version": "53a62f5a10c30dea5479d0b4194a29989301f1ac6665925f46558b5de2449c59",
@@ -463,7 +462,8 @@
       "license_status": "MISSING_ASSET_NOT_ASSESSED",
       "notes": "Expected archive not located in supplied project root; equivalent source not inferred from related review notes.",
       "weight_file_count": null,
-      "array_file_count": null
+      "array_file_count": null,
+      "distribution": "not_available"
     },
     {
       "study": "rg3",
@@ -478,7 +478,6 @@
         "kind": "maintainer_local_vault",
         "archive": "Wick_ResidualSignal_RG3_ResearchPack_20260917.zip"
       },
-      "public_private": "private_original",
       "default_clone": false,
       "contains_weights": null,
       "code_version": "3b4851857c9241697486ddd91cba59ea29d032f3ace9715066a818d68406634f",
@@ -488,7 +487,8 @@
       "license_status": "MISSING_ASSET_NOT_ASSESSED",
       "notes": "Expected archive not located in supplied project root; equivalent source not inferred from related review notes.",
       "weight_file_count": null,
-      "array_file_count": null
+      "array_file_count": null,
+      "distribution": "not_available"
     },
     {
       "study": "rg4",
@@ -503,7 +503,6 @@
         "kind": "maintainer_local_vault",
         "archive": "Wick_PredictiveEvidence_RG4_ResearchPack_20260917.zip"
       },
-      "public_private": "private_original",
       "default_clone": false,
       "contains_weights": null,
       "code_version": "c7e3e9b781a6ab7e00498ef55b82caa8dabbbd3018b6c862c380919bbbc19473",
@@ -513,7 +512,8 @@
       "license_status": "MISSING_ASSET_NOT_ASSESSED",
       "notes": "Expected archive not located in supplied project root; equivalent source not inferred from related review notes.",
       "weight_file_count": null,
-      "array_file_count": null
+      "array_file_count": null,
+      "distribution": "not_available"
     },
     {
       "study": "rg5",
@@ -528,7 +528,6 @@
         "kind": "maintainer_local_vault",
         "archive": "Wick_JointLearning_RG5_ResearchPack_20260917.zip"
       },
-      "public_private": "private_original",
       "default_clone": false,
       "contains_weights": null,
       "code_version": "6bfed1159df887c66f41bca7882e7b46430fa05bd9bba217244baa68fd74512c",
@@ -538,7 +537,8 @@
       "license_status": "MISSING_ASSET_NOT_ASSESSED",
       "notes": "Expected archive not located in supplied project root; equivalent source not inferred from related review notes.",
       "weight_file_count": null,
-      "array_file_count": null
+      "array_file_count": null,
+      "distribution": "not_available"
     },
     {
       "study": "t1",
@@ -552,17 +552,17 @@
         "kind": "maintainer_local_vault",
         "archive": "time_gpu_01_lite.zip"
       },
-      "public_private": "private_original",
       "default_clone": false,
       "contains_weights": false,
       "code_version": "original pre-repair T1",
       "regenerable_content": null,
       "public_asset_url": null,
       "public_asset_sha256": null,
-      "license_status": "PRIVATE_ORIGINAL_NOT_DISTRIBUTED",
+      "license_status": "EXTERNAL_ORIGINAL_NOT_DISTRIBUTED",
       "weight_file_count": 0,
       "array_file_count": 0,
-      "license_note": "Repository licenses cover included original derivatives; this raw external archive is not a public repository asset."
+      "license_note": "Repository licenses cover included original derivatives; this raw external archive is not a public repository asset.",
+      "distribution": "external_original"
     },
     {
       "study": "pi4",
@@ -575,10 +575,9 @@
       },
       "source_archive": "pi4_gpu_01_lite.zip",
       "source_sha256": "70a9d2cb2375bf65e3375968263e9f17a2157b6b47959d8ff62748d8eb84f660",
-      "public_private": "public_draft",
       "default_clone": true,
       "contains_weights": false,
-      "code_version": "b0320c19f1fd3274888abe63e1ac70c95a92914d1931fb920696745c73ccfff9",
+      "code_version": "8e598076d4ec4134545cf3137b87c2c97223e949dfedab1fdaeb23848c60e885",
       "regenerable_content": "simulator/config included; generated arrays and weights excluded",
       "public_asset_url": null,
       "license_status": "LICENSED_ORIGINAL_MATERIAL",
@@ -586,7 +585,8 @@
         "MIT",
         "CC-BY-4.0"
       ],
-      "license_scope": "LICENSING.md"
+      "license_scope": "docs/project/licensing.md",
+      "distribution": "repository"
     },
     {
       "study": "c1",
@@ -599,10 +599,9 @@
       },
       "source_archive": "confirm_gpu_01_lite.zip",
       "source_sha256": "1aa980c61512a64c1e49a2aa4db5b7917bc4d475c484ff5fca35ad2c31eb647f",
-      "public_private": "public_draft",
       "default_clone": true,
       "contains_weights": false,
-      "code_version": "5f9dfb5f691817dfeb879402b0cb4f1dc5dd7e315309db09afbb2202a29698d9",
+      "code_version": "e6e997c0659e6890a6485665d2ca7e4cca363d47b9b6cf8637d3473b155f353c",
       "regenerable_content": "simulator/config included; generated arrays and weights excluded",
       "public_asset_url": null,
       "license_status": "LICENSED_ORIGINAL_MATERIAL",
@@ -610,7 +609,8 @@
         "MIT",
         "CC-BY-4.0"
       ],
-      "license_scope": "LICENSING.md"
+      "license_scope": "docs/project/licensing.md",
+      "distribution": "repository"
     },
     {
       "study": "b1",
@@ -623,10 +623,9 @@
       },
       "source_archive": "baseline_gpu_01_lite.zip",
       "source_sha256": "d0f483702811f0a3c9e438fa4959c2b822b22b4d54073653e275eaca26920397",
-      "public_private": "public_draft",
       "default_clone": true,
       "contains_weights": false,
-      "code_version": "f5b1358c47d5f4acde3f88e4ccbef9217c2bbbdf94e95e65d8724ba0dce55276",
+      "code_version": "f4b61d7d08d14dc46c6eb99cf88674fd4f210d6ffc357577c1b2e29fd01ec8b0",
       "regenerable_content": "simulator/config included; generated arrays and weights excluded",
       "public_asset_url": null,
       "license_status": "LICENSED_ORIGINAL_MATERIAL",
@@ -634,7 +633,8 @@
         "MIT",
         "CC-BY-4.0"
       ],
-      "license_scope": "LICENSING.md"
+      "license_scope": "docs/project/licensing.md",
+      "distribution": "repository"
     },
     {
       "study": "t1",
@@ -647,10 +647,9 @@
       },
       "source_archive": "time_gpu_02_lite.zip",
       "source_sha256": "71ee665134396d920842e5164f3d50bd7064d7517cdec81e9abdc9ce4e3bbb3a",
-      "public_private": "public_draft",
       "default_clone": true,
       "contains_weights": false,
-      "code_version": "61b3e7bfe7151b0873fc309807236591e1e2b6ea9bf39e5be61454ab97a5561d",
+      "code_version": "8437fb640a6da1f0d620db973047c4a5baf077f4e9da0a1c1653cba87b2d542f",
       "regenerable_content": "simulator/config included; generated arrays and weights excluded",
       "public_asset_url": null,
       "license_status": "LICENSED_ORIGINAL_MATERIAL",
@@ -658,7 +657,8 @@
         "MIT",
         "CC-BY-4.0"
       ],
-      "license_scope": "LICENSING.md"
+      "license_scope": "docs/project/licensing.md",
+      "distribution": "repository"
     },
     {
       "study": "pi4-c1-b1-t1",
@@ -670,7 +670,6 @@
         "path": "results/source_records"
       },
       "source_sha256": "6675fe42997036f97456ca05ca57567063a927d3998de4c473188904029da7f9",
-      "public_private": "public_draft",
       "default_clone": true,
       "contains_weights": false,
       "code_version": null,
@@ -680,11 +679,12 @@
       "licenses": [
         "CC-BY-4.0"
       ],
-      "license_scope": "LICENSING.md"
+      "license_scope": "docs/project/licensing.md",
+      "distribution": "repository"
     }
   ],
   "status_meaning": {
-    "available": "Included in local draft.",
+    "available": "Included in the repository.",
     "external": "Verified local original outside clone; no public URL yet.",
     "missing": "Expected original not located."
   }

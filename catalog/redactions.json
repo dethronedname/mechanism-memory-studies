@@ -9,10 +9,11 @@
       "source_member": "source/docs/SOURCES.md",
       "source_size": 2140,
       "source_sha256": "d46afee4418318a4d89004a8587f3496ec36798ced7d805ab0b44f5b648289af",
-      "size": 379,
-      "sha256": "416a9c81cb10dbd4e272d2a7be626e3f7a5bd89040af826daf28775f3cbf5094",
-      "transformation": "public source attribution replaces internal bibliography; checked related-work link retained",
-      "reason": "public source attribution replaces internal bibliography; checked related-work link retained"
+      "size": 356,
+      "sha256": "79365ac598e562e24e0ccdc89a40725f27cf165092b2603f6480a07641a27df9",
+      "transformation": "public source attribution replaces internal bibliography; checked related-work link retained; source-import catalogue path updated for documentation organization",
+      "reason": "public source attribution replaces internal bibliography; checked related-work link retained; source-import catalogue path updated for documentation organization",
+      "previous_public_sha256": "416a9c81cb10dbd4e272d2a7be626e3f7a5bd89040af826daf28775f3cbf5094"
     },
     {
       "study": "c1",
@@ -22,10 +23,11 @@
       "source_member": "source/docs/SOURCES.md",
       "source_size": 1149,
       "source_sha256": "b8b25ed541a91f984fb1767b0021cd12d1943ba80bcc21183ee40e938bbe0afb",
-      "size": 382,
-      "sha256": "f8fdb157504e9b6d10c76ff933188b78d39da46088be736dde6863c80e43fee1",
-      "transformation": "public source attribution replaces internal bibliography; checked related-work link retained",
-      "reason": "public source attribution replaces internal bibliography; checked related-work link retained"
+      "size": 359,
+      "sha256": "3078db0a5c07148e7ff0786d8bf5c77d4d7e3843ba3ffac89cf75ba768e0f981",
+      "transformation": "public source attribution replaces internal bibliography; checked related-work link retained; source-import catalogue path updated for documentation organization",
+      "reason": "public source attribution replaces internal bibliography; checked related-work link retained; source-import catalogue path updated for documentation organization",
+      "previous_public_sha256": "f8fdb157504e9b6d10c76ff933188b78d39da46088be736dde6863c80e43fee1"
     },
     {
       "study": "b1",
@@ -35,10 +37,11 @@
       "source_member": "source/docs/SOURCES.md",
       "source_size": 2786,
       "source_sha256": "fd791723ef377929862c3ae97122f83b8c8a5de29240f62ba0b2697808222aa5",
-      "size": 383,
-      "sha256": "73a92a1beadb08a81f3d0273aee9f9b403c6d00fcd47093153449be5c35f7f38",
-      "transformation": "public source attribution replaces internal bibliography; checked related-work link retained",
-      "reason": "public source attribution replaces internal bibliography; checked related-work link retained"
+      "size": 360,
+      "sha256": "b1f2e8f4df34db75d9d1c91232ff0be6d8e9a8f75d23fa7cf33ed2e50f280256",
+      "transformation": "public source attribution replaces internal bibliography; checked related-work link retained; source-import catalogue path updated for documentation organization",
+      "reason": "public source attribution replaces internal bibliography; checked related-work link retained; source-import catalogue path updated for documentation organization",
+      "previous_public_sha256": "73a92a1beadb08a81f3d0273aee9f9b403c6d00fcd47093153449be5c35f7f38"
     },
     {
       "study": "t1",
@@ -61,10 +64,11 @@
       "source_member": "source/docs/SOURCES.md",
       "source_size": 1327,
       "source_sha256": "ecc3cdd4df7aed1e7dc57899ffe91b669c7746d84830edf941afac064cc22a53",
-      "size": 379,
-      "sha256": "ccffd3bd97a912490f8b36af0af19261c5bacf7c84580e0dd929d4cf6d1a355f",
-      "transformation": "public source attribution replaces internal bibliography; checked related-work link retained",
-      "reason": "public source attribution replaces internal bibliography; checked related-work link retained"
+      "size": 356,
+      "sha256": "b04e8738b422f561fb6abe42c86fa095057edce69d894b6d7d861e5ca0738761",
+      "transformation": "public source attribution replaces internal bibliography; checked related-work link retained; source-import catalogue path updated for documentation organization",
+      "reason": "public source attribution replaces internal bibliography; checked related-work link retained; source-import catalogue path updated for documentation organization",
+      "previous_public_sha256": "ccffd3bd97a912490f8b36af0af19261c5bacf7c84580e0dd929d4cf6d1a355f"
     },
     {
       "path": "results/source_records/pi4/run/execution_status_public.json",

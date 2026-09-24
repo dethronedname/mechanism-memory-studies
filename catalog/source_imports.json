@@ -57,9 +57,9 @@
       "source_member": "source/docs/SOURCES.md",
       "source_size": 2140,
       "source_sha256": "d46afee4418318a4d89004a8587f3496ec36798ced7d805ab0b44f5b648289af",
-      "size": 379,
-      "sha256": "416a9c81cb10dbd4e272d2a7be626e3f7a5bd89040af826daf28775f3cbf5094",
-      "transformation": "public source attribution replaces internal bibliography; checked related-work link retained"
+      "size": 356,
+      "sha256": "79365ac598e562e24e0ccdc89a40725f27cf165092b2603f6480a07641a27df9",
+      "transformation": "public source attribution replaces internal bibliography; checked related-work link retained; source-import catalogue path updated for documentation organization"
     },
     {
       "study": "pi4",
@@ -393,9 +393,9 @@
       "source_member": "source/docs/SOURCES.md",
       "source_size": 1149,
       "source_sha256": "b8b25ed541a91f984fb1767b0021cd12d1943ba80bcc21183ee40e938bbe0afb",
-      "size": 382,
-      "sha256": "f8fdb157504e9b6d10c76ff933188b78d39da46088be736dde6863c80e43fee1",
-      "transformation": "public source attribution replaces internal bibliography; checked related-work link retained"
+      "size": 359,
+      "sha256": "3078db0a5c07148e7ff0786d8bf5c77d4d7e3843ba3ffac89cf75ba768e0f981",
+      "transformation": "public source attribution replaces internal bibliography; checked related-work link retained; source-import catalogue path updated for documentation organization"
     },
     {
       "study": "c1",
@@ -753,9 +753,9 @@
       "source_member": "source/docs/SOURCES.md",
       "source_size": 2786,
       "source_sha256": "fd791723ef377929862c3ae97122f83b8c8a5de29240f62ba0b2697808222aa5",
-      "size": 383,
-      "sha256": "73a92a1beadb08a81f3d0273aee9f9b403c6d00fcd47093153449be5c35f7f38",
-      "transformation": "public source attribution replaces internal bibliography; checked related-work link retained"
+      "size": 360,
+      "sha256": "b1f2e8f4df34db75d9d1c91232ff0be6d8e9a8f75d23fa7cf33ed2e50f280256",
+      "transformation": "public source attribution replaces internal bibliography; checked related-work link retained; source-import catalogue path updated for documentation organization"
     },
     {
       "study": "b1",
@@ -1149,9 +1149,9 @@
       "source_member": "source/docs/SOURCES.md",
       "source_size": 1327,
       "source_sha256": "ecc3cdd4df7aed1e7dc57899ffe91b669c7746d84830edf941afac064cc22a53",
-      "size": 379,
-      "sha256": "ccffd3bd97a912490f8b36af0af19261c5bacf7c84580e0dd929d4cf6d1a355f",
-      "transformation": "public source attribution replaces internal bibliography; checked related-work link retained"
+      "size": 356,
+      "sha256": "b04e8738b422f561fb6abe42c86fa095057edce69d894b6d7d861e5ca0738761",
+      "transformation": "public source attribution replaces internal bibliography; checked related-work link retained; source-import catalogue path updated for documentation organization"
     },
     {
       "study": "t1",
@@ -1531,7 +1531,7 @@
       "study": "pi4",
       "path": "reference/pi4",
       "kind": "DERIVED_PUBLIC_SNAPSHOT",
-      "compatibility_manifest_sha256": "b0320c19f1fd3274888abe63e1ac70c95a92914d1931fb920696745c73ccfff9",
+      "compatibility_manifest_sha256": "8e598076d4ec4134545cf3137b87c2c97223e949dfedab1fdaeb23848c60e885",
       "files": 24,
       "original_manifest_sha256": "973d1fce107fee08f0fd8254ec48fc4e0eec84795d0a11f3328a0e83eb4bf7c6",
       "source_archive": "pi4_gpu_01_lite.zip",
@@ -1541,7 +1541,7 @@
       "study": "c1",
       "path": "reference/pi4_c1",
       "kind": "DERIVED_PUBLIC_SNAPSHOT",
-      "compatibility_manifest_sha256": "5f9dfb5f691817dfeb879402b0cb4f1dc5dd7e315309db09afbb2202a29698d9",
+      "compatibility_manifest_sha256": "e6e997c0659e6890a6485665d2ca7e4cca363d47b9b6cf8637d3473b155f353c",
       "files": 29,
       "original_manifest_sha256": "87a4f44b5774c6610d0085b15bd1c8aa1aa6116e67dd00041056c6b13bb9044a",
       "source_archive": "confirm_gpu_01_lite.zip",
@@ -1551,7 +1551,7 @@
       "study": "b1",
       "path": "reference/pi4_b1",
       "kind": "DERIVED_PUBLIC_SNAPSHOT",
-      "compatibility_manifest_sha256": "f5b1358c47d5f4acde3f88e4ccbef9217c2bbbdf94e95e65d8724ba0dce55276",
+      "compatibility_manifest_sha256": "f4b61d7d08d14dc46c6eb99cf88674fd4f210d6ffc357577c1b2e29fd01ec8b0",
       "files": 32,
       "original_manifest_sha256": "0f1b17ca41f5c3dce1da37e353d778435d2be8bdfa8f9bd7450e49c6ac2c18ef",
       "source_archive": "baseline_gpu_01_lite.zip",
@@ -1561,7 +1561,7 @@
       "study": "t1",
       "path": "reference/pi4_t1_gpu02",
       "kind": "DERIVED_PUBLIC_SNAPSHOT",
-      "compatibility_manifest_sha256": "61b3e7bfe7151b0873fc309807236591e1e2b6ea9bf39e5be61454ab97a5561d",
+      "compatibility_manifest_sha256": "8437fb640a6da1f0d620db973047c4a5baf077f4e9da0a1c1653cba87b2d542f",
       "files": 50,
       "original_manifest_sha256": "9a06e333c19d35cd4bf9865c179caa06dc323e85c464d945240451c079352c3c",
       "source_archive": "time_gpu_02_lite.zip",

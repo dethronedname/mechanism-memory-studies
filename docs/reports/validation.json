@@ -1,0 +1,67 @@
+{
+  "status": "PASS_PUBLICATION_PREPARATION",
+  "checked_utc": "2026-09-24T17:11:51.534236+00:00",
+  "repository": "https://github.com/dethronedname/mechanism-memory-studies",
+  "checks": [
+    {
+      "command": "python -B -S scripts/rebuild_results.py",
+      "returncode": 0
+    },
+    {
+      "command": "python -B -S scripts/verify_reference.py",
+      "returncode": 0
+    },
+    {
+      "command": "python -B -S -m unittest discover -s tests -v",
+      "returncode": 0
+    },
+    {
+      "command": "python -B -S scripts/check_public_tree.py --release",
+      "returncode": 0
+    }
+  ],
+  "standard_library_tests_passed": 20,
+  "citation_schema_validation": "PASS_CFF_1.2.0",
+  "source_import_members": 127,
+  "python_members_byte_identical": 84,
+  "evidence_files": 128,
+  "scalar_records": 1512,
+  "derived_files_checked": 9,
+  "frozen_source_and_evidence_unchanged_files": 266,
+  "snapshot_documentation_and_manifest_updates": [
+    "reference/pi4/MANIFEST_SHA256.json",
+    "reference/pi4/README.md",
+    "reference/pi4/docs/SOURCES.md",
+    "reference/pi4_b1/MANIFEST_SHA256.json",
+    "reference/pi4_b1/README.md",
+    "reference/pi4_b1/docs/SOURCES.md",
+    "reference/pi4_c1/MANIFEST_SHA256.json",
+    "reference/pi4_c1/README.md",
+    "reference/pi4_c1/docs/SOURCES.md",
+    "reference/pi4_t1_gpu02/MANIFEST_SHA256.json",
+    "reference/pi4_t1_gpu02/README.md",
+    "reference/pi4_t1_gpu02/docs/SOURCES.md"
+  ],
+  "scientific_training": false,
+  "new_gpu_work": false,
+  "historical_neural_replay": false,
+  "historical_assembly_validation": {
+    "bounded_cpu_tests": {
+      "pi4": 9,
+      "c1": 11,
+      "b1": 39,
+      "t1": 12,
+      "total": 71
+    },
+    "all_original_readonly_verifiers_passed": true,
+    "inventory_tool_tests_passed": 4,
+    "table_write_byte_identical": true,
+    "rerun_for_publication": false
+  },
+  "prior_hosted_ci": {
+    "status": "success",
+    "commit": "827c5d389bd962025cdca1e35198a7a54e77308e",
+    "url": "https://github.com/dethronedname/mechanism-memory-studies/actions/runs/36026321902"
+  },
+  "report_scope": "Local publication-preparation checks. Current hosted results are available in GitHub Actions; no neural replication or tagged software release is asserted."
+}

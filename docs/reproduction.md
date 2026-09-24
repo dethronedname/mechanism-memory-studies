@@ -33,7 +33,7 @@ Use an existing environment with NumPy, SciPy, PyTorch and pytest. The command d
 
 Weights, predictions, full curves and generated data are outside the default clone. The [inventory](../catalog/assets.json) identifies verified local originals; public URLs remain null until an authorized public derivative exists.
 
-Public snapshots contain model, simulator, objective, evaluator, audit, configs and launchers. Their documentation and delivery manifests differ from the original full packages. Historical source-identity checks may reject using a public subset with an old run. Use exact run-matched original source/evidence or a separately validated replay adapter. This draft does not claim an operational unified historical replay CLI.
+Public snapshots contain model, simulator, objective, evaluator, audit, configs and launchers. Their documentation and delivery manifests differ from the original full packages. Historical source-identity checks may reject using a public subset with an old run. Use exact run-matched original source/evidence or a separately validated replay adapter. This repository does not claim an operational unified historical replay CLI.
 
 Full neural replay was not run during curation. Never alter an old SOURCE_MANIFEST or test lock to bypass a check. Recreate omitted NPZ files only in new scratch storage with the frozen generator/config and verify content hashes. CPU32/CPU64 replay and both numerical labels remain evidence from the completed historical pipeline.
 
@@ -48,7 +48,7 @@ Original Python and shell launchers are included byte for byte. Their read-only 
 | B1 | reference/pi4_b1 | python scripts/run.py verify | bash scripts/run_gpu.sh runs/fresh_replication |
 | T1 | reference/pi4_t1_gpu02 | python scripts/run_t1.py verify | bash scripts/run_time_gpu.sh runs/fresh_replication |
 
-Each MANIFEST_SHA256.json is a **new public-subset compatibility manifest**, declared in PUBLIC_SNAPSHOT.json. It is not an original-delivery identity. [Import records](../SOURCE_IMPORT_MANIFEST.json) retain source membership and original manifest hashes. Python and shell code is unchanged during public curation; T1's prior execution fix remains in the [incident record](incidents/t1_cuda_initialization.md).
+Each MANIFEST_SHA256.json is a **new public-subset compatibility manifest**, declared in PUBLIC_SNAPSHOT.json. It is not an original-delivery identity. [Import records](../catalog/source_imports.json) retain source membership and original manifest hashes. Python and shell code is unchanged during public curation; T1's prior execution fix remains in the [incident record](incidents/t1_cuda_initialization.md).
 
 Training requires an explicit resource allocation and fresh output directory. Historical published tests are no longer blind. An independent study must specify new data splits, information access, selection and stopping rules with new provenance. Do not train in a closed historical run.
 
@@ -56,4 +56,4 @@ T1's retained scripts/run.py is B1 lineage; T1 uses scripts/run_t1.py and run_ti
 
 ## Verification scope
 
-Recorded scientific outcomes are unchanged. Rebuilding scalar tables, CPU unit checks, model replay and independent training are distinct evidence levels. [CI](ci_scope.md) only runs standard-library checks; it does not start training or hosted GPU work.
+Recorded scientific outcomes are unchanged. Rebuilding scalar tables, CPU unit checks, model replay and independent training are distinct evidence levels. [CI](project/ci_scope.md) only runs standard-library checks; it does not start training or hosted GPU work.

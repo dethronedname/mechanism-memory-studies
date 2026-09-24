@@ -20,8 +20,8 @@ Do not delete scientific anomalies while removing personal identifiers. Do not r
 
 ## Asset availability
 
-The original T1 time_gpu_01 failed-run archive was found and checked at file/member level during assembly: 54 startup errors, no update log, no global test release. Its INCONCLUSIVE decision remains unchanged. See the [incident](incidents/t1_cuda_initialization.md) and [member hashes](../catalog/t1_failed_run_inspection.json). Eight optional historical/supplementary expected archives remain missing. Related private review notes are not equivalent source packages.
+The original T1 time_gpu_01 failed-run archive was found and checked at file/member level during assembly: 54 startup errors, no update log, no global test release. Its INCONCLUSIVE decision remains unchanged. See the [incident](incidents/t1_cuda_initialization.md) and [member hashes](../catalog/t1_failed_run_inspection.json). Eight optional historical/supplementary expected archives remain missing. Related local review notes are not equivalent source packages.
 
 ## Assembled source identities
 
-Four isolated snapshots are in reference/. All 84 imported Python files and all shell launchers retain their identified source-member bytes. Documentation transformations are in [REDACTION_LOG.json](../REDACTION_LOG.json). Each compatibility manifest is a new public subset, never an original-delivery claim. The [source import manifest](../SOURCE_IMPORT_MANIFEST.json) records archive/member identities and original manifest hashes.
+Four isolated snapshots are in reference/. All 84 imported Python files and all shell launchers retain their identified source-member bytes. Documentation transformations are in [catalog/redactions.json](../catalog/redactions.json). Each compatibility manifest is a new public subset, never an original-delivery claim. The [source import manifest](../catalog/source_imports.json) records archive/member identities and original manifest hashes.
